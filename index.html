@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NP-Plugg – AI-quiz för nationella prov</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+
+    <!-- ── Startskärm – välj årskurs ── -->
+    <div id="screen-home" class="screen active">
+      <header class="hero">
+        <h1>🎓 NP-Plugg</h1>
+        <p class="tagline">AI-genererade quiz för nationella prov</p>
+      </header>
+      <p class="pick-label">Välj årskurs</p>
+      <div class="subject-grid" id="category-grid"></div>
+    </div>
+
+    <!-- ── Ämneval – välj ämne inom en årskurs ── -->
+    <div id="screen-subjects" class="screen">
+      <div class="back-bar">
+        <button class="btn-icon" id="btn-back-categories" title="Tillbaka">←</button>
+        <h2 id="subjects-title"></h2>
+      </div>
+      <p class="pick-label">Välj ett ämne</p>
+      <div class="subject-grid" id="subject-grid"></div>
+    </div>
+
+    <!-- ── Laddar ── -->
+    <div id="screen-loading" class="screen">
+      <div class="loading-wrap">
+        <div class="spinner"></div>
+        <h2>Genererar frågor…</h2>
+        <p id="loading-subject-label"></p>
+      </div>
+    </div>
+
+    <!-- ── Quiz ── -->
+    <div id="screen-quiz" class="screen">
+      <div class="quiz-topbar">
+        <button class="btn-icon" id="btn-quit" title="Avsluta">✕</button>
+        <div class="quiz-meta">
+          <span id="q-counter">Fråga 1 / 10</span>
+          <span id="q-score">0 rätt</span>
+        </div>
+      </div>
+      <div class="progress-track">
+        <div class="progress-fill" id="progress-fill"></div>
+      </div>
+      <div class="quiz-body">
+        <div class="question-card">
+          <p class="question-number" id="q-number"></p>
+          <h2 class="question-text" id="q-text"></h2>
+          <div class="options" id="q-options"></div>
+          <div class="explanation hidden" id="q-explanation">
+            <div class="exp-icon" id="exp-icon"></div>
+            <div>
+              <strong id="exp-verdict"></strong>
+              <p id="exp-body"></p>
+            </div>
+          </div>
+          <button class="btn-primary" id="btn-next" style="display:none">
+            Nästa fråga →
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── Resultat ── -->
+    <div id="screen-result" class="screen">
+      <div class="result-wrap">
+        <div class="result-trophy" id="result-trophy"></div>
+        <h1 id="result-title"></h1>
+        <div class="score-bubble">
+          <span id="result-points"></span>
+          <span class="score-denom">/ 10</span>
+        </div>
+        <p id="result-message"></p>
+        <div class="result-list" id="result-list"></div>
+        <div class="btn-row">
+          <button class="btn-secondary" id="btn-home">Välj ämne</button>
+          <button class="btn-primary" id="btn-retry">Kör igen</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
