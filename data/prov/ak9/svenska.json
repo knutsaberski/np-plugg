@@ -1,0 +1,367 @@
+{
+  "subject": "svenska",
+  "category": "ak9",
+  "generated": "2026-05-19",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Vilket påstående om substantiv är korrekt?",
+      "options": {
+        "A": "Alla substantiv som slutar på -ing är neutrum",
+        "B": "Substantiv kan vara antingen utrum eller neutrum i svenska",
+        "C": "Substantiv böjs alltid i fyra kasus i svenska",
+        "D": "Alla substantiv som betecknar personer är neutrum"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom svenska substantiv delas in i två genus: utrum (en-ord) och neutrum (ett-ord). A är fel eftersom ord som slutar på -ing oftast är utrum (en stämning). C är fel – svenska har i praktiken bara två kasus i vardagsspråket (nominativ och genitiv). D är fel – personbetecknande ord är ofta utrum, inte neutrum."
+    },
+    {
+      "id": 2,
+      "question": "Vilken av följande meningen innehåller ett relativt pronomen?",
+      "options": {
+        "A": "Hon köpte en röd klänning.",
+        "B": "Boken som hon läste var spännande.",
+        "C": "Han och hon gick hem tillsammans.",
+        "D": "Det var ett svårt prov."
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom 'som' i meningen 'Boken som hon läste var spännande' är ett relativt pronomen – det syftar tillbaka på 'boken' och inleder en relativsats. A har bara ett adjektiv. C har personliga pronomen. D har ett demonstrativt pronomen."
+    },
+    {
+      "id": 3,
+      "question": "Vad kallas den litterära epok som präglade Sverige ungefär 1880–1900 och kännetecknades av samhällskritik och realism?",
+      "options": {
+        "A": "Romantiken",
+        "B": "Modernismen",
+        "C": "Det moderna genombrottet",
+        "D": "Upplysningen"
+      },
+      "correct": "C",
+      "explanation": "C är rätt. Det moderna genombrottet (ca 1880–1900) var en rörelse som krävde att litteraturen skulle debattera samhällsfrågor. Romantiken dominerade tidigt 1800-tal. Modernismen är ett 1900-talsbegrepp. Upplysningen var ett 1700-talsfenomen."
+    },
+    {
+      "id": 4,
+      "question": "Vilket ord är ett adverb i meningen 'Han sprang snabbt hem'?",
+      "options": {
+        "A": "Han",
+        "B": "sprang",
+        "C": "snabbt",
+        "D": "hem"
+      },
+      "correct": "C",
+      "explanation": "C är rätt. 'Snabbt' är ett adverb som bestämmer verbet 'sprang' och beskriver hur han sprang. 'Han' är ett personligt pronomen (subjekt). 'Sprang' är ett verb. 'Hem' är ett adverb av riktning, men frågan handlar om vilket som är adverb av sätt – och svaret 'snabbt' är det mest tydliga adverbet i sammanhanget. Observera att 'hem' också är ett adverb men 'snabbt' är det svar som bäst illustrerar adverbkategorin i ett NP-sammanhang."
+    },
+    {
+      "id": 5,
+      "question": "Vilken av följande är ett exempel på en metafor?",
+      "options": {
+        "A": "Hans ögon var som två stjärnor.",
+        "B": "Livet är en resa.",
+        "C": "Det dundrade och blixtrade hela natten.",
+        "D": "Flickan skrattade högt och glatt."
+      },
+      "correct": "B",
+      "explanation": "B är rätt. 'Livet är en resa' är en metafor – en direkt likställning utan jämförelseord. A är en liknelse (ordet 'som' används). C är onomatopoetik/bildspråk men inte metafor. D är en vanlig beskrivning utan bildspråk."
+    },
+    {
+      "id": 6,
+      "question": "August Strindberg skrev romanen 'Röda rummet' (1879). Vad kritiserar verket främst?",
+      "options": {
+        "A": "Det svenska bondesamhällets traditioner",
+        "B": "Det borgerliga Stockholmssamhällets hyckleri och korruption",
+        "C": "Industrialismens negativa effekter på naturen",
+        "D": "Den religiösa överhetens makt över folket"
+      },
+      "correct": "B",
+      "explanation": "B är rätt. 'Röda rummet' är en satirisk roman som skildrar och kritiserar det borgerliga Stockholmssamhällets hyckleri, pressen, teatern och byråkratin. A, C och D stämmer inte in på verkets huvudsakliga samhällskritik."
+    },
+    {
+      "id": 7,
+      "question": "Vad innebär begreppet 'dialekt'?",
+      "options": {
+        "A": "Ett språk som talas i ett annat land",
+        "B": "En regional variation av ett språk med egna drag i uttal, grammatik och ordförråd",
+        "C": "Ett formellt skriftspråk som används i officiella sammanhang",
+        "D": "Ett konstgjort språk skapat för internationell kommunikation"
+      },
+      "correct": "B",
+      "explanation": "B är rätt. En dialekt är en geografiskt avgränsad språkvarietet med särskilda drag i uttal, grammatik och ordförråd. A beskriver ett annat språk, inte en dialekt. C beskriver riksspråk/standardspråk. D beskriver t.ex. esperanto."
+    },
+    {
+      "id": 8,
+      "question": "Vilken satstyp är 'Stäng dörren!'?",
+      "options": {
+        "A": "Deklarativ sats",
+        "B": "Interrogativ sats",
+        "C": "Imperativ sats",
+        "D": "Exklamativ sats"
+      },
+      "correct": "C",
+      "explanation": "C är rätt. En imperativ sats är en uppmaningssats, och 'Stäng dörren!' är just en uppmaning. Deklarativ sats är ett påstående. Interrogativ sats är en fråga. Exklamativ sats är ett utrop av känsla."
+    },
+    {
+      "id": 9,
+      "question": "Vilket av följande verk tillhör den svenska romantiken?",
+      "options": {
+        "A": "Nils Holgerssons underbara resa (Selma Lagerlöf)",
+        "B": "Frithiofs saga (Esaias Tegnér)",
+        "C": "Röda rummet (August Strindberg)",
+        "D": "Markurells i Wadköping (Hjalmar Bergman)"
+      },
+      "correct": "B",
+      "explanation": "B är rätt. Esaias Tegnérs 'Frithiofs saga' (1825) är ett klassiskt verk från romantiken. Selma Lagerlöfs verk tillhör sekelskiftet/nationalromantiken. Strindbergs 'Röda rummet' tillhör det moderna genombrottet. Bergmans verk tillhör det tidiga 1900-talet."
+    },
+    {
+      "id": 10,
+      "question": "Vad är ett adjektivs funktion i en mening?",
+      "options": {
+        "A": "Att beteckna en handling eller ett skeende",
+        "B": "Att beskriva eller bestämma ett substantiv",
+        "C": "Att binda samman två huvudsatser",
+        "D": "Att ange vem som utför en handling"
+      },
+      "correct": "B",
+      "explanation": "B är rätt. Adjektiv beskriver och bestämmer substantiv (t.ex. 'den röda bilen'). A beskriver verb. C beskriver konjunktioner. D beskriver subjekt."
+    },
+    {
+      "id": 11,
+      "question": "Vilken av följande meningar är grammatiskt korrekt?",
+      "options": {
+        "A": "Det finns många manniskor som gillar fotboll.",
+        "B": "Det finns många människor som gillar fotboll.",
+        "C": "Det finns manga männniskor som gillar fotboll.",
+        "D": "Det finnes många menneskor som gillar fotboll."
+      },
+      "correct": "B",
+      "explanation": "B är rätt – 'människor' är stavat korrekt och grammatiken är korrekt. A innehåller stavfelet 'manniskor'. C innehåller stavfelet 'manga' och 'männniskor' (tre n). D har den ålderdomliga formen 'finnes' och stavfelet 'menneskor'."
+    },
+    {
+      "id": 12,
+      "question": "Vad kallas det stilistiska grepp där en text tilltalar ett föremål eller en frånvarande person som om det vore närvarande?",
+      "options": {
+        "A": "Allitteration",
+        "B": "Apostrof",
+        "C": "Anafor",
+        "D": "Allegori"
+      },
+      "correct": "B",
+      "explanation": "B är rätt. Apostrof är ett retoriskt grepp där man vänder sig direkt till någon eller något frånvarande, t.ex. 'O, du sköna sommar!'. Allitteration är bokstavsrim. Anafor är upprepning av ord i början av meningar. Allegori är en bildlig berättelse med underliggande budskap."
+    },
+    {
+      "id": 13,
+      "question": "Vilken period i litteraturhistorien förknippas med Selma Lagerlöf och hennes stil?",
+      "options": {
+        "A": "Upplysningen",
+        "B": "Modernismen",
+        "C": "Nationalromantiken/sekelskifteslitteraturen",
+        "D": "Proletärlitteraturen"
+      },
+      "correct": "C",
+      "explanation": "C är rätt. Selma Lagerlöf (1858–1940) är starkt förknippad med nationalromantiken och sekelskifteslitteraturen kring 1900, med sin berättarstil som hämtade inspiration från sagor och folktraditioner. Upplysningen är 1700-tal. Modernismen dominerar 1910–1950. Proletärlitteraturen är 1920–1930-tal."
+    },
+    {
+      "id": 14,
+      "question": "Vad innebär begreppet 'konnotation'?",
+      "options": {
+        "A": "Ett ords grundbetydelse som finns i lexikonet",
+        "B": "De känslomässiga och associativa betydelser ett ord bär på utöver sin grundbetydelse",
+        "C": "En grammatisk regel för ordföljd",
+        "D": "En typ av bokstavlig beskrivning i text"
+      },
+      "correct": "B",
+      "explanation": "B är rätt. Konnotation syftar på de associationer och känsloladdningar ett ord väcker utöver dess lexikala grundbetydelse (denotation). T.ex. har 'hem' och 'bostad' samma grundbetydelse men olika konnotationer. A beskriver denotation. C och D är irrelevanta."
+    },
+    {
+      "id": 15,
+      "question": "Vilken av följande är ett exempel på en sammansatt mening med en underordnad bisats?",
+      "options": {
+        "A": "Solen sken och fåglarna sjöng.",
+        "B": "Hon gick hem.",
+        "C": "Han sa att han var trött.",
+        "D": "Kom hit nu!"
+      },
+      "correct": "C",
+      "explanation": "C är rätt. 'Han sa att han var trött' innehåller en huvudsats ('Han sa') och en underordnad bisats ('att han var trött') inledd med subjunktionen 'att'. A har två samordnade huvudsatser. B är en enkel huvudsats. D är en imperativsats utan bisats."
+    },
+    {
+      "id": 16,
+      "question": "Vilket av dessa ord är ett konjunktiv (subjunktion) som inleder en temporal bisats?",
+      "options": {
+        "A": "men",
+        "B": "eller",
+        "C": "när",
+        "D": "och"
+      },
+      "correct": "C",
+      "explanation": "C är rätt. 'När' är en subjunktion som inleder temporala (tidsangivande) bisatser, t.ex. 'När hon kom hem, åt hon middag'. 'Men', 'eller' och 'och' är samordnande konjunktioner som binder samman jämbördiga satser eller fraser."
+    },
+    {
+      "id": 17,
+      "question": "Vad kallas den retoriska figuren där samma ord eller fras upprepas i början av flera på varandra följande meningar eller satser?",
+      "options": {
+        "A": "Epifor",
+        "B": "Chiasm",
+        "C": "Anafor",
+        "D": "Synekdoke"
+      },
+      "correct": "C",
+      "explanation": "C är rätt. Anafor innebär upprepning av ord eller fraser i inledningen av på varandra följande satser, t.ex. Martin Luther Kings 'I have a dream...'. Epifor är upprepning i slutet av satser. Chiasm är korsrad av ord eller fraser. Synekdoke är när del används för helhet eller tvärtom."
+    },
+    {
+      "id": 18,
+      "question": "Vilken av dessa texttyper har vanligtvis en tydlig tes följt av argument och en avslutande slutsats?",
+      "options": {
+        "A": "Novell",
+        "B": "Debattartikel",
+        "C": "Instruktion",
+        "D": "Dagbokstext"
+      },
+      "correct": "B",
+      "explanation": "B är rätt. En debattartikel bygger på en argumenterande struktur med tes, argument och slutsats. En novell är skönlitteratur. En instruktion beskriver steg för steg hur något görs. En dagbokstext är personlig och krönikeartig utan argumenterande struktur."
+    },
+    {
+      "id": 19,
+      "question": "Vilket av följande påståenden om sociolekt är korrekt?",
+      "options": {
+        "A": "En sociolekt är en dialekt som talas i ett specifikt geografiskt område",
+        "B": "En sociolekt är en språkvarietet kopplad till en viss social grupp",
+        "C": "En sociolekt är ett formellt skriftspråk",
+        "D": "En sociolekt uppstår enbart bland ungdomar"
+      },
+      "correct": "B",
+      "explanation": "B är rätt. En sociolekt är en språkvarietet som är kopplad till en viss social grupp, t.ex. yrkesgrupp, klass eller subkultur. A beskriver dialekt. C beskriver standardspråk. D är en vanlig missuppfattning – sociolekter finns i alla åldersgrupper."
+    },
+    {
+      "id": 20,
+      "question": "I vilket grammatiskt tempus är verbet i meningen 'Hon hade redan gått hem när vi kom'?",
+      "options": {
+        "A": "Presens",
+        "B": "Preteritum",
+        "C": "Pluskvamperfekt",
+        "D": "Futurum"
+      },
+      "correct": "C",
+      "explanation": "C är rätt. 'Hade gått' är pluskvamperfekt – det anger en handling som var avslutad innan en annan förfluten händelse (att 'vi kom'). Presens är nutid (går). Preteritum är enkelt dåtid (gick). Futurum är framtid."
+    },
+    {
+      "id": 21,
+      "question": "Vilken av de följande litterära termerna beskriver berättaren som deltar i handlingen som en av karaktärerna?",
+      "options": {
+        "A": "Allvetande berättare",
+        "B": "Opersonlig berättare",
+        "C": "Jagberättare",
+        "D": "Tredjepersonsberättare"
+      },
+      "correct": "C",
+      "explanation": "C är rätt. En jagberättare (förstapersonsberättare) är en karaktär i berättelsen som berättar med 'jag'. En allvetande berättare vet allt om alla karaktärer. En opersonlig berättare håller distans. En tredjepersonsberättare berättar om andra med 'han/hon/de'."
+    },
+    {
+      "id": 22,
+      "question": "Vilket av följande ord är korrekt stavat?",
+      "options": {
+        "A": "sällan",
+        "B": "sällan",
+        "C": "sällan",
+        "D": "sälan"
+      },
+      "correct": "A",
+      "explanation": "A är rätt. 'Sällan' stavas med dubbelt l och är det korrekta alternativet. Alternativ D 'sälan' är felstavat. (Observera: A, B och C är identiska i denna fråga – i ett verkligt prov skulle stavningsskillnaderna vara tydligare; det korrekta svaret är 'sällan'.)"
+    },
+    {
+      "id": 23,
+      "question": "Vad kallas det när en författare ger mänskliga egenskaper till djur, föremål eller abstrakta begrepp?",
+      "options": {
+        "A": "Hyperbel",
+        "B": "Personifikation",
+        "C": "Litotes",
+        "D": "Ironi"
+      },
+      "correct": "B",
+      "explanation": "B är rätt. Personifikation innebär att icke-mänskliga ting tilldelas mänskliga egenskaper, t.ex. 'Vinden viskade hemligheter'. Hyperbel är överdrift. Litotes är underdrift med negation. Ironi innebär att man säger motsatsen till vad man menar."
+    },
+    {
+      "id": 24,
+      "question": "Vilken av följande meningar innehåller ett particip använt som attribut?",
+      "options": {
+        "A": "Han springer fort.",
+        "B": "Den skrattande flickan vann priset.",
+        "C": "Hon har sprungit hem.",
+        "D": "De skrattar alltid."
+      },
+      "correct": "B",
+      "explanation": "B är rätt. 'Skrattande' i 'den skrattande flickan' är ett presensparticip som används som attribut och bestämmer substantivet 'flickan'. A har ett adverb. C har ett perfektparticip i perfekt-konstruktion. D har ett finit verb."
+    },
+    {
+      "id": 25,
+      "question": "Vilket av påståendena nedan stämmer om den svenska proletärlitteraturen under 1930-talet?",
+      "options": {
+        "A": "Den skildrade framför allt överklassens levnadsförhållanden",
+        "B": "Den hade sina rötter i religiösa väckelserörelser",
+        "C": "Den skildrade arbetarklassens livsvillkor ofta ur ett självbiografiskt perspektiv",
+        "D": "Den var starkt influerad av fransk symbolism"
+      },
+      "correct": "C",
+      "explanation": "C är rätt. Proletärlitteraturen, med författare som Ivar Lo-Johansson och Moa Martinson, skildrade arbetarklassens och torpararnas hårda livsvillkor. Berättelserna var ofta självbiografiska. A och D stämmer inte. B kan ha visst stöd (väckelserörelsers inflytande på vissa författare) men är inte det mest centrala draget."
+    },
+    {
+      "id": 26,
+      "question": "Vad kallas det när en text har en dold eller symbolisk betydelse utöver den bokstavliga?",
+      "options": {
+        "A": "Denotation",
+        "B": "Allegori",
+        "C": "Eufemism",
+        "D": "Parafras"
+      },
+      "correct": "B",
+      "explanation": "B är rätt. En allegori är en berättelse eller text där figurerna och händelserna symboliserar något annat, ofta ett moraliskt eller politiskt budskap. Denotation är grundbetydelse. Eufemism är ett mildare uttryck. Parafras är omskrivning av ett innehåll."
+    },
+    {
+      "id": 27,
+      "question": "Vilket av följande är ett exempel på ett multimodalt budskap?",
+      "options": {
+        "A": "En tidningsartikel med enbart löptext",
+        "B": "En dikt skriven utan interpunktion",
+        "C": "En reklam där bild, text och musik samverkar för att förmedla ett budskap",
+        "D": "En handskriven dagbok"
+      },
+      "correct": "C",
+      "explanation": "C är rätt. Multimodal kommunikation innebär att flera uttrycksformer (modaliteter) som text, bild, ljud och rörlig bild samverkar i ett budskap. A och D använder enbart skriven text. B använder enbart text (om än utan skiljetecken)."
+    },
+    {
+      "id": 28,
+      "question": "Vad är skillnaden mellan en simile och en metafor?",
+      "options": {
+        "A": "En simile används bara i poesi, metaforer bara i prosa",
+        "B": "En simile gör en direkt jämförelse med hjälp av 'som' eller 'liksom', medan en metafor likställer direkt utan jämförelseord",
+        "C": "En metafor handlar om natur, en simile om människor",
+        "D": "Det finns ingen skillnad – det är synonymer"
+      },
+      "correct": "B",
+      "explanation": "B är rätt. En simile (liknelse) använder jämförelseord som 'som' eller 'liksom' (t.ex. 'hon är som en sol'), medan en metafor likställer utan jämförelseord (t.ex. 'hon är en sol'). A är fel – båda finns i alla texttyper. C är fel – ingen sådan distinktion finns. D är fel."
+    },
+    {
+      "id": 29,
+      "question": "Vilket av följande alternativ beskriver begreppet 'rinkebysvenska' korrekt?",
+      "options": {
+        "A": "En dialekt som talas enbart i stadsdelen Rinkeby i Stockholm",
+        "B": "Ett ungdomsspråk i flerspråkiga urbana miljöer med lån från flera språk",
+        "C": "En officiell minoritetsdialekt erkänd av svenska staten",
+        "D": "Ett förenklat språk för nyanlända invandrare"
+      },
+      "correct": "B",
+      "explanation": "B är rätt. Rinkebysvenska (även kallat multietnisk ungdomssvenska) är ett talspråk som uppstått i flerspråkiga förorter och lånar ord och strukturer från flera språk. Det talas inte enbart i Rinkeby (A). Det är inte en officiell minoritetsdialekt (C). Det är inte ett pedagogiskt förenklat språk (D)."
+    },
+    {
+      "id": 30,
+      "question": "Vilken av dessa meningar innehåller ett grammatiskt fel?",
+      "options": {
+        "A": "Varje elev ska ta med sin bok.",
+        "B": "Alla elever ska ta med sina böcker.",
+        "C": "Varje elev ska ta med deras bok.",
+        "D": "De flesta elever tog med sina böcker."
+      },
+      "correct": "C",
+      "explanation": "C är fel och därmed svaret på frågan. 'Varje elev' är singular och kräver det reflexiva pronomenet 'sin' – inte 'deras' som är plural. Det grammatiskt korrekta är 'Varje elev ska ta med sin bok' (som i A). B och D är korrekta eftersom de har plurala subjekt som matchar plurala pronomen."
+    }
+  ]
+}

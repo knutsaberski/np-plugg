@@ -1,0 +1,367 @@
+{
+  "subject": "matematik2",
+  "category": "gym2",
+  "generated": "2026-05-19",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Vilket värde har sin(30°)?",
+      "options": {
+        "A": "√3/2",
+        "B": "1/2",
+        "C": "√2/2",
+        "D": "1"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom sin(30°) = 1/2. Detta är ett standardvärde från enhetscirkeln. A är sin(60°) = √3/2, C är sin(45°) = √2/2, och D är sin(90°) = 1."
+    },
+    {
+      "id": 2,
+      "question": "Hur många sätt kan 5 olika böcker arrangeras i rad på en hylla?",
+      "options": {
+        "A": "25",
+        "B": "60",
+        "C": "120",
+        "D": "125"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom antalet permutationer av 5 olika objekt är 5! = 5 × 4 × 3 × 2 × 1 = 120. A är 5², B är 5!/2 = 60 (fel), och D är 5³ = 125."
+    },
+    {
+      "id": 3,
+      "question": "Vilka är rötterna till ekvationen x² - 5x + 6 = 0?",
+      "options": {
+        "A": "x = 2 och x = 3",
+        "B": "x = -2 och x = -3",
+        "C": "x = 1 och x = 6",
+        "D": "x = -1 och x = -6"
+      },
+      "correct": "A",
+      "explanation": "A är rätt eftersom (x-2)(x-3) = x² - 5x + 6. Rötterna är x = 2 och x = 3. B ger x² + 5x + 6, C ger x² - 7x + 6, och D ger x² + 7x + 6."
+    },
+    {
+      "id": 4,
+      "question": "I en klass på 20 elever ska en ordförande och en sekreterare väljas. På hur många sätt kan detta göras?",
+      "options": {
+        "A": "40",
+        "B": "190",
+        "C": "380",
+        "D": "400"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom ordförande kan väljas på 20 sätt och därefter sekreterare på 19 sätt, vilket ger 20 × 19 = 380. A är 20 + 20, B är kombinationer C(20,2) = 190, och D är 20² = 400."
+    },
+    {
+      "id": 5,
+      "question": "En parabel har ekvationen y = x² - 4x + 3. Var har parabeln sitt minimum?",
+      "options": {
+        "A": "x = 2, y = -1",
+        "B": "x = -2, y = 15",
+        "C": "x = 4, y = 3",
+        "D": "x = 2, y = 1"
+      },
+      "correct": "A",
+      "explanation": "A är rätt. Symmetriaxeln är x = -(-4)/(2·1) = 2. Minimivärdet y = 4 - 8 + 3 = -1. Alltså minimum i (2, -1). B och D har fel y-värde, C har fel x-värde."
+    },
+    {
+      "id": 6,
+      "question": "Vad är cos(60°)?",
+      "options": {
+        "A": "√3/2",
+        "B": "√2/2",
+        "C": "1/2",
+        "D": "0"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom cos(60°) = 1/2. A är cos(30°) = √3/2, B är cos(45°) = √2/2, och D är cos(90°) = 0."
+    },
+    {
+      "id": 7,
+      "question": "Hur många kombinationer finns det att välja 3 elever ur en grupp på 6?",
+      "options": {
+        "A": "18",
+        "B": "20",
+        "C": "120",
+        "D": "216"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom C(6,3) = 6!/(3!·3!) = 720/(6·6) = 20. A är 6·3 = 18, C är P(6,3) = 6·5·4 = 120 (permutationer), och D är 6³ = 216."
+    },
+    {
+      "id": 8,
+      "question": "Vilken av följande parablar har rötterna x = -1 och x = 4?",
+      "options": {
+        "A": "y = x² + 3x - 4",
+        "B": "y = x² - 3x - 4",
+        "C": "y = x² + 5x + 4",
+        "D": "y = x² - 5x + 4"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom (x+1)(x-4) = x² - 4x + x - 4 = x² - 3x - 4. A har rötterna x = 1 och x = -4, C har rötterna x = -1 och x = -4, D har rötterna x = 1 och x = 4."
+    },
+    {
+      "id": 9,
+      "question": "Vad är tan(45°)?",
+      "options": {
+        "A": "0",
+        "B": "√3",
+        "C": "1/√3",
+        "D": "1"
+      },
+      "correct": "D",
+      "explanation": "D är rätt eftersom tan(45°) = sin(45°)/cos(45°) = (√2/2)/(√2/2) = 1. A är tan(0°), B är tan(60°) = √3, och C är tan(30°) = 1/√3."
+    },
+    {
+      "id": 10,
+      "question": "En triangel har vinklarna 30°, 60° och 90°. Den kortaste sidan är 5 cm. Hur lång är hypotenusan?",
+      "options": {
+        "A": "5√3 cm",
+        "B": "10 cm",
+        "C": "5√2 cm",
+        "D": "15 cm"
+      },
+      "correct": "B",
+      "explanation": "B är rätt. I en 30-60-90 triangel är sidan mitt emot 30° hälften av hypotenusan. Den kortaste sidan (5 cm) ligger mitt emot 30°, alltså är hypotenusan 2 × 5 = 10 cm. A är sidan mitt emot 60°, C gäller för 45-45-90, och D är fel."
+    },
+    {
+      "id": 11,
+      "question": "Hur många lösenord på 4 siffror kan skapas om varje siffra (0-9) får användas flera gånger?",
+      "options": {
+        "A": "5040",
+        "B": "210",
+        "C": "10000",
+        "D": "9000"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom varje position kan fyllas på 10 sätt, och 10⁴ = 10000. A är P(10,4) = 5040 (utan återläggning), B är C(10,4) = 210, och D är 9 × 10³ = 9000 (om första siffran ej får vara 0)."
+    },
+    {
+      "id": 12,
+      "question": "Vad är diskriminanten för ekvationen 2x² - 4x + 5 = 0?",
+      "options": {
+        "A": "-24",
+        "B": "24",
+        "C": "56",
+        "D": "-56"
+      },
+      "correct": "A",
+      "explanation": "A är rätt eftersom D = b² - 4ac = (-4)² - 4·2·5 = 16 - 40 = -24. Negativt diskriminant innebär inga reella rötter. B har fel tecken, C är 4·14 = 56 (fel uträkning), D är fel."
+    },
+    {
+      "id": 13,
+      "question": "En cirkel har radien 1. En vinkel på 120° avskär en båge. Vad är bågens längd?",
+      "options": {
+        "A": "π/3",
+        "B": "2π/3",
+        "C": "4π/3",
+        "D": "π"
+      },
+      "correct": "B",
+      "explanation": "B är rätt. Båglängden = (vinkel/360°) × 2πr = (120/360) × 2π × 1 = (1/3) × 2π = 2π/3. A är (60/360) × 2π = π/3, C är (240/360) × 2π = 4π/3, och D är halvbågen."
+    },
+    {
+      "id": 14,
+      "question": "Parabeln y = -x² + 4x - 3 har en maximumpunkt. Vad är maximumvärdet?",
+      "options": {
+        "A": "y = 1",
+        "B": "y = -3",
+        "C": "y = 4",
+        "D": "y = 13"
+      },
+      "correct": "A",
+      "explanation": "A är rätt. Symmetriaxeln: x = -4/(2·(-1)) = 2. Maximum: y = -(2)² + 4(2) - 3 = -4 + 8 - 3 = 1. B är värdet vid x = 0 (y-intercept), C är koefficienten 4, och D är fel beräkning."
+    },
+    {
+      "id": 15,
+      "question": "På hur många sätt kan 4 olika färger väljas ut ur 7 tillgängliga färger om ordningen inte spelar roll?",
+      "options": {
+        "A": "35",
+        "B": "28",
+        "C": "840",
+        "D": "2401"
+      },
+      "correct": "A",
+      "explanation": "A är rätt eftersom C(7,4) = 7!/(4!·3!) = 5040/(24·6) = 35. B är C(8,2) = 28 (fel), C är P(7,4) = 840 (permutationer, ordning spelar roll), D är 7⁴ = 2401."
+    },
+    {
+      "id": 16,
+      "question": "I en rätvinklig triangel är den ena kateten 6 cm och hypotenusan 10 cm. Vad är sin(v) för vinkeln v mitt emot den kända kateten?",
+      "options": {
+        "A": "3/5",
+        "B": "4/5",
+        "C": "3/4",
+        "D": "6/10"
+      },
+      "correct": "A",
+      "explanation": "A är rätt. sin(v) = motstående katet / hypotenusan = 6/10 = 3/5. B är cos(v) = 8/10 = 4/5 (den andra kateten √(100-36) = 8), C är tan(v) = 6/8 = 3/4, och D är samma som A men ej förenklat."
+    },
+    {
+      "id": 17,
+      "question": "Vilket är andragradstermens koefficient i parabeln som passerar genom punkterna (0, 2), (1, 3) och (2, 6)?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "1/2",
+        "D": "3"
+      },
+      "correct": "A",
+      "explanation": "A är rätt. Med y = ax² + bx + c: c = 2 (från (0,2)), a + b + 2 = 3 → a + b = 1, 4a + 2b + 2 = 6 → 4a + 2b = 4 → 2a + b = 2. Löser: a = 1, b = 0. Parabeln är y = x² + 2. B och D ger fel värden vid kontroll, C ger fel också."
+    },
+    {
+      "id": 18,
+      "question": "Hur många sätt kan 8 personer sitta runt ett runt bord om rotationer räknas som identiska?",
+      "options": {
+        "A": "8!",
+        "B": "7!",
+        "C": "8!/2",
+        "D": "6!"
+      },
+      "correct": "B",
+      "explanation": "B är rätt. Vid cirkulär permutation fixeras en person och de övriga 7 arrangeras, vilket ger 7! = 5040 sätt. A (8!) räknar inte bort rotationssymmetrin, C räknar dessutom bort spegelbilder (som i halsband), och D är fel."
+    },
+    {
+      "id": 19,
+      "question": "Vad är lösningen till olikheten x² - x - 6 < 0?",
+      "options": {
+        "A": "x < -2 eller x > 3",
+        "B": "-2 < x < 3",
+        "C": "x < -3 eller x > 2",
+        "D": "-3 < x < 2"
+      },
+      "correct": "B",
+      "explanation": "B är rätt. Rötterna till x² - x - 6 = 0 är x = -2 och x = 3 (eftersom (x+2)(x-3) = 0). Parabeln öppnar uppåt (a = 1 > 0) och är negativ mellan rötterna, alltså -2 < x < 3. A är lösningen till x² - x - 6 > 0. C och D har fel rötter."
+    },
+    {
+      "id": 20,
+      "question": "Vad är värdet av cos(180°)?",
+      "options": {
+        "A": "1",
+        "B": "0",
+        "C": "-1",
+        "D": "1/2"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom cos(180°) = -1 på enhetscirkeln. Punkten (cos180°, sin180°) = (-1, 0). A är cos(0°), B är cos(90°), och D är cos(60°)."
+    },
+    {
+      "id": 21,
+      "question": "En tärning kastas tre gånger. På hur många sätt kan man få exakt två sexor?",
+      "options": {
+        "A": "3",
+        "B": "15",
+        "C": "18",
+        "D": "25"
+      },
+      "correct": "B",
+      "explanation": "B är rätt. Antalet sätt att välja vilka 2 av 3 kast som blir sexor: C(3,2) = 3. Det tredje kastet kan bli 5 olika värden (ej sexa). Totalt: 3 × 5 = 15. A räknar bara positionerna, C är 3 × 6 (fel), D är fel beräkning."
+    },
+    {
+      "id": 22,
+      "question": "Vilket uttryck är ekvivalent med sin²(v) + cos²(v)?",
+      "options": {
+        "A": "2",
+        "B": "0",
+        "C": "tan²(v)",
+        "D": "1"
+      },
+      "correct": "D",
+      "explanation": "D är rätt. Den pythagoréiska identiteten säger att sin²(v) + cos²(v) = 1 för alla vinklar v. Detta följer direkt från enhetscirkelns definition. A, B och C är alla felaktiga värden."
+    },
+    {
+      "id": 23,
+      "question": "Parabeln y = 2(x - 3)² + 1 har sitt minimum vid:",
+      "options": {
+        "A": "(3, 1)",
+        "B": "(-3, 1)",
+        "C": "(3, -1)",
+        "D": "(0, 19)"
+      },
+      "correct": "A",
+      "explanation": "A är rätt. Formen y = a(x - h)² + k har vertex (minimum om a > 0) i punkten (h, k). Här är h = 3 och k = 1, alltså minimum i (3, 1). B har fel tecken på x-koordinaten, C har fel y-koordinat, D är y-intercept."
+    },
+    {
+      "id": 24,
+      "question": "I ett sällskap med 10 personer ska 3 representanter väljas. Hur många möjliga grupper finns det?",
+      "options": {
+        "A": "30",
+        "B": "720",
+        "C": "120",
+        "D": "1000"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom C(10,3) = 10!/(3!·7!) = (10·9·8)/(3·2·1) = 720/6 = 120. A är 10·3 = 30 (fel), B är P(10,3)/1 fel, men notera P(10,3) = 720 är permutationer (om ordning spelar roll), D är 10³ = 1000."
+    },
+    {
+      "id": 25,
+      "question": "En kille mäter vinkeln upp till ett torn till 35°. Han står 50 meter från tornets bas. Hur högt är tornet? (Använd tan(35°) ≈ 0,70)",
+      "options": {
+        "A": "35 m",
+        "B": "25 m",
+        "C": "71 m",
+        "D": "50 m"
+      },
+      "correct": "A",
+      "explanation": "A är rätt. tan(35°) = höjd/50 → höjd = 50 × 0,70 = 35 m. B är 50/2 (fel beräkning), C är 50/0,70 ≈ 71 (det vore om man delade istället för multiplicerade), D är bara avståndet."
+    },
+    {
+      "id": 26,
+      "question": "Parabeln y = x² - 6x + 8 skär x-axeln i:",
+      "options": {
+        "A": "x = 2 och x = 4",
+        "B": "x = -2 och x = -4",
+        "C": "x = 1 och x = 8",
+        "D": "x = 3 och x = 3"
+      },
+      "correct": "A",
+      "explanation": "A är rätt. Faktorisera: x² - 6x + 8 = (x - 2)(x - 4) = 0 ger x = 2 och x = 4. B har fel tecken (ger x² + 6x + 8), C ger x² - 9x + 8 = 0, D innebär dubbelrot vid x = 3 vilket kräver y = (x-3)² = x² - 6x + 9."
+    },
+    {
+      "id": 27,
+      "question": "I vilken kvadrant befinner sig vinkeln 210° på enhetscirkeln?",
+      "options": {
+        "A": "Kvadrant I",
+        "B": "Kvadrant II",
+        "C": "Kvadrant III",
+        "D": "Kvadrant IV"
+      },
+      "correct": "C",
+      "explanation": "C är rätt. 210° = 180° + 30°, vilket placerar vinkeln 30° förbi den negativa x-axeln, alltså i tredje kvadranten (180° < v < 270°). I kvadrant I är v mellan 0° och 90°, i II mellan 90° och 180°, i IV mellan 270° och 360°."
+    },
+    {
+      "id": 28,
+      "question": "En kortlek med 52 kort. Hur stor är sannolikheten att dra ett ess?",
+      "options": {
+        "A": "1/13",
+        "B": "1/52",
+        "C": "4/52 förenklat 2/26",
+        "D": "1/4"
+      },
+      "correct": "A",
+      "explanation": "A är rätt. Det finns 4 ess i en kortlek med 52 kort. P = 4/52 = 1/13. B är sannolikheten för ett specifikt kort, C är samma som A men inte korrekt förenklat (4/52 = 1/13, inte 2/26), och D vore om det var 13 ess."
+    },
+    {
+      "id": 29,
+      "question": "Ekvationen x² + bx + 9 = 0 har exakt en rot (dubbelrot). Vilket är värdet på b?",
+      "options": {
+        "A": "b = 3",
+        "B": "b = ±6",
+        "C": "b = ±3",
+        "D": "b = 9"
+      },
+      "correct": "B",
+      "explanation": "B är rätt. Dubbelrot kräver diskriminant = 0: b² - 4·1·9 = 0 → b² = 36 → b = ±6. A och C är fel (ge diskriminant 9 - 36 = -27 resp. 9 - 36 = -27 nej: b=±3 ger 9-36=-27), D ger b² = 81, diskriminant = 81-36 = 45 ≠ 0."
+    },
+    {
+      "id": 30,
+      "question": "Tre mynt kastas samtidigt. Hur stor är sannolikheten att få exakt två krona?",
+      "options": {
+        "A": "1/8",
+        "B": "3/8",
+        "C": "1/4",
+        "D": "1/2"
+      },
+      "correct": "B",
+      "explanation": "B är rätt. Totalt antal utfall = 2³ = 8. Antalet sätt att få exakt 2 krona: C(3,2) = 3 (KKS, KSK, SKK). Sannolikhet = 3/8. A är P(3 krona) = 1/8, C är 2/8 = 1/4 (fel antal), D är P(minst 1 krona) ≠ 1/2."
+    }
+  ]
+}

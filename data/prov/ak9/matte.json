@@ -1,0 +1,367 @@
+{
+  "subject": "matte",
+  "category": "ak9",
+  "generated": "2026-05-19",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Lös ekvationen: 3x + 7 = 22",
+      "options": {
+        "A": "x = 3",
+        "B": "x = 5",
+        "C": "x = 7",
+        "D": "x = 9"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom 3x + 7 = 22 ger 3x = 15, alltså x = 5. A ger 3·3+7=16≠22, C ger 3·7+7=28≠22, D ger 3·9+7=34≠22."
+    },
+    {
+      "id": 2,
+      "question": "En rektangel har längden 12 cm och bredden 7 cm. Vad är arean?",
+      "options": {
+        "A": "38 cm²",
+        "B": "74 cm²",
+        "C": "84 cm²",
+        "D": "96 cm²"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom arean av en rektangel beräknas som längd × bredd = 12 × 7 = 84 cm². A är omkretsen (2·12+2·7=38), B och D är felaktiga beräkningar."
+    },
+    {
+      "id": 3,
+      "question": "Förenkla uttrycket: 4a + 3b − 2a + 5b",
+      "options": {
+        "A": "2a + 8b",
+        "B": "6a + 8b",
+        "C": "2a + 2b",
+        "D": "10ab"
+      },
+      "correct": "A",
+      "explanation": "A är rätt eftersom man samlar likaartade termer: 4a − 2a = 2a och 3b + 5b = 8b, vilket ger 2a + 8b. B räknar a-termerna fel (4+2=6), C räknar b-termerna fel, D kombinerar felaktigt termer till en produkt."
+    },
+    {
+      "id": 4,
+      "question": "Vad är sannolikheten att slå en sexa med en vanlig tärning?",
+      "options": {
+        "A": "1/5",
+        "B": "1/6",
+        "C": "1/3",
+        "D": "2/6"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom en vanlig tärning har 6 lika sannolika utfall och bara ett av dem är sexa, så sannolikheten är 1/6. A innebär 5 utfall, C är 2/6, D är samma som 1/3 och alltså felaktigt."
+    },
+    {
+      "id": 5,
+      "question": "Nedan visas fem tal: 3, 7, 7, 9, 14. Vad är medianen?",
+      "options": {
+        "A": "7",
+        "B": "8",
+        "C": "9",
+        "D": "14"
+      },
+      "correct": "A",
+      "explanation": "A är rätt. Medianen är mittenvärdet när talen är ordnade i storleksordning. Talen är redan ordnade: 3, 7, 7, 9, 14 – mittenvärdet (det tredje) är 7. B är medelvärdet (40/5=8), C och D är andra tal i datamängden."
+    },
+    {
+      "id": 6,
+      "question": "En triangel har basen 8 cm och höjden 5 cm. Vad är triangelns area?",
+      "options": {
+        "A": "13 cm²",
+        "B": "20 cm²",
+        "C": "40 cm²",
+        "D": "80 cm²"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom triangelns area = (bas × höjd) / 2 = (8 × 5) / 2 = 40 / 2 = 20 cm². A är summan av bas och höjd, C glömmer man att dela med 2, D multiplicerar fel."
+    },
+    {
+      "id": 7,
+      "question": "Vilket tal är ett primtal?",
+      "options": {
+        "A": "27",
+        "B": "33",
+        "C": "41",
+        "D": "49"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom 41 är ett primtal – det delas bara jämnt av 1 och sig självt. 27 = 3×9, 33 = 3×11, och 49 = 7×7, så de är inte primtal."
+    },
+    {
+      "id": 8,
+      "question": "Lös olikheten: 2x − 3 > 7",
+      "options": {
+        "A": "x > 2",
+        "B": "x > 4",
+        "C": "x > 5",
+        "D": "x > 10"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom 2x − 3 > 7 ger 2x > 10, alltså x > 5. A ger 2·2-3=1 som inte är >7, B ger 2·4-3=5 som inte är >7, D tolkar steget 2x>10 felaktigt som x>10."
+    },
+    {
+      "id": 9,
+      "question": "En cirkel har radien 5 cm. Vad är cirkelns omkrets? (Använd π ≈ 3,14)",
+      "options": {
+        "A": "15,7 cm",
+        "B": "31,4 cm",
+        "C": "78,5 cm",
+        "D": "157 cm"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom omkretsen = 2πr = 2 × 3,14 × 5 = 31,4 cm. A är π × r (saknar faktorn 2), C är π × r² (arean), D är 10 gånger för stor."
+    },
+    {
+      "id": 10,
+      "question": "Vilket av följande är ekvivalent med 0,35?",
+      "options": {
+        "A": "7/25",
+        "B": "7/20",
+        "C": "3/5",
+        "D": "35/10"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom 0,35 = 35/100 = 7/20. A: 7/25 = 0,28, C: 3/5 = 0,6, D: 35/10 = 3,5. Endast 7/20 = 0,35."
+    },
+    {
+      "id": 11,
+      "question": "En påse innehåller 4 röda, 3 blå och 3 gröna kulor. Du drar en kula slumpmässigt. Vad är sannolikheten att dra en blå kula?",
+      "options": {
+        "A": "1/3",
+        "B": "3/10",
+        "C": "3/7",
+        "D": "4/10"
+      },
+      "correct": "B",
+      "explanation": "B är rätt. Det är totalt 4+3+3 = 10 kulor, varav 3 är blå. Sannolikheten = 3/10. A är fel (hade krävt 10/3 blå kulor), C är 3/(4+3) vilket är fel, D är sannolikheten för röd."
+    },
+    {
+      "id": 12,
+      "question": "Vilket uttryck beskriver volymen av en kub med sidan a?",
+      "options": {
+        "A": "3a",
+        "B": "6a²",
+        "C": "a³",
+        "D": "a²"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom volymen av en kub = sida³ = a³. A är fel (3a har ingen geometrisk betydelse för volym), B är ytan av en kub (6 sidor × a²), D är arean av en sida."
+    },
+    {
+      "id": 13,
+      "question": "Faktorisera: x² − 9",
+      "options": {
+        "A": "(x − 3)²",
+        "B": "(x + 3)(x − 3)",
+        "C": "(x + 9)(x − 1)",
+        "D": "(x − 3)(x − 3)"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom x² − 9 = x² − 3² är en konjugatregel: (x + 3)(x − 3). A ger x²−6x+9, D ger samma som A, C ger x²+8x−9, inget av dessa är x²−9."
+    },
+    {
+      "id": 14,
+      "question": "Fem elevers provresultat är: 4, 6, 8, 6, 6. Vad är typvärdet?",
+      "options": {
+        "A": "4",
+        "B": "6",
+        "C": "8",
+        "D": "30"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom typvärdet är det värde som förekommer flest gånger. Värdet 6 förekommer tre gånger, medan 4 och 8 bara förekommer en gång var. D är summan av alla tal."
+    },
+    {
+      "id": 15,
+      "question": "En rät linje har ekvationen y = 2x + 3. Vad är linjens lutning?",
+      "options": {
+        "A": "3",
+        "B": "−2",
+        "C": "2",
+        "D": "1/2"
+      },
+      "correct": "C",
+      "explanation": "C är rätt. I formen y = kx + m är k lutningen (riktningskoefficienten). Här är k = 2. A är y-skärningspunkten (m=3), B är negationen av lutningen, D är inverterat värde."
+    },
+    {
+      "id": 16,
+      "question": "Vilket tal är närmast √50?",
+      "options": {
+        "A": "6",
+        "B": "7",
+        "C": "8",
+        "D": "25"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom 7² = 49 och 8² = 64. Eftersom 50 ligger mycket nära 49 är √50 ≈ 7,07, vilket är närmast 7. A: 6²=36 är för litet, C: 8 ger 64 som avviker mer, D: 25 är halva 50 inte roten."
+    },
+    {
+      "id": 17,
+      "question": "Lös ekvationssystemet: x + y = 10 och x − y = 4",
+      "options": {
+        "A": "x = 3, y = 7",
+        "B": "x = 6, y = 4",
+        "C": "x = 7, y = 3",
+        "D": "x = 8, y = 2"
+      },
+      "correct": "C",
+      "explanation": "C är rätt. Adderas ekvationerna: 2x = 14, x = 7. Sedan: 7 + y = 10, y = 3. Kontroll: 7+3=10 ✓ och 7−3=4 ✓. A och B uppfyller inte båda ekvationerna, D ger x−y=6≠4."
+    },
+    {
+      "id": 18,
+      "question": "En produkt kostar 400 kr. Priset sänks med 15 %. Vad kostar produkten efter prissänkningen?",
+      "options": {
+        "A": "60 kr",
+        "B": "340 kr",
+        "C": "385 kr",
+        "D": "415 kr"
+      },
+      "correct": "B",
+      "explanation": "B är rätt. 15 % av 400 = 60 kr. 400 − 60 = 340 kr. Alternativt: 400 × 0,85 = 340 kr. A är bara rabattkronan, C räknar 400−15=385 (subtraherar procentsatsen direkt), D adderar istället för subtraherar."
+    },
+    {
+      "id": 19,
+      "question": "En regelbunden sexhörning (hexagon) har alla inre vinklar lika stora. Hur stor är varje inre vinkel?",
+      "options": {
+        "A": "108°",
+        "B": "120°",
+        "C": "135°",
+        "D": "150°"
+      },
+      "correct": "B",
+      "explanation": "B är rätt. Summan av inre vinklar i en n-hörning = (n−2)×180°. För hexagon: (6−2)×180° = 720°. Varje vinkel = 720°/6 = 120°. A är inre vinkeln i en pentagon, C i en oktagon, D i en dodekagon."
+    },
+    {
+      "id": 20,
+      "question": "I ett diagram visas att 40 % av eleverna i en klass cyklar till skolan. Om klassen har 30 elever, hur många cyklar?",
+      "options": {
+        "A": "8",
+        "B": "10",
+        "C": "12",
+        "D": "14"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom 40 % av 30 = 0,40 × 30 = 12 elever. A: 8/30≈27%, B: 10/30≈33%, D: 14/30≈47% – inget av dessa är 40%."
+    },
+    {
+      "id": 21,
+      "question": "Beräkna: (−3)² + (−2)³",
+      "options": {
+        "A": "1",
+        "B": "−1",
+        "C": "17",
+        "D": "−17"
+      },
+      "correct": "A",
+      "explanation": "A är rätt. (−3)² = 9 och (−2)³ = −8. Summan = 9 + (−8) = 1. B ger −9+8=−1 (fel tecken på kvadraten), C ger 9+8=17 (ignorerar tecknet i kuben), D ger −9+(−8)=−17."
+    },
+    {
+      "id": 22,
+      "question": "Pythagoras sats: En rätvinklig triangel har kateterna 6 cm och 8 cm. Hur lång är hypotenusan?",
+      "options": {
+        "A": "7 cm",
+        "B": "10 cm",
+        "C": "12 cm",
+        "D": "14 cm"
+      },
+      "correct": "B",
+      "explanation": "B är rätt. Pythagoras sats: c² = a² + b² = 6² + 8² = 36 + 64 = 100. c = √100 = 10 cm. A och C är fel beräkningar, D är summan av kateterna."
+    },
+    {
+      "id": 23,
+      "question": "Vilket av följande är ett rationellt tal men INTE ett heltal?",
+      "options": {
+        "A": "√4",
+        "B": "π",
+        "C": "3/7",
+        "D": "√2"
+      },
+      "correct": "C",
+      "explanation": "C är rätt. 3/7 är ett rationellt tal (kvot av heltal) men det är inte ett heltal. √4 = 2 är ett heltal. π och √2 är irrationella tal och kan inte uttryckas som bråk av heltal."
+    },
+    {
+      "id": 24,
+      "question": "En funktion ges av f(x) = x² − 4x + 3. Vad är f(2)?",
+      "options": {
+        "A": "−1",
+        "B": "0",
+        "C": "3",
+        "D": "7"
+      },
+      "correct": "A",
+      "explanation": "A är rätt. f(2) = 2² − 4·2 + 3 = 4 − 8 + 3 = −1. B: f(1)=1−4+3=0 eller f(3)=9−12+3=0 (nollställena), C är konstanttermen f(0)=3, D ger ett positivt fel."
+    },
+    {
+      "id": 25,
+      "question": "Två tärningar kastas. Vad är sannolikheten att summan blir 7?",
+      "options": {
+        "A": "1/12",
+        "B": "1/9",
+        "C": "1/6",
+        "D": "7/36"
+      },
+      "correct": "C",
+      "explanation": "C är rätt. Det finns 6×6 = 36 möjliga utfall. Kombinationer som ger summa 7: (1,6),(2,5),(3,4),(4,3),(5,2),(6,1) = 6 st. Sannolikheten = 6/36 = 1/6. A och B är felräknade, D är fel antal gynnsamma utfall."
+    },
+    {
+      "id": 26,
+      "question": "En cylinder har radien 3 cm och höjden 10 cm. Vad är cylinderns volym? (Använd π ≈ 3,14)",
+      "options": {
+        "A": "94,2 cm³",
+        "B": "188,4 cm³",
+        "C": "282,6 cm³",
+        "D": "942 cm³"
+      },
+      "correct": "C",
+      "explanation": "C är rätt. V = πr²h = 3,14 × 3² × 10 = 3,14 × 9 × 10 = 282,6 cm³. A: 3,14×3×10 (glömde kvadrera radien), B: 3,14×6×10 (använde diameter som radie utan kvadrering), D: 3,14×10²×3 (blandade ihop r och h)."
+    },
+    {
+      "id": 27,
+      "question": "Lösenord skapas med 2 siffror (0–9) följt av 1 bokstav (A–Z). Hur många olika lösenord kan skapas?",
+      "options": {
+        "A": "260",
+        "B": "2 600",
+        "C": "720",
+        "D": "36"
+      },
+      "correct": "B",
+      "explanation": "B är rätt. Antal val: 10 × 10 × 26 = 2 600. Det finns 10 möjliga siffror för varje sifferposition och 26 bokstäver. A: 10×26=260 (räknar bara en siffra), C: är 10×8×9 (felaktigt), D är 10+26=36 (adderar istället för multiplicerar)."
+    },
+    {
+      "id": 28,
+      "question": "Vilket påstående om normalfördelning stämmer?",
+      "options": {
+        "A": "Medelvärdet är alltid större än medianen",
+        "B": "Fördelningen är alltid skev åt höger",
+        "C": "Medelvärde, median och typvärde sammanfaller",
+        "D": "Alla värden befinner sig inom ett standardavvikelse från medelvärdet"
+      },
+      "correct": "C",
+      "explanation": "C är rätt. En normalfördelning är symmetrisk och klockformad, vilket innebär att medelvärde, median och typvärde är lika stora och sammanfaller i mitten. A och B beskriver skeva fördelningar, D är felaktigt – ca 68% ligger inom ett standardavvikelse, inte alla."
+    },
+    {
+      "id": 29,
+      "question": "Förenkla: (2x³y²)²",
+      "options": {
+        "A": "2x⁶y⁴",
+        "B": "4x⁶y⁴",
+        "C": "4x⁵y⁴",
+        "D": "2x⁵y⁴"
+      },
+      "correct": "B",
+      "explanation": "B är rätt. (2x³y²)² = 2² × (x³)² × (y²)² = 4 × x⁶ × y⁴ = 4x⁶y⁴. Potensregeln (aⁿ)ᵐ = aⁿᵐ. A glömmer att kvadrera koefficienten 2 (2²=4), C och D adderar exponenter istället för att multiplicera (3+2=5 istället för 3×2=6)."
+    },
+    {
+      "id": 30,
+      "question": "En bil körs 240 km på 3 timmar. Hur lång tid tar det att köra 400 km i samma hastighet?",
+      "options": {
+        "A": "4 timmar",
+        "B": "4 timmar 30 minuter",
+        "C": "5 timmar",
+        "D": "6 timmar"
+      },
+      "correct": "C",
+      "explanation": "C är rätt. Hastigheten = 240/3 = 80 km/h. Tid för 400 km = 400/80 = 5 timmar. A: 4h × 80=320 km≠400, B: 4,5h × 80=360 km≠400, D: 6h × 80=480 km≠400."
+    }
+  ]
+}

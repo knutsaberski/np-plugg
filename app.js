@@ -10,28 +10,32 @@ const CATEGORIES = {
     name: 'Åk 9',
     subtitle: 'Grundskolan',
     emoji: '🏫',
-    gradient: 'linear-gradient(135deg,#6366f1,#8b5cf6)',
+    gradient: 'linear-gradient(145deg, #1a3a6b, #2563b0)',
+    theme: 'blue',
     subjects: ['matte', 'svenska', 'engelska', 'no', 'so'],
   },
   gym1: {
     name: 'År 1',
     subtitle: 'Gymnasiet',
     emoji: '📗',
-    gradient: 'linear-gradient(135deg,#10b981,#059669)',
+    gradient: 'linear-gradient(145deg, #14472f, #1e7a50)',
+    theme: 'green',
     subjects: ['svenska1', 'engelska5', 'matematik1'],
   },
   gym2: {
     name: 'År 2',
     subtitle: 'Gymnasiet',
     emoji: '📘',
-    gradient: 'linear-gradient(135deg,#f59e0b,#d97706)',
+    gradient: 'linear-gradient(145deg, #3b1f6e, #6033b4)',
+    theme: 'purple',
     subjects: ['svenska2', 'engelska6', 'matematik2', 'historia1', 'naturkunskap1'],
   },
   gym3: {
     name: 'År 3',
     subtitle: 'Gymnasiet',
     emoji: '🎓',
-    gradient: 'linear-gradient(135deg,#ef4444,#dc2626)',
+    gradient: 'linear-gradient(145deg, #6b2020, #b03a2e)',
+    theme: 'red',
     subjects: ['svenska3', 'engelska7', 'matematik34'],
   },
 };
@@ -166,6 +170,7 @@ const state = {
   questions: [],
   current: 0,
   score: 0,
+  mcCount: 0,
   answers: [],
 };
 
@@ -198,9 +203,7 @@ function renderCategoryGrid() {
   Object.entries(CATEGORIES).forEach(([key, c]) => {
     const btn = document.createElement('button');
     btn.className = 'subject-card';
-    btn.style.background = c.gradient;
     btn.innerHTML = `
-      <span class="subject-emoji">${c.emoji}</span>
       <span class="subject-name">${c.name}</span>
       <span class="subject-desc">${c.subtitle}</span>
     `;
@@ -210,10 +213,15 @@ function renderCategoryGrid() {
 }
 
 // ── Välj kategori → visa ämneslistan ───────────────────────────
+function setTheme(theme) {
+  document.body.className = theme ? `theme-${theme}` : '';
+}
+
 function selectCategory(categoryKey) {
   state.category = categoryKey;
   const cat = CATEGORIES[categoryKey];
-  $('subjects-title').textContent = `${cat.emoji} ${cat.name}`;
+  setTheme(cat.theme);
+  $('subjects-title').textContent = cat.name;
   renderSubjectGrid(cat.subjects);
   showScreen('screen-subjects');
 }
@@ -222,13 +230,13 @@ function selectCategory(categoryKey) {
 function renderSubjectGrid(subjectKeys) {
   const grid = $('subject-grid');
   grid.innerHTML = '';
+  const gradient = CATEGORIES[state.category].gradient;
   subjectKeys.forEach(key => {
     const s = SUBJECTS[key];
     const btn = document.createElement('button');
     btn.className = 'subject-card';
-    btn.style.background = s.gradient;
+    btn.style.background = gradient;
     btn.innerHTML = `
-      <span class="subject-emoji">${s.emoji}</span>
       <span class="subject-name">${s.name}</span>
       <span class="subject-desc">${s.desc}</span>
     `;
@@ -243,6 +251,7 @@ async function startQuiz(subjectKey) {
   state.questions = [];
   state.current = 0;
   state.score = 0;
+  state.mcCount = 0;
   state.answers = [];
 
   const subj = SUBJECTS[subjectKey];
@@ -252,6 +261,7 @@ async function startQuiz(subjectKey) {
   try {
     const questions = await fetchQuestions(subjectKey);
     state.questions = questions;
+    state.mcCount = questions.filter(q => q.type === 'multiple_choice').length;
     showQuestion();
     showScreen('screen-quiz');
   } catch (err) {
@@ -260,37 +270,30 @@ async function startQuiz(subjectKey) {
   }
 }
 
-// ── Hämta frågor från Claude API ─────────────────────────────────
-async function fetchQuestions(subjectKey) {
+// ── Generera skriftliga frågor via Claude ────────────────────────
+async function generateWrittenQuestions(subjectKey) {
   const subj = SUBJECTS[subjectKey];
 
-  const systemPrompt = `Du är en erfaren svensk lärare som skapar quiz-frågor till nationella provet (NP).
-Frågorna ska ha rätt svårighetsgrad för NP.
-Du svarar ALLTID med ren JSON och inget annat.`;
-
-  const userPrompt = `Skapa exakt 10 flervalsfrågor om ${subj.topic}.
+  const userPrompt = `Skapa 6 skriftliga NP-frågor om ${subj.topic}.
 
 Krav:
-- Varje fråga har 4 svarsalternativ (A, B, C, D)
-- Exakt ett korrekt svar per fråga
-- Alternativens ordning ska vara slumpmässig (rätt svar kan vara vilket alternativ som helst)
-- Förklaringen ska förklara VARFÖR svaret är rätt OCH kort varför de andra är fel
-- Frågorna ska täcka bredd inom ämnet
+- 3 korta frågor (type: "short_answer") – kräver 2-3 meningar
+- 3 långa frågor (type: "long_answer") – kräver ett stycke eller mer
+- 2 frågor med level "E" (grundläggande kunskaper)
+- 2 frågor med level "C" (tillämpning och analys)
+- 2 frågor med level "A" (fördjupad analys, inga begränsningar)
+- Blanda typerna och nivåerna
 
-Svara med EXAKT denna JSON-struktur, ingenting före eller efter:
+Svara med EXAKT denna JSON och inget annat:
 {
   "questions": [
     {
       "id": 1,
+      "type": "short_answer",
+      "level": "E",
       "question": "Frågetext?",
-      "options": {
-        "A": "Alternativ A",
-        "B": "Alternativ B",
-        "C": "Alternativ C",
-        "D": "Alternativ D"
-      },
-      "correct": "A",
-      "explanation": "Förklaring till varför A är rätt..."
+      "sampleAnswer": "Ett godkänt svar bör innehålla...",
+      "gradingCriteria": "E: grundläggande svar om... C: mer nyanserat... A: djupare analys..."
     }
   ]
 }`;
@@ -299,29 +302,73 @@ Svara med EXAKT denna JSON-struktur, ingenting före eller efter:
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
-      model: CONFIG.model,
-      max_tokens: CONFIG.maxTokens,
-      system: systemPrompt,
+      model: 'claude-haiku-4-5-20251001',
+      max_tokens: 3000,
+      system: 'Du är en erfaren NP-lärare. Du svarar ALLTID med ren JSON och inget annat.',
       messages: [{ role: 'user', content: userPrompt }],
     }),
   });
 
-  if (!response.ok) {
-    const err = await response.json().catch(() => ({}));
-    throw new Error(err?.error?.message || `HTTP ${response.status}`);
-  }
+  if (!response.ok) throw new Error('Kunde inte generera skriftliga frågor');
 
   const data = await response.json();
   const raw = data.content?.[0]?.text || '';
+  const match = raw.match(/\{[\s\S]*\}/);
+  if (!match) throw new Error('Ogiltigt svar från AI');
 
-  const jsonMatch = raw.match(/\{[\s\S]*\}/);
-  if (!jsonMatch) throw new Error('Kunde inte tolka AI-svaret. Försök igen.');
+  const parsed = JSON.parse(match[0]);
+  return parsed.questions || [];
+}
 
-  const parsed = JSON.parse(jsonMatch[0]);
-  if (!Array.isArray(parsed.questions) || parsed.questions.length === 0) {
-    throw new Error('Inga frågor i svaret. Försök igen.');
+// ── Hämta frågor – blandar sparade MC + skriftliga ───────────────
+async function fetchQuestions(subjectKey) {
+  const MC_COUNT = 4;
+  const mcLevels = ['E', 'E', 'C', 'A'];
+  let mcQuestions = [];
+
+  // Hämta MC från sparad fil
+  const savedRes = await fetch(`/api/questions/${state.category}/${subjectKey}`);
+  if (savedRes.ok) {
+    const data = await savedRes.json();
+    if (Array.isArray(data.questions) && data.questions.length > 0) {
+      mcQuestions = data.questions.slice(0, MC_COUNT).map((q, i) => ({
+        ...q,
+        type: 'multiple_choice',
+        level: mcLevels[i] || 'C',
+      }));
+    }
   }
-  return parsed.questions;
+
+  // Fallback MC via Claude om inga sparade
+  if (mcQuestions.length === 0) {
+    const subj = SUBJECTS[subjectKey];
+    const response = await fetch('/api/chat', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        model: CONFIG.model,
+        max_tokens: 3000,
+        system: 'Du är en erfaren NP-lärare. Du svarar ALLTID med ren JSON.',
+        messages: [{ role: 'user', content: `Skapa exakt 4 flervalsfrågor om ${subj.topic} med 4 alternativ (A-D), correct som bokstav och explanation. Svara med JSON: {"questions":[...]}` }],
+      }),
+    });
+    const data = await response.json();
+    const raw = data.content?.[0]?.text || '';
+    const match = raw.match(/\{[\s\S]*\}/);
+    if (match) {
+      const parsed = JSON.parse(match[0]);
+      mcQuestions = (parsed.questions || []).slice(0, 4).map((q, i) => ({
+        ...q, type: 'multiple_choice', level: mcLevels[i] || 'C',
+      }));
+    }
+  }
+
+  // Generera skriftliga frågor
+  const writtenQuestions = await generateWrittenQuestions(subjectKey);
+
+  // Blanda ihop och returnera
+  const all = [...mcQuestions, ...writtenQuestions];
+  return all.sort(() => Math.random() - 0.5);
 }
 
 // ── Visa aktuell fråga ───────────────────────────────────────────
@@ -337,19 +384,110 @@ function showQuestion() {
   $('q-number').textContent = `Fråga ${idx + 1}`;
   $('q-text').textContent = q.question;
 
-  const optionsEl = $('q-options');
-  optionsEl.innerHTML = '';
-  Object.entries(q.options).forEach(([letter, text]) => {
-    const btn = document.createElement('button');
-    btn.className = 'option-btn';
-    btn.innerHTML = `<span class="option-letter">${letter}</span>${text}`;
-    btn.dataset.letter = letter;
-    btn.addEventListener('click', () => handleAnswer(letter));
-    optionsEl.appendChild(btn);
-  });
+  // Nivåbadge
+  const badge = $('q-level-badge');
+  if (q.level) {
+    const labels = { E: 'E-nivå', C: 'C-nivå', A: 'A-nivå' };
+    badge.textContent = labels[q.level] || q.level;
+    badge.className = `level-badge level-${q.level}`;
+  } else {
+    badge.className = 'level-badge hidden';
+  }
 
+  // Dölj allt
   $('q-explanation').className = 'explanation hidden';
+  $('grading-result').classList.add('hidden');
+  $('grading-loading').classList.add('hidden');
   $('btn-next').style.display = 'none';
+
+  if (q.type === 'multiple_choice') {
+    // Visa svarsalternativ
+    $('written-section').classList.add('hidden');
+    const optionsEl = $('q-options');
+    optionsEl.innerHTML = '';
+    optionsEl.style.display = 'flex';
+    Object.entries(q.options).forEach(([letter, text]) => {
+      const btn = document.createElement('button');
+      btn.className = 'option-btn';
+      btn.innerHTML = `<span class="option-letter">${letter}</span>${text}`;
+      btn.dataset.letter = letter;
+      btn.addEventListener('click', () => handleAnswer(letter));
+      optionsEl.appendChild(btn);
+    });
+  } else {
+    // Skriftlig fråga
+    $('q-options').style.display = 'none';
+    $('q-options').innerHTML = '';
+    $('written-section').classList.remove('hidden');
+    const input = $('written-input');
+    input.value = '';
+    input.rows = q.type === 'long_answer' ? 8 : 4;
+    input.placeholder = q.type === 'long_answer'
+      ? 'Skriv ditt svar här (ett stycke eller mer)...'
+      : 'Skriv ditt svar här (2–3 meningar)...';
+    $('btn-submit-written').disabled = false;
+  }
+}
+
+// ── Skicka in och rätta skriftligt svar ──────────────────────────
+async function handleWrittenSubmit() {
+  const q = state.questions[state.current];
+  const studentAnswer = $('written-input').value.trim();
+
+  if (!studentAnswer) {
+    showToast('Skriv ett svar innan du skickar in');
+    return;
+  }
+
+  $('btn-submit-written').disabled = true;
+  $('written-section').classList.add('hidden');
+  $('grading-loading').classList.remove('hidden');
+
+  try {
+    const res = await fetch('/api/grade', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        question: q.question,
+        studentAnswer,
+        subject: state.subject,
+        level: q.level,
+        sampleAnswer: q.sampleAnswer,
+        gradingCriteria: q.gradingCriteria,
+      }),
+    });
+
+    const grading = await res.json();
+
+    state.answers.push({
+      type: q.type,
+      grade: grading.grade,
+      question: q.question,
+      isCorrect: grading.grade !== 'F',
+    });
+
+    $('grading-loading').classList.add('hidden');
+    $('grading-result').classList.remove('hidden');
+
+    const gradeMap = { A: 'grade-a', C: 'grade-c', E: 'grade-e', F: 'grade-f' };
+    const gradeBadge = $('grade-badge');
+    gradeBadge.textContent = grading.grade === 'F' ? 'Ej godkänd' : `Betyg ${grading.grade}`;
+    gradeBadge.className = `grade-badge ${gradeMap[grading.grade] || ''}`;
+    $('grade-summary').textContent = grading.summary;
+    $('grade-strengths').textContent = grading.strengths;
+    $('grade-improvements').textContent = grading.improvements;
+
+    const isLast = state.current === state.questions.length - 1;
+    const nextBtn = $('btn-next');
+    nextBtn.textContent = isLast ? 'Se resultat' : 'Nästa fråga →';
+    nextBtn.style.display = 'block';
+
+  } catch (err) {
+    $('grading-loading').classList.add('hidden');
+    $('written-section').classList.remove('hidden');
+    $('btn-submit-written').disabled = false;
+    showToast('Kunde inte rätta svaret. Försök igen.');
+  }
 }
 
 // ── Hantera svarsklick ───────────────────────────────────────────
@@ -359,7 +497,7 @@ function handleAnswer(selected) {
   const isCorrect = selected === correct;
 
   if (isCorrect) state.score++;
-  state.answers.push({ selected, correct, isCorrect, question: q.question });
+  state.answers.push({ type: 'multiple_choice', selected, correct, isCorrect, question: q.question });
 
   document.querySelectorAll('.option-btn').forEach(btn => {
     btn.disabled = true;
@@ -398,8 +536,8 @@ function handleNext() {
 function showResult() {
   $('progress-fill').style.width = '100%';
   const total = state.questions.length;
-  const score = state.score;
-  const pct   = score / total;
+  const correctCount = state.answers.filter(a => a.isCorrect).length;
+  const pct = correctCount / total;
 
   let trophy, title, message;
   if (pct === 1) {
@@ -419,20 +557,30 @@ function showResult() {
     message = 'Alla börjar någonstans. Läs igenom förklaringarna och testa igen – du lär dig fort!';
   }
 
-  $('result-trophy').textContent   = trophy;
-  $('result-title').textContent    = title;
-  $('result-points').textContent   = score;
-  $('result-message').textContent  = message;
+  $('result-trophy').textContent  = trophy;
+  $('result-title').textContent   = title;
+  $('result-points').textContent  = correctCount;
+  $('result-message').textContent = message;
+  document.querySelector('.score-denom').textContent = `/ ${total}`;
 
   const listEl = $('result-list');
   listEl.innerHTML = '';
   state.answers.forEach((a, i) => {
     const item = document.createElement('div');
     item.className = 'result-item';
-    item.innerHTML = `
-      <span class="result-item-icon">${a.isCorrect ? '✅' : '❌'}</span>
-      <span class="result-item-text">${i + 1}. ${a.question}</span>
-    `;
+    if (a.type === 'multiple_choice') {
+      item.innerHTML = `
+        <span class="result-item-icon">${a.isCorrect ? '✅' : '❌'}</span>
+        <span class="result-item-text">${i + 1}. ${a.question}</span>
+      `;
+    } else {
+      const gradeLabel = a.grade === 'F' ? 'Ej godkänd' : `Betyg ${a.grade}`;
+      const gradeClass = a.grade ? `grade-${a.grade.toLowerCase()}` : 'grade-f';
+      item.innerHTML = `
+        <span class="grade-badge ${gradeClass}" style="font-size:0.72rem;padding:3px 9px;margin-right:8px">${gradeLabel}</span>
+        <span class="result-item-text">${i + 1}. ${a.question}</span>
+      `;
+    }
     listEl.appendChild(item);
   });
 
@@ -443,12 +591,16 @@ function showResult() {
 document.addEventListener('DOMContentLoaded', () => {
   renderCategoryGrid();
 
-  $('btn-back-categories').addEventListener('click', () => showScreen('screen-home'));
+  $('btn-back-categories').addEventListener('click', () => {
+    setTheme(null);
+    showScreen('screen-home');
+  });
 
   $('btn-quit').addEventListener('click', () => {
     if (confirm('Avsluta quizet? Din progress försvinner.')) showScreen('screen-home');
   });
   $('btn-next').addEventListener('click', handleNext);
+  $('btn-submit-written').addEventListener('click', handleWrittenSubmit);
 
   $('btn-home').addEventListener('click', () => showScreen('screen-home'));
   $('btn-retry').addEventListener('click', () => startQuiz(state.subject));

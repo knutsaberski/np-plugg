@@ -1,0 +1,367 @@
+{
+  "subject": "svenska1",
+  "category": "gym1",
+  "generated": "2026-05-19",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Vilket av följande är ett exempel på en retorisk fråga?",
+      "options": {
+        "A": "Vad heter du?",
+        "B": "Kan du verkligen kalla det rättvisa?",
+        "C": "Hur många elever går i klassen?",
+        "D": "Vilken tid börjar matchen?"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom en retorisk fråga inte förväntar sig ett svar – den ställs för att betona en poäng eller väcka tankar. 'Kan du verkligen kalla det rättvisa?' är ett påstående förklätt till fråga. A, C och D är genuina frågor som förväntar sig faktiska svar."
+    },
+    {
+      "id": 2,
+      "question": "Vad menas med begreppet 'etos' inom retoriken?",
+      "options": {
+        "A": "Talarens förmåga att väcka känslor hos åhörarna",
+        "B": "Användningen av logiska argument och bevis",
+        "C": "Talarens trovärdighet och karaktär",
+        "D": "Strukturen och uppbyggnaden av ett tal"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom etos (ethos) handlar om talarens trovärdighet, karaktär och auktoritet – hur lyssnarna uppfattar talaren som person. A beskriver patos (pathos), B beskriver logos (logos), och D beskriver dispositio, vilket är en del av retorikens fem kanoner."
+    },
+    {
+      "id": 3,
+      "question": "Vilket tempus används i meningen 'Hon hade läst boken innan filmen kom ut'?",
+      "options": {
+        "A": "Presens",
+        "B": "Imperfekt",
+        "C": "Pluskvamperfekt",
+        "D": "Perfekt"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom pluskvamperfekt används för att beskriva en handling som inträffat före en annan förfluten handling. 'Hade läst' är just pluskvamperfekt. Presens är nutid (läser), imperfekt är enkel dåtid (läste), och perfekt är 'har läst'."
+    },
+    {
+      "id": 4,
+      "question": "Vad är ett styckes huvudsats?",
+      "options": {
+        "A": "En mening som inleder ett nytt stycke i en text",
+        "B": "En mening som kan stå självständigt och inte är underordnad en annan mening",
+        "C": "Den meningen i ett stycke som sammanfattar hela styckets innehåll",
+        "D": "En mening som alltid börjar med ett subjekt"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom en huvudsats grammatiskt sett är en sats som kan stå på egen hand och inte är underordnad en annan sats. A beskriver en topicmening (ämnesm­ening), C är en liknande men textuell definition, och D stämmer inte eftersom ordföljden kan variera."
+    },
+    {
+      "id": 5,
+      "question": "Vilken stilfigur används i frasen 'Stormen skrek och slet i träden'?",
+      "options": {
+        "A": "Liknelse",
+        "B": "Metafor",
+        "C": "Personifikation",
+        "D": "Allitteration"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom personifikation innebär att mänskliga egenskaper eller handlingar tillskrivs något icke-mänskligt, här stormen som 'skrek och slet'. Liknelse jämför med 'som', metafor är en direkt jämförelse utan 'som', och allitteration är upprepning av begynnelseljud."
+    },
+    {
+      "id": 6,
+      "question": "Vilken epok i litteraturhistorien kännetecknas av tron på förnuftet, upplysning och vetenskapens framsteg?",
+      "options": {
+        "A": "Romantiken",
+        "B": "Upplysningen",
+        "C": "Realismen",
+        "D": "Barocken"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom Upplysningen (ca 1700-talet) kännetecknades av förnuftstro, kritik av religion och tradition samt tillit till vetenskap och utbildning. Romantiken betonade känsla och natur, Realismen skildrade samhällsproblem, och Barocken präglades av religiösa och praktfulla uttryck."
+    },
+    {
+      "id": 7,
+      "question": "Vad kallas det när en mening saknar subjekt men ändå är grammatiskt korrekt, som i 'Det regnar'?",
+      "options": {
+        "A": "Passiv sats",
+        "B": "Formellt subjekt",
+        "C": "Existentialsats",
+        "D": "Opersonlig konstruktion"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom 'det' i 'Det regnar' fungerar som ett formellt (expletivt) subjekt – det fyller subjektspositionen grammatiskt utan att hänvisa till något konkret. Passiv sats har en annan struktur, existentialsats är en specifik typ med 'det finns', och opersonlig konstruktion är en bredare informell term."
+    },
+    {
+      "id": 8,
+      "question": "Vilket av följande är ett exempel på en allitteration?",
+      "options": {
+        "A": "Han sprang som en gepard",
+        "B": "Solen sjunger, skogen svarar",
+        "C": "Kärleken är ett djupt hav",
+        "D": "Hon grät tills hon inte kunde mer"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom allitteration innebär att ord i närheten av varandra börjar med samma ljud eller bokstav – 'Solen sjunger, skogen svarar' inleds alla med s. A är en liknelse, C är en metafor, och D innehåller ingen stilfigur av denna typ."
+    },
+    {
+      "id": 9,
+      "question": "Vilken av dessa svenska författare tillhör den proletärlitterära rörelsen under tidigt 1900-tal?",
+      "options": {
+        "A": "Carl Michael Bellman",
+        "B": "August Strindberg",
+        "C": "Ivar Lo-Johansson",
+        "D": "Esaias Tegnér"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom Ivar Lo-Johansson är en av de mest framstående proletärförfattarna i Sverige, känd för att skildra statarnas liv och kamp. Bellman levde på 1700-talet, Strindberg förknippas med naturalismen och realismen, och Tegnér var en romantisk poet."
+    },
+    {
+      "id": 10,
+      "question": "Vad är skillnaden mellan denotation och konnotation?",
+      "options": {
+        "A": "Denotation är ett ords bildliga betydelse, konnotation är dess bokstavliga",
+        "B": "Denotation är ett ords grundbetydelse, konnotation är dess associationer och bibetydelser",
+        "C": "Denotation används i poesi, konnotation i sakprosa",
+        "D": "Denotation och konnotation är synonymer för bokstavlig tolkning"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom denotation är ett ords lexikala grundbetydelse (ordboksdefinitionen) medan konnotation är de känslor, värderingar och associationer som ordet väcker. A blandar ihop dem, C är felaktigt, och D är fel eftersom de inte är synonymer."
+    },
+    {
+      "id": 11,
+      "question": "Vilken berättarteknik innebär att berättaren vet allt om alla karaktärer och händelser i en berättelse?",
+      "options": {
+        "A": "Jagberättare",
+        "B": "Allvetande berättare",
+        "C": "Opålitlig berättare",
+        "D": "Extern berättare i tredje person"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom en allvetande (omniskient) berättare har tillgång till alla karaktärers tankar, känslor och händelser, även sådana karaktärerna inte känner till. Jagberättare har begränsad synvinkel, opålitlig berättare ger felaktig information, och en extern tredjepersonsberättare behöver inte vara allvetande."
+    },
+    {
+      "id": 12,
+      "question": "Vad kallas det grammatiska fenomenet när ett adjektiv böjs efter substantivets genus och numerus, som i 'en röd bil' och 'ett rött hus'?",
+      "options": {
+        "A": "Kongruens",
+        "B": "Kasus",
+        "C": "Rektion",
+        "D": "Apposition"
+      },
+      "correct": "A",
+      "explanation": "A är rätt eftersom kongruens innebär att ord anpassar sin form efter andra ord de hör ihop med i en mening. Adjektivet böjs alltså i kongruens med substantivet. Kasus handlar om substantivets funktion i satsen, rektion om prepositioners styrning, och apposition är en tilläggsbeskrivning."
+    },
+    {
+      "id": 13,
+      "question": "Vilket av följande påståenden stämmer om den svenska romantiken?",
+      "options": {
+        "A": "Den betonade industrialismens positiva inverkan på samhället",
+        "B": "Den förespråkade objektiv skildring av verkligheten",
+        "C": "Den lyfte fram naturen, känslan och det nationella arvet",
+        "D": "Den fokuserade på arbetarklassens levnadsvillkor"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom romantiken (tidigt 1800-tal) kännetecknades av en kärlek till naturen, starka känslor, nationalism och intresse för historia och folktraditioner. A och D är mer förknippade med realism och proletärlitteratur, och B beskriver realismens objektivitetssträvan."
+    },
+    {
+      "id": 14,
+      "question": "Vad är en källas 'relevans' i källkritiken?",
+      "options": {
+        "A": "Hur gammal källan är",
+        "B": "Om källan är utgiven av ett känt förlag",
+        "C": "I vilken utsträckning källan svarar på den fråga man undersöker",
+        "D": "Om källan har citerats av andra forskare"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom relevans i källkritiken handlar om hur väl en källa är tillämpbar på det specifika ämne eller den fråga man undersöker. A handlar om källans aktualitet, B om utgivning men inte relevans, och D handlar om trovärdighet snarare än relevans."
+    },
+    {
+      "id": 15,
+      "question": "Vilken av följande meningar innehåller en bisats?",
+      "options": {
+        "A": "Hunden skäller högt.",
+        "B": "Sara och Kalle åt lunch.",
+        "C": "Han sprang fort men föll ändå.",
+        "D": "Jag vet att hon kommer imorgon."
+      },
+      "correct": "D",
+      "explanation": "D är rätt eftersom 'att hon kommer imorgon' är en bisats (nominalbisats) underordnad huvudsatsen 'Jag vet'. A och B är enkla huvudsatser. C innehåller två samordnade huvudsatser förbundna med konjunktionen 'men', inte en bisats."
+    },
+    {
+      "id": 16,
+      "question": "Vad är syftet med en argumenterande texts 'motargument' och 'bemötande'?",
+      "options": {
+        "A": "Att ge läsaren information om ämnet utan att ta ställning",
+        "B": "Att stärka textens trovärdighet genom att visa att skribenten känner till och kan bemöta motståndarens syn",
+        "C": "Att förvirra läsaren så att de accepterar skribentens slutsats",
+        "D": "Att sammanfatta textens alla argument i slutet"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom att ta upp och bemöta motargument (concession and refutation) stärker skribentenss trovärdighet och visar att argumentationen är genomtänkt. Det signalerar intellektuell hederlighet. A är en deskriptiv texts syfte, C är manipulativt och inte ett syfte, och D beskriver en sammanfattning."
+    },
+    {
+      "id": 17,
+      "question": "Vilket av följande verk skrevs av August Strindberg?",
+      "options": {
+        "A": "Röda rummet",
+        "B": "Gösta Berlings saga",
+        "C": "Hemsöborna och Gubben i hörnhuset",
+        "D": "Doktor Glas"
+      },
+      "correct": "A",
+      "explanation": "A är rätt eftersom Röda rummet (1879) är ett av August Strindbergs mest kända verk och anses vara den moderna svenska romanens genombrott. Gösta Berlings saga skrevs av Selma Lagerlöf, Hemsöborna skrevs av Strindberg men alternativet är delvis felaktigt, och Doktor Glas skrevs av Hjalmar Söderberg."
+    },
+    {
+      "id": 18,
+      "question": "Vad kallas det när en texts budskap är dolt och kan tolkas på olika sätt beroende på vem som läser?",
+      "options": {
+        "A": "Explicit budskap",
+        "B": "Implicit budskap",
+        "C": "Denotativt budskap",
+        "D": "Normativt budskap"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom ett implicit budskap är ett som inte sägs direkt utan måste tolkas fram – det ligger 'mellan raderna'. Explicit budskap är direkt uttalat, denotativt syftar på grundbetydelse, och normativt handlar om vad som bör vara rätt eller fel."
+    },
+    {
+      "id": 19,
+      "question": "Vilket av följande är ett kännetecken för epokens naturalism inom litteraturen?",
+      "options": {
+        "A": "Idealisering av naturen och det enkla livet",
+        "B": "Tron att människans handlingar styrs av arv och miljö",
+        "C": "Fokus på det övernaturliga och mystiska",
+        "D": "Tillbakablick på antikens gudar och hjältar"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom naturalismen (ca 1880-talet) byggde på att människan formas av biologiska faktorer (arv) och sociala omständigheter (miljö). A är romantikens ideal, C är gothik eller romantik, och D är nyklassicism."
+    },
+    {
+      "id": 20,
+      "question": "Vad är funktionen av ett 'anafora' som retorisk figur?",
+      "options": {
+        "A": "Att avsluta meningar med samma ord för emfas",
+        "B": "Att upprepa samma ord eller fras i början av flera på varandra följande meningar",
+        "C": "Att ställa en fråga som besvaras av talaren själv",
+        "D": "Att använda en underdrift för ironisk effekt"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom anafora innebär upprepning av samma ord eller fras i inledningen av på varandra följande satser eller meningar, till exempel 'Vi ska kämpa, vi ska vinna, vi ska aldrig ge upp'. A beskriver epifora, C är hypofora, och D är litotes."
+    },
+    {
+      "id": 21,
+      "question": "Vilket påstående om en debattartikel är korrekt?",
+      "options": {
+        "A": "En debattartikel ska vara objektiv och inte ta ställning",
+        "B": "En debattartikel presenterar fakta utan att dra slutsatser",
+        "C": "En debattartikel syftar till att övertala läsaren och framföra skribentenens åsikter",
+        "D": "En debattartikel är alltid skriven av en journalist"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom en debattartikel är en argumenterande text där skribenten driver en tes och försöker övertala läsaren. A och B stämmer på utredande texter, och D är felaktigt eftersom debattartiklar kan skrivas av vem som helst."
+    },
+    {
+      "id": 22,
+      "question": "Vilket grammatiskt begrepp syftar på den som utför handlingen i en mening?",
+      "options": {
+        "A": "Predikat",
+        "B": "Objekt",
+        "C": "Subjekt",
+        "D": "Adverbial"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom subjektet betecknar den som utför verbhandlingen i en aktiv sats. Predikat är verbdelen (handlingen), objekt är den som handlingen riktas mot, och adverbial anger omständigheter som tid, plats och sätt."
+    },
+    {
+      "id": 23,
+      "question": "Vilken av följande texter är ett exempel på sakprosa?",
+      "options": {
+        "A": "En roman",
+        "B": "En diktsamling",
+        "C": "En nyhetsartikel",
+        "D": "En pjäs"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom sakprosa är icke-fiktiv prosa som syftar till att informera om verkligheten, och en nyhetsartikel är ett typexempel. En roman och en pjäs är skönlitteratur, och en diktsamling är poesi – ingen av dessa är sakprosa i traditionell mening."
+    },
+    {
+      "id": 24,
+      "question": "Vad kallas den del av en berättelse där konflikten når sin höjdpunkt?",
+      "options": {
+        "A": "Exposition",
+        "B": "Klimax",
+        "C": "Upplösning",
+        "D": "Intrig"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom klimax (höjdpunkten) är den del av berättelsen där spänningen når sin topp och konflikten avgörs. Exposition är inledningens presentation av bakgrund, upplösning är slutet, och intrig är hela handlingsförloppet."
+    },
+    {
+      "id": 25,
+      "question": "Vilket av följande är ett exempel på en passiv konstruktion?",
+      "options": {
+        "A": "Barnen lekte i parken.",
+        "B": "Läraren rättade proven.",
+        "C": "Proven rättades av läraren.",
+        "D": "Hon läste boken snabbt."
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom passiv konstruktion innebär att handlingens mottagare (proven) är subjekt och den handlande (läraren) anges i en av-fras. I A, B och D är det den handlande personen som är subjekt, vilket är aktiv konstruktion."
+    },
+    {
+      "id": 26,
+      "question": "Vilken av dessa stilarter präglar oftast en formell skriftlig inlämningsuppgift i skolan?",
+      "options": {
+        "A": "Talspråklig och ledig stil",
+        "B": "Vulgär och oformell stil",
+        "C": "Skriftspråklig och neutral stil",
+        "D": "Poetisk och metaforisk stil"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom formella skriftliga texter i skolsammanhang förväntas ha ett vårdat skriftspråk med neutral ton, utan slang eller talspråkliga drag. A och B är olämpliga i formella sammanhang, och D kan förekomma men är inte normen för utredande eller argumenterande texter."
+    },
+    {
+      "id": 27,
+      "question": "Vilken av dessa svenska romaner räknas som en viktig del av 1960-talets moderna genombrott inom litteraturen?",
+      "options": {
+        "A": "Kristin Lavransdatter av Sigrid Undset",
+        "B": "Nils Holgerssons underbara resa av Selma Lagerlöf",
+        "C": "Hundraåringen som klev ut genom fönstret och försvann av Jonas Jonasson",
+        "D": "Apokalyps av Lars Gustafsson"
+      },
+      "correct": "D",
+      "explanation": "D är rätt eftersom Lars Gustafsson var en central gestalt i det moderna genombrottet på 1960-talet i Sverige, präglat av modernism och samhällskritik. Kristin Lavransdatter är norsk, Nils Holgersson är från tidigt 1900-tal, och Hundraåringen är från 2009."
+    },
+    {
+      "id": 28,
+      "question": "Vad är en 'tes' i en argumenterande text?",
+      "options": {
+        "A": "En sammanfattning av alla argument som presenteras",
+        "B": "Det påstående eller den ståndpunkt som skribenten vill bevisa eller försvara",
+        "C": "En neutral beskrivning av ett problem utan värdering",
+        "D": "En slutsats som dras efter att argumenten presenterats"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom tesen är textens kärnpåstående – det skribenten argumenterar för. Den presenteras ofta i inledningen. A är en sammanfattning, C beskriver en neutral utredning, och D är slutsatsen – tesen kan vara liknande men presenteras i inledningen, inte som en slutsats."
+    },
+    {
+      "id": 29,
+      "question": "Vilken stilfigur innebär att man medvetet underdriver något för att skapa ironisk eller emfatisk effekt, till exempel 'Det var inte helt okej'?",
+      "options": {
+        "A": "Hyperbel",
+        "B": "Litotes",
+        "C": "Eufemism",
+        "D": "Ironi"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom litotes är en underdrift som ofta uppnås genom att neka det motsatta, till exempel 'inte helt okej' istället för 'fruktansvärt'. Hyperbel är överdrift, eufemism är ett mildrande uttryck för något obehagligt, och ironi säger det motsatta av vad man menar – men litotes är den specifika tekniken här."
+    },
+    {
+      "id": 30,
+      "question": "Vad kännetecknar den modernistiska poesin som framträdde i Sverige under tidigt 1900-tal?",
+      "options": {
+        "A": "Strikt rimschema och regelbunden rytm",
+        "B": "Idealisering av naturen och folktraditioner",
+        "C": "Fri vers, bildspråk och brott med traditionella former",
+        "D": "Tydliga moraliska budskap och religiösa teman"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom modernistisk poesi, representerad av bland annat Gunnar Ekelöf och Edith Södergran, kännetecknades av fri vers (utan fast rim och rytm), djärvt bildspråk och ett medvetet brott med äldre litterära konventioner. A är klassicismens ideal, B är romantikens, och D är mer typiskt för äldre religiös poesi."
+    }
+  ]
+}

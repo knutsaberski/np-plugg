@@ -1,0 +1,367 @@
+{
+  "subject": "engelska5",
+  "category": "gym1",
+  "generated": "2026-05-19",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Choose the correct form of the verb: 'By the time she arrived, we _____ for two hours.'",
+      "options": {
+        "A": "have been waiting",
+        "B": "had been waiting",
+        "C": "were waiting",
+        "D": "waited"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom 'by the time she arrived' indikerar att väntandet pågick och avslutades innan ett annat förflutet händelse – detta kräver past perfect continuous (had been waiting). A (present perfect continuous) används inte för förfluten tid. C (were waiting) saknar det tidsmässiga sambandet. D (waited) fångar inte durationen."
+    },
+    {
+      "id": 2,
+      "question": "Which sentence is grammatically correct?",
+      "options": {
+        "A": "Neither of the students have finished their exam.",
+        "B": "Neither of the students has finished their exam.",
+        "C": "Neither of the students have finished its exam.",
+        "D": "Neither of the students has finished its exam."
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom 'neither' som pronomen tar singular verb ('has'), och 'their' är accepterat som könsneutralt pronomen för singular. A använder plural verb felaktigt. C och D använder 'its' vilket inte är naturligt för att referera till en person."
+    },
+    {
+      "id": 3,
+      "question": "What does the word 'ambiguous' mean?",
+      "options": {
+        "A": "Very clear and easy to understand",
+        "B": "Open to more than one interpretation",
+        "C": "Completely false or misleading",
+        "D": "Extremely important or significant"
+      },
+      "correct": "B",
+      "explanation": "B är rätt – 'ambiguous' betyder att något kan tolkas på mer än ett sätt, dvs. det är oklart eller tvetydigt. A är motsatsen (tydlig). C (falsk) stämmer inte. D (viktig) har ingen koppling till ordets betydelse."
+    },
+    {
+      "id": 4,
+      "question": "Read the sentence and choose the best replacement for the underlined word: 'The politician's speech was deliberately ___ to avoid commitment.' (VAGUE)",
+      "options": {
+        "A": "precise",
+        "B": "offensive",
+        "C": "evasive",
+        "D": "inspiring"
+      },
+      "correct": "C",
+      "explanation": "C är rätt – 'evasive' (undvikande) är den bästa synonymen till 'vague' i kontexten att undvika åtaganden. A (precis) är en antonym. B (stötande) ändrar meningen. D (inspirerande) passar inte kontexten."
+    },
+    {
+      "id": 5,
+      "question": "Choose the correct preposition: 'She has been interested ___ marine biology since childhood.'",
+      "options": {
+        "A": "for",
+        "B": "about",
+        "C": "in",
+        "D": "with"
+      },
+      "correct": "C",
+      "explanation": "C är rätt – den korrekta kollokationen är 'interested in'. A (for) och B (about) är inte idiomatiska med 'interested'. D (with) används i andra fraser men inte här."
+    },
+    {
+      "id": 6,
+      "question": "Read the following passage and answer the question:\n\n'Despite initial resistance from local communities, the new wind farm has been widely accepted after residents were shown data demonstrating minimal noise pollution and significant economic benefits for the region.'\n\nWhat was the main reason for the change in attitude?",
+      "options": {
+        "A": "The wind farm was built in a different location",
+        "B": "Residents were compensated financially",
+        "C": "Evidence showed benefits outweighed concerns",
+        "D": "Local politicians changed their position"
+      },
+      "correct": "C",
+      "explanation": "C är rätt – texten säger att invånarna fick se data om minimal bullerstörning och ekonomiska fördelar, vilket ledde till att de accepterade projektet. A nämns inte i texten. B handlar om kompensation vilket inte nämns. D om politiker nämns heller inte."
+    },
+    {
+      "id": 7,
+      "question": "Which sentence uses the subjunctive mood correctly?",
+      "options": {
+        "A": "The doctor recommended that she takes more rest.",
+        "B": "The doctor recommended that she take more rest.",
+        "C": "The doctor recommended that she is taking more rest.",
+        "D": "The doctor recommended that she took more rest."
+      },
+      "correct": "B",
+      "explanation": "B är rätt – efter 'recommend that' används subjunctive, vilket innebär basform av verbet utan -s ('take' inte 'takes'). A använder tredjepersons-s felaktigt. C (is taking) är progressive och fel. D (took) är past tense och fel i denna konstruktion."
+    },
+    {
+      "id": 8,
+      "question": "What is the meaning of the idiom 'to sit on the fence'?",
+      "options": {
+        "A": "To be very cautious about physical danger",
+        "B": "To avoid taking sides in a dispute",
+        "C": "To work extremely hard",
+        "D": "To make a quick decision"
+      },
+      "correct": "B",
+      "explanation": "B är rätt – 'to sit on the fence' betyder att inte ta ställning i en fråga eller konflikt, att vara neutral. A, C och D har ingen koppling till idiomets faktiska betydelse."
+    },
+    {
+      "id": 9,
+      "question": "Choose the correct form: 'If I ___ you, I would apologize immediately.'",
+      "options": {
+        "A": "am",
+        "B": "was",
+        "C": "were",
+        "D": "had been"
+      },
+      "correct": "C",
+      "explanation": "C är rätt – i en hypotetisk konditionalmening (second conditional) används 'were' för alla personer, inklusive 'I'. Detta är den formellt korrekta formen. B (was) förekommer i informellt tal men anses ej korrekt i formella sammanhang. A (am) är present indicative, fel. D (had been) hör till third conditional."
+    },
+    {
+      "id": 10,
+      "question": "Which word best completes the sentence? 'The new law was met with ___ opposition from business leaders who feared it would increase costs.'",
+      "options": {
+        "A": "feeble",
+        "B": "fierce",
+        "C": "faint",
+        "D": "fragile"
+      },
+      "correct": "B",
+      "explanation": "B är rätt – 'fierce opposition' (kraftfullt motstånd) är en naturlig kollokation och passar kontexten där företagsledare fruktar ökade kostnader. A (feeble – svagt), C (faint – svagt/knappt hörbart) och D (fragile – skört) ger en kontradiktion med den starka reaktionen som beskrivs."
+    },
+    {
+      "id": 11,
+      "question": "Read the passage:\n\n'Social media platforms argue that they are neutral conduits for information, much like telephone companies. Critics, however, contend that their algorithms actively shape what users see, making them publishers rather than mere distributors.'\n\nWhat is the critics' main argument?",
+      "options": {
+        "A": "Social media is less useful than telephone communication",
+        "B": "Platforms should be banned from using algorithms",
+        "C": "Platforms influence content and cannot claim neutrality",
+        "D": "Publishers should be regulated more strictly than distributors"
+      },
+      "correct": "C",
+      "explanation": "C är rätt – kritikerna hävdar att algoritmerna aktivt formar vad användare ser, vilket gör plattformarna till utgivare snarare än neutrala kanaler. A nämns inte. B (förbud mot algoritmer) är inte vad texten säger. D är en slutledning som inte finns i texten."
+    },
+    {
+      "id": 12,
+      "question": "Choose the correct relative pronoun: 'The report, ___ conclusions were widely disputed, was withdrawn from publication.'",
+      "options": {
+        "A": "that",
+        "B": "which",
+        "C": "whose",
+        "D": "whom"
+      },
+      "correct": "C",
+      "explanation": "C är rätt – 'whose' används som possessivt relativpronomen för att visa att slutsatserna tillhör rapporten. A (that) kan inte föregå en possessiv konstruktion på detta sätt. B (which) är inte possessivt. D (whom) refererar till personer i objektsposition."
+    },
+    {
+      "id": 13,
+      "question": "What does 'to corroborate' mean?",
+      "options": {
+        "A": "To contradict or disprove a claim",
+        "B": "To confirm or support with evidence",
+        "C": "To investigate thoroughly",
+        "D": "To publish officially"
+      },
+      "correct": "B",
+      "explanation": "B är rätt – 'to corroborate' betyder att bekräfta eller styrka något med bevis eller ytterligare information. A (motbevisa) är en antonym. C (undersöka) och D (publicera) är relaterade men felaktiga synonymer."
+    },
+    {
+      "id": 14,
+      "question": "Choose the correct sentence with 'used to' or 'would':",
+      "options": {
+        "A": "She would be a teacher before she became a doctor.",
+        "B": "She used to be a teacher before she became a doctor.",
+        "C": "She would have been a teacher before she became a doctor.",
+        "D": "She was used to be a teacher before she became a doctor."
+      },
+      "correct": "B",
+      "explanation": "B är rätt – 'used to' används för att beskriva tidigare tillstånd eller vanor som inte längre gäller. 'Would' kan inte användas för tillstånd (states), endast för upprepade handlingar. A är felaktigt eftersom 'be a teacher' är ett tillstånd. C (would have been) indikerar hypotetisk situation. D (was used to be) är grammatiskt felaktigt."
+    },
+    {
+      "id": 15,
+      "question": "Which sentence correctly uses a participle clause?",
+      "options": {
+        "A": "Walking to school, the rain started suddenly.",
+        "B": "Having submitted the application, she waited anxiously for a response.",
+        "C": "Being late, the teacher was very annoyed him.",
+        "D": "Finishing the project, it was then reviewed by the committee."
+      },
+      "correct": "B",
+      "explanation": "B är rätt – 'Having submitted the application' refererar korrekt till subjektet 'she', och tidsföljden är logisk (hon lämnade in ansökan, sedan väntade hon). A innehåller ett 'dangling participle' – det är inte gångaren som startade regnet. C har grammatiska fel. D har också ett 'dangling participle' – 'it' kan inte ha avslutat projektet."
+    },
+    {
+      "id": 16,
+      "question": "Read the passage:\n\n'The concept of 'fast fashion' has transformed clothing retail over the past two decades. While consumers benefit from lower prices and more variety, environmentalists point to the staggering amount of textile waste produced annually. Some brands are now experimenting with rental models and recycling programmes in response to growing criticism.'\n\nAccording to the text, what are brands doing to address criticism?",
+      "options": {
+        "A": "Increasing prices to reduce consumption",
+        "B": "Lobbying governments for new regulations",
+        "C": "Introducing rental and recycling schemes",
+        "D": "Reducing the variety of available clothing"
+      },
+      "correct": "C",
+      "explanation": "C är rätt – texten säger explicit att 'Some brands are now experimenting with rental models and recycling programmes'. A, B och D nämns inte i texten och är påhittade alternativ."
+    },
+    {
+      "id": 17,
+      "question": "Choose the word that is closest in meaning to 'resilient':",
+      "options": {
+        "A": "Fragile and easily damaged",
+        "B": "Able to recover quickly from difficulties",
+        "C": "Stubborn and unwilling to change",
+        "D": "Dependent on outside support"
+      },
+      "correct": "B",
+      "explanation": "B är rätt – 'resilient' betyder att ha förmågan att återhämta sig snabbt efter motgångar. A (skör) är en antonym. C (envis) förväxlar 'resilient' med 'obstinate'. D (beroende) är också fel."
+    },
+    {
+      "id": 18,
+      "question": "Which version of the sentence is most formal and appropriate for an academic essay?",
+      "options": {
+        "A": "Loads of studies show that exercise is good for you.",
+        "B": "Lots of studies have shown that exercise helps people.",
+        "C": "Numerous studies have demonstrated that physical activity yields significant health benefits.",
+        "D": "A bunch of studies are saying that working out is pretty healthy."
+      },
+      "correct": "C",
+      "explanation": "C är rätt – 'Numerous studies have demonstrated' och 'yields significant health benefits' är formella akademiska uttryck. A och D använder informella ord som 'loads of' och 'a bunch of'. B är mer neutral men 'lots of' och 'helps people' är fortfarande för informella för ett akademiskt essay."
+    },
+    {
+      "id": 19,
+      "question": "Choose the correct form: 'The committee decided to postpone ___ the budget until next month.'",
+      "options": {
+        "A": "to discuss",
+        "B": "discuss",
+        "C": "discussing",
+        "D": "having discussed"
+      },
+      "correct": "C",
+      "explanation": "C är rätt – efter 'postpone' används alltid gerundium (-ing form). A (to discuss) är infinitiv och kan inte följa 'postpone'. B (discuss) är basform och grammatiskt inkorrekt här. D (having discussed) indikerar en avslutad handling, vilket inte passar i kontexten."
+    },
+    {
+      "id": 20,
+      "question": "What does the prefix 'mis-' mean in words like 'misinterpret', 'mislead' and 'misjudge'?",
+      "options": {
+        "A": "Again or repeatedly",
+        "B": "Before or in advance",
+        "C": "Wrongly or badly",
+        "D": "Not or opposite of"
+      },
+      "correct": "C",
+      "explanation": "C är rätt – prefixet 'mis-' betyder 'fel' eller 'dåligt': misinterpret (tolka fel), mislead (vilseleda), misjudge (felbedöma). A (igen) gäller 're-'. B (före) gäller 'pre-'. D (inte) gäller 'un-' eller 'in-'."
+    },
+    {
+      "id": 21,
+      "question": "Read the passage:\n\n'When psychologist Carol Dweck introduced the concept of a 'growth mindset', she argued that individuals who believe their abilities can be developed through dedication and hard work achieve more than those who see their talents as fixed. Schools worldwide have since adopted her framework, though some researchers caution against oversimplifying her findings.'\n\nWhat is one concern raised in the text?",
+      "options": {
+        "A": "Dweck's research has not been replicated",
+        "B": "Schools are spending too much money on the framework",
+        "C": "The concept may be applied in an oversimplified way",
+        "D": "Growth mindset only works for certain age groups"
+      },
+      "correct": "C",
+      "explanation": "C är rätt – texten nämner att 'some researchers caution against oversimplifying her findings'. A (ej replicerats) nämns inte. B (pengar) nämns inte. D (åldersgrupper) nämns inte heller."
+    },
+    {
+      "id": 22,
+      "question": "Choose the correct article: '___ honesty is the best policy, but ___ honesty shown by the witness was remarkable.'",
+      "options": {
+        "A": "The / a",
+        "B": "A / the",
+        "C": "– / the",
+        "D": "The / –"
+      },
+      "correct": "C",
+      "explanation": "C är rätt – 'Honesty is the best policy' är ett ordspråk som talar om ett abstrakt begrepp i allmänhet, och tar inget artikel. 'The honesty shown by the witness' är specifik ärlighet i ett specifikt fall och tar 'the'. A, B och D har felaktiga artiklar i en eller båda positionerna."
+    },
+    {
+      "id": 23,
+      "question": "Which word correctly completes the collocation: 'to ___ a conclusion'?",
+      "options": {
+        "A": "make",
+        "B": "do",
+        "C": "reach",
+        "D": "get"
+      },
+      "correct": "C",
+      "explanation": "C är rätt – den korrekta kollokationen på engelska är 'to reach a conclusion' (dra en slutsats). A (make), B (do) och D (get) är inte idiomatiska i denna kombination, även om de kan verka logiska för en svensk talare som tänker på 'göra' eller 'nå'."
+    },
+    {
+      "id": 24,
+      "question": "Choose the sentence where the passive voice is used correctly and appropriately:",
+      "options": {
+        "A": "The mistake was made by someone it.",
+        "B": "The new bridge will be opened by the mayor next spring.",
+        "C": "The report was being written it by the team.",
+        "D": "A solution has found by the engineers."
+      },
+      "correct": "B",
+      "explanation": "B är rätt – 'will be opened by the mayor' är korrekt passivform (will be + past participle). A har ett överflödigt 'it'. C har ett felaktigt inlagt 'it'. D saknar hjälpverbet 'been' (should be 'has been found')."
+    },
+    {
+      "id": 25,
+      "question": "What is the tone of the following excerpt? 'The government's so-called 'green initiative' is little more than a carefully packaged public relations exercise, designed to appease voters while doing precious little for the environment.'",
+      "options": {
+        "A": "Neutral and informative",
+        "B": "Enthusiastic and supportive",
+        "C": "Critical and sarcastic",
+        "D": "Confused and uncertain"
+      },
+      "correct": "C",
+      "explanation": "C är rätt – frasen 'so-called' (påstådda), 'little more than', 'carefully packaged PR exercise' och 'doing precious little' indikerar en klart kritisk och ironisk ton. A (neutral) stämmer inte – texten är tydligt partisk. B (entusiastisk) är motsatsen. D (förvirrad) stämmer inte heller."
+    },
+    {
+      "id": 26,
+      "question": "Choose the correct sentence:",
+      "options": {
+        "A": "She suggested to go to the cinema.",
+        "B": "She suggested going to the cinema.",
+        "C": "She suggested that they go to cinema.",
+        "D": "She suggested them going to the cinema."
+      },
+      "correct": "B",
+      "explanation": "B är rätt – 'suggest' följs av gerundium (-ing) eller en 'that'-sats med subjunctive. A är fel eftersom 'suggest' inte kan följas av infinitiv med 'to'. C saknar artikel ('the cinema'). D är grammatiskt inkorrekt."
+    },
+    {
+      "id": 27,
+      "question": "Read the passage:\n\n'Despite the proliferation of digital communication tools, many organisations are rediscovering the value of face-to-face interaction. Studies suggest that nuanced conversations, creative brainstorming and trust-building are significantly more effective in person than via video calls or messaging apps.'\n\nWhat conclusion can be drawn from this passage?",
+      "options": {
+        "A": "Digital communication tools have become outdated",
+        "B": "Video calls are ineffective for all types of communication",
+        "C": "Some communication goals are better served by physical presence",
+        "D": "Organisations should stop using digital tools entirely"
+      },
+      "correct": "C",
+      "explanation": "C är rätt – texten säger att nyanserade samtal, kreativt tänkande och förtroende byggs bättre ansikte mot ansikte, dvs. vissa kommunikationsmål gynnas av fysisk närvaro. A (föråldrade) är en överdrift. B (video calls ineffective for all) är en överdrift. D (sluta använda digitala verktyg) stöds inte av texten."
+    },
+    {
+      "id": 28,
+      "question": "Choose the word that does NOT belong in the group:",
+      "options": {
+        "A": "eloquent",
+        "B": "articulate",
+        "C": "fluent",
+        "D": "reticent"
+      },
+      "correct": "D",
+      "explanation": "D är rätt – 'reticent' betyder tystlåten eller ovillig att tala, och skiljer sig från de övriga. A (eloquent – vältalig), B (articulate – välformulerad) och C (fluent – flytande) handlar alla om att kommunicera väl och tydligt. 'Reticent' är semantiskt motsatt dessa ord."
+    },
+    {
+      "id": 29,
+      "question": "Choose the correct punctuation: 'The results however were inconclusive and further research is needed.'",
+      "options": {
+        "A": "The results, however were inconclusive, and further research is needed.",
+        "B": "The results, however, were inconclusive, and further research is needed.",
+        "C": "The results however, were inconclusive and, further research is needed.",
+        "D": "The results however were inconclusive, and further research is needed."
+      },
+      "correct": "B",
+      "explanation": "B är rätt – 'however' som adverbial inskott ska omges av kommatecken på båda sidor: 'The results, however, were inconclusive'. Kommatecknet före 'and' är korrekt för att separera två huvudsatser. A saknar ett kommatecken efter 'however'. C och D har felaktig kommaplacering."
+    },
+    {
+      "id": 30,
+      "question": "Which sentence demonstrates the correct use of 'although' vs. 'despite'?",
+      "options": {
+        "A": "Despite she was tired, she finished the project.",
+        "B": "Although her tiredness, she finished the project.",
+        "C": "Despite being tired, she finished the project.",
+        "D": "Although of her tiredness, she finished the project."
+      },
+      "correct": "C",
+      "explanation": "C är rätt – 'despite' följs av en nominalfras eller gerundium ('despite being tired'), aldrig av en subjekt-verb-konstruktion. A är fel eftersom 'despite' inte kan följa med en fullständig bisats med subjekt och verb. B är fel – 'although' måste följas av en fullständig bisats. D är fel – 'although of' är inte en korrekt konstruktion."
+    }
+  ]
+}

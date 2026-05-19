@@ -1,0 +1,247 @@
+{
+  "subject": "historia1",
+  "category": "gym2",
+  "generated": "2026-05-19",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Vilken händelse brukar historiker ofta ange som den franska revolutionens startpunkt år 1789?",
+      "options": {
+        "A": "Kung Ludvig XVI avrättades på giljotinen",
+        "B": "Stormningen av Bastiljen den 14 juli",
+        "C": "Nationalförsamlingen antog Förklaring om människans och medborgarens rättigheter",
+        "D": "Napoleon Bonaparte tog makten genom en statskupp"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom stormningen av Bastiljen den 14 juli 1789 symboliserade folkets uppror mot kungamakten och ses som revolutionens startskott. A är fel eftersom avrättningen skedde 1793. C inträffade i augusti 1789, alltså efter revolutionens start. D skedde 1799, tio år senare."
+    },
+    {
+      "id": 2,
+      "question": "Vad menas med begreppet 'källkritik' inom historieämnet?",
+      "options": {
+        "A": "Att man kritiserar historiker som skrivit felaktiga böcker",
+        "B": "Att man undersöker var ett vattendrag har sitt ursprung",
+        "C": "Att man granskar en källas äkthet, trovärdighet, tendens och beroende",
+        "D": "Att man jämför olika länders syn på samma historiska händelse"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom källkritik är en metod där man systematiskt granskar en historisk källas äkthet (är den äkta?), trovärdighet (är uppgifterna tillförlitliga?), tendens (finns det ett syfte att vinkla?) och beroende (är källan självständig?). A, B och D beskriver andra aktiviteter som inte är källkritik i historievetenskaplig mening."
+    },
+    {
+      "id": 3,
+      "question": "Vilket av följande påståenden beskriver bäst merkantilismen som ekonomisk idé under 1600–1700-talet?",
+      "options": {
+        "A": "Frihandel mellan nationer skulle gynna alla parter",
+        "B": "Staten skulle kontrollera ekonomin för att maximera landets rikedom, främst genom exportöverskott",
+        "C": "Individens frihet på marknaden var viktigare än statens ingripanden",
+        "D": "Jordbruket var ekonomins viktigaste sektor och grunden för nationell välstånd"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom merkantilismen förespråkade statlig styrning av ekonomin med målet att bygga upp ett handelsöverskott och samla ädelmetaller. A beskriver frihandelsteorin (Adam Smith). C liknar liberalekonomin. D syftar på fysiokraternas idéer om jordbruket."
+    },
+    {
+      "id": 4,
+      "question": "Under den industriella revolutionen i England på 1800-talet uppstod nya samhällsproblem. Vilket av följande var ett vanligt socialt problem i de framväxande industristäderna?",
+      "options": {
+        "A": "Brist på jordbruksmark orsakade svält på landsbygden",
+        "B": "Trångboddhet, dålig sanitet och barnarbete i fabrikerna",
+        "C": "Överproduktion av lyxvaror som inte gick att sälja",
+        "D": "Brist på råvaror eftersom kolet tog slut"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom urbaniseringen under industrialismen skapade kraftigt trångboddhet, undermålig sanitet och utbredd fattigdom. Barnarbete var vanligt förekommande i fabriker och gruvor. A handlar om landsbygden, inte städerna. C och D stämmer inte med den historiska verkligheten under denna period."
+    },
+    {
+      "id": 5,
+      "question": "Vilken av följande händelser inträffade FÖRST i tid?",
+      "options": {
+        "A": "Den amerikanska självständighetsförklaringen",
+        "B": "Den franska revolutionen",
+        "C": "Napoleonkrigen",
+        "D": "Den ryska revolutionen"
+      },
+      "correct": "A",
+      "explanation": "A är rätt eftersom den amerikanska självständighetsförklaringen undertecknades 1776. Den franska revolutionen startade 1789 (B), Napoleonkrigen pågick 1803–1815 (C), och den ryska revolutionen ägde rum 1917 (D). Kronologiskt är ordningen A → B → C → D."
+    },
+    {
+      "id": 6,
+      "question": "Vad innebar 'enclosures' (inhägnaderna) i England under 1700–1800-talet?",
+      "options": {
+        "A": "Att engelska städer omgavs av murar för att skydda mot invasion",
+        "B": "Att kyrkan stängde av sina marker för allmänheten",
+        "C": "Att gemensamma bymarker stängslades in och blev privat ägo, vilket drev bönder från landsbygden",
+        "D": "Att fabriksägarna byggde inhägnade bostadsområden för sina arbetare"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom enclosures innebar att tidigare gemensamma marker (commons) privatiserades och stängslades in. Detta tvingade många bönder som levt av gemensamma marker att söka arbete i städernas fabriker, vilket bidrog till industrialismens arbetskraftsförsörjning. A, B och D är felaktiga beskrivningar av fenomenet."
+    },
+    {
+      "id": 7,
+      "question": "Vilket av följande källkritiska begrepp syftar på risken att en källa återger information den fått från en annan källa, snarare än egna iakttagelser?",
+      "options": {
+        "A": "Tendens",
+        "B": "Äkthet",
+        "C": "Beroende",
+        "D": "Samtidighet"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom 'beroende' (även kallat referat) syftar på det källkritiska problemet att en källa inte är självständig utan härleder sin information från en annan källa. A (tendens) handlar om källans avsikt att vinkla information. B (äkthet) handlar om huruvida källan är genuin. D (samtidighet) handlar om hur nära i tid källan är händelsen."
+    },
+    {
+      "id": 8,
+      "question": "Vilket år fick kvinnor i Sverige allmän rösträtt på lika villkor som män i riksdagsval?",
+      "options": {
+        "A": "1909",
+        "B": "1919",
+        "C": "1921",
+        "D": "1945"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom svenska kvinnor fick allmän och lika rösträtt 1921, då de för första gången röstade i riksdagsvalet. 1909 fick (vissa) män utökad rösträtt. 1919 beslutade riksdagen om rösträtten för kvinnor, men det genomfördes formellt i valet 1921. 1945 är felaktigt."
+    },
+    {
+      "id": 9,
+      "question": "Vad var huvudorsaken till att det Osmanska riket kallades 'Europas sjuke man' under 1800-talet?",
+      "options": {
+        "A": "Landet drabbades av upprepade epidemier och svältkatastrofer",
+        "B": "Riket förlorade gradvis territorier och ekonomisk makt och hade svårt att hålla samman",
+        "C": "De osmanska sultanerna var mentalt sjuka och oförmögna att regera",
+        "D": "Landet saknade militär och kunde inte försvara sig"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom uttrycket 'Europas sjuke man' syftade på det Osmanska rikets politiska och militära försvagning, nationalismens uppgång bland dess folk, territorialförluster på Balkan och i Nordafrika samt dess ekonomiska beroende av europeiska stormakter. A, C och D är förenklade eller felaktiga förklaringar."
+    },
+    {
+      "id": 10,
+      "question": "Vilken ideologi förespråkade att arbetarklassen skulle ta kontroll över produktionsmedlen och avskaffa det kapitalistiska systemet?",
+      "options": {
+        "A": "Liberalismen",
+        "B": "Konservatismen",
+        "C": "Socialismen",
+        "D": "Nationalismen"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom socialismen, och särskilt marxistisk socialism, förespråkade att produktionsmedlen (fabriker, mark etc.) skulle ägas kollektivt av arbetarna och att kapitalismen skulle avskaffas. A (liberalismen) förespråkade individens frihet och marknadsekonomi. B (konservatismen) värnade om det bestående samhällsordningen. D (nationalismen) handlade om folkens självbestämmande, inte ekonomisk organisation."
+    },
+    {
+      "id": 11,
+      "question": "Vad innebar 'Wienkongressen' 1814–1815?",
+      "options": {
+        "A": "Europeiska stormakter delade upp Afrika mellan sig",
+        "B": "Europeiska stormakter omritade Europas karta efter Napoleons fall och försökte återställa den gamla ordningen",
+        "C": "Österrike och Preussen bildade en gemensam stat",
+        "D": "Fredsavtal slöts som avslutade det trettioåriga kriget"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom Wienkongressen samlade Europas stormakter (Österrike, Preussen, Ryssland, Storbritannien m.fl.) för att omorganisera Europa efter Napoleonkrigen. Man ville återupprätta 'balansen' och monarkiernas makt (restaurationspolitik). A syftar på Berlinkonferensen 1884–85. C är felaktigt. D syftar på Westfaliska freden 1648."
+    },
+    {
+      "id": 12,
+      "question": "Vilket av följande är ett exempel på en PRIMÄRKÄLLA i historisk forskning?",
+      "options": {
+        "A": "En lärobok om andra världskriget skriven 2010",
+        "B": "En dokumentärfilm om Hitlers uppgång gjord 1995",
+        "C": "En dagbok skriven av en tysk soldat under andra världskriget",
+        "D": "En historikerdebatt om Förintelsens orsaker publicerad 2018"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom en primärkälla är ett material som härstammar direkt från den tidsperiod eller händelse man studerar. En soldat som skrev dagbok under kriget var ett direkt vittne. A, B och D är sekundärkällor – de skapades långt efter händelserna och bygger på tolkning av tidigare material."
+    },
+    {
+      "id": 13,
+      "question": "Vilken av följande händelser var en direkt utlösande faktor till första världskriget 1914?",
+      "options": {
+        "A": "Tysklands invasion av Polen",
+        "B": "Mordet på den österrikisk-ungerske tronföljaren Franz Ferdinand i Sarajevo",
+        "C": "Rysslands revolution och kommunisternas maktövertagande",
+        "D": "Italiens angrepp på Etiopien"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom attentatet mot Franz Ferdinand den 28 juni 1914 i Sarajevo utlöste en diplomatisk kris som via allianserna ledde till krigsutbrott. A syftar på Tysklands invasion av Polen 1939 som utlöste andra världskriget. C (ryska revolutionen) skedde 1917. D (Italiens angrepp på Etiopien) skedde 1935."
+    },
+    {
+      "id": 14,
+      "question": "Vad utmärkte det feodala systemet i Västeuropa under medeltiden?",
+      "options": {
+        "A": "Fri handel och ett starkt centraliserat statsvälde",
+        "B": "Ett hierarkiskt system av lojalitet och tjänster där mark utbyttes mot militärtjänst och skydd",
+        "C": "Demokratisk styrelse där bönder och adelsmän hade lika rösträtt",
+        "D": "Kyrkan kontrollerade all mark och fördelade den till folket"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom feodalismen byggde på ett hierarkiskt system: kungen gav adelsmän (vasaller) mark (förläningar) i utbyte mot militärtjänst och lojalitet, och bönderna (livegna) arbetade på marken mot skydd. A beskriver ett modernt statsväsen. C är felaktigt för medeltiden. D är en överdrift av kyrkans roll."
+    },
+    {
+      "id": 15,
+      "question": "Vilken av följande beskrivningar stämmer bäst in på kolonialismens ekonomiska system under 1800-talet?",
+      "options": {
+        "A": "Kolonierna fick behålla sina naturresurser och moderniserades på lika villkor som Europa",
+        "B": "Råvaror exporterades från kolonierna till Europa, och bearbetade varor såldes tillbaka till kolonierna",
+        "C": "Kolonierna bedrev fri handel med varandra utan inblandning från moderlandet",
+        "D": "Koloniseringen syftade främst till att sprida demokrati och mänskliga rättigheter"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom det koloniala ekonomiska systemet grundades på att kolonierna levererade råvaror (bomull, socker, mineraler etc.) till Europa, som sedan tillverkade och sålde industriprodukter tillbaka – ett ojämlikt utbyte som berikade moderlanden. A, C och D missar det exploaterande och asymmetriska i det koloniala systemet."
+    },
+    {
+      "id": 16,
+      "question": "Vad menas med 'historiskt perspektiv' eller 'diakront perspektiv' i historieämnet?",
+      "options": {
+        "A": "Att man studerar en historisk händelse ur flera länders synvinkel samtidigt",
+        "B": "Att man analyserar hur fenomen och strukturer förändras och utvecklas över tid",
+        "C": "Att man jämför levnadsvillkor för olika samhällsklasser under samma tidsperiod",
+        "D": "Att man kritiskt granskar hur historiker har tolkat händelser"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom det diakrona (tidsmässiga) perspektivet handlar om att följa ett fenomen, en struktur eller idé genom historien och analysera förändring och kontinuitet över tid. A beskriver ett multiperspektiv. C liknar ett synkront (tvärsnitt) perspektiv. D handlar om historiografi."
+    },
+    {
+      "id": 17,
+      "question": "Vilket påstående om den svenska demokratiutvecklingen under 1900-talets första hälft är KORREKT?",
+      "options": {
+        "A": "Sverige har haft demokrati utan avbrott sedan 1865 då tvåkammarriksdagen bildades",
+        "B": "Den allmänna rösträtten för män och proportionellt valsystem genomfördes 1909, och 1921 fick även kvinnor rösträtt",
+        "C": "Sverige övergick till demokrati först efter andra världskriget som ett resultat av internationellt tryck",
+        "D": "Socialdemokraterna grundade demokratin i Sverige genom att ensamma driva igenom reformen 1917"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom 1909 genomfördes allmän rösträtt för män (med proportionellt valsystem) och 1921 fick kvinnor lika rösträtt. A är fel – 1865 var ett ståndsbaserat system, inte demokrati. C är fel – demokratin kom gradvis dessförinnan. D är missvisande då demokratin var resultatet av flera partiers och rörelsers arbete, inklusive liberaler och rösträttsrörelsen."
+    },
+    {
+      "id": 18,
+      "question": "Vilken av följande beskriver bäst den nationalistiska idéns kärna som växte fram under 1800-talet?",
+      "options": {
+        "A": "Att alla folk borde underordna sig en universell världsregering",
+        "B": "Att folk med gemensamt språk, kultur och historia har rätt att bilda egna stater",
+        "C": "Att ekonomisk tillväxt och frihandel binder samman nationer till fred",
+        "D": "Att aristokratin och kungamakten är det naturliga sättet att organisera samhället"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom nationalismen under 1800-talet utgick från tanken om folkens självbestämmande – att nationer definierade av gemensamt språk, kultur, historia och etnisk tillhörighet hade rätt till egna stater. A strider mot nationalismens idé om staternas självständighet. C liknar liberalismens frihandelsidé. D beskriver konservativ aristokratisk ideologi."
+    },
+    {
+      "id": 19,
+      "question": "En historiker hävdar att Hitlers uppgång till makten enbart berodde på den ekonomiska krisen efter 1929. Vilket källkritiskt eller historievetenskapligt problem är tydligast i detta påstående?",
+      "options": {
+        "A": "Påståendet baseras på en förfalskad källa",
+        "B": "Historikern har inte tillgång till samtida källor",
+        "C": "Påståendet ger en monokausal (enkelorsaks-) förklaring till en komplex historisk process",
+        "D": "Påståendet är skrivet av en icke-professionell historiker"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom historiker betonar att komplexa händelser som Hitlers maktövertagande hade flera samverkande orsaker: ekonomisk kris, Versaillesfredens villkor, svaghet i Weimarrepubliken, antisemitisk och nationalistisk tradition, propaganda m.m. Att hänvisa till en enda orsak (monokausalt) är ett metodologiskt problem. A, B och D är inte de centrala problemen med påståendet."
+    },
+    {
+      "id": 20,
+      "question": "Vad var huvudsyftet med Nationernas förbund (NF) som grundades 1919 efter första världskriget?",
+      "options": {
+        "A": "Att fördela Tysklands kolonier mellan segrarmakterna",
+        "B": "Att skapa en militärallians mot kommunistiska stater",
+        "C": "Att främja internationellt samarbete och förhindra framtida krig genom kollektiv säkerhet",
+        "D": "Att administrera de ockuperade delarna av Tyskland efter kriget"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom Nationernas förbund grundades med syfte att lösa internationella konflikter fredligt och skapa ett system för kollektiv säkerhet – om ett land angrep ett annat skulle alla NF-medlemmar reagera gemensamt. A syftar på mandatsystemet som var en separat del av Versaillesfreden. B är felaktigt. D beskriver en annan funktion som tillhörde segrarmakterna direkt, inte NF."
+    }
+  ]
+}

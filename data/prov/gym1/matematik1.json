@@ -1,0 +1,367 @@
+{
+  "subject": "matematik1",
+  "category": "gym1",
+  "generated": "2026-05-19",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Lös ekvationen 3x + 7 = 22.",
+      "options": {
+        "A": "x = 3",
+        "B": "x = 5",
+        "C": "x = 7",
+        "D": "x = 9"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom 3x = 22 - 7 = 15, vilket ger x = 15/3 = 5. Alternativ A ger 3·3+7=16≠22, C ger 3·7+7=28≠22 och D ger 3·9+7=34≠22."
+    },
+    {
+      "id": 2,
+      "question": "En vara kostar 450 kr. Priset höjs med 12 %. Vad kostar varan efter höjningen?",
+      "options": {
+        "A": "462 kr",
+        "B": "494 kr",
+        "C": "504 kr",
+        "D": "516 kr"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom 450 · 1,12 = 504 kr. Alternativ A är bara 450+12=462 (adderar procentsatsen direkt), B är 450·1,098≈494 (fel beräkning) och D är 450·1,147≈516 (fel faktor)."
+    },
+    {
+      "id": 3,
+      "question": "Vilken är riktningskoefficienten för linjen som går genom punkterna (2, 3) och (6, 11)?",
+      "options": {
+        "A": "1",
+        "B": "1,5",
+        "C": "2",
+        "D": "2,5"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom k = (11-3)/(6-2) = 8/4 = 2. Alternativ A, B och D ger fel kvot av skillnaden i y-värden delat med skillnaden i x-värden."
+    },
+    {
+      "id": 4,
+      "question": "Medianen i talföljden 4, 7, 9, 2, 6, 8, 5 är:",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "7",
+        "D": "8"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom talföljden sorterad är 2, 4, 5, 6, 7, 8, 9 och mittvärdet (position 4 av 7) är 6. Medianen är alltså 6, inte medelvärdet eller något annat mått."
+    },
+    {
+      "id": 5,
+      "question": "Förenkla uttrycket 4a + 3b - 2a + 5b.",
+      "options": {
+        "A": "2a + 8b",
+        "B": "6a + 8b",
+        "C": "2a + 2b",
+        "D": "6a + 2b"
+      },
+      "correct": "A",
+      "explanation": "A är rätt eftersom 4a - 2a = 2a och 3b + 5b = 8b, vilket ger 2a + 8b. De andra alternativen blandar ihop koefficienter för a- och b-termerna felaktigt."
+    },
+    {
+      "id": 6,
+      "question": "En butik säljer en jacka med 30 % rabatt. Det ordinarie priset är 800 kr. Vad är priset efter rabatten?",
+      "options": {
+        "A": "240 kr",
+        "B": "530 kr",
+        "C": "560 kr",
+        "D": "770 kr"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom 800 · (1 - 0,30) = 800 · 0,70 = 560 kr. Alternativ A är bara rabattbeloppet (240 kr), B är fel (800-270), D subtraherar bara 30 kr i stället för 30 %."
+    },
+    {
+      "id": 7,
+      "question": "Vilket av följande uttryck är ekvivalent med 2(3x - 4) + 5x?",
+      "options": {
+        "A": "11x - 4",
+        "B": "11x - 8",
+        "C": "6x - 8 + 5x",
+        "D": "11x + 8"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom 2·3x - 2·4 + 5x = 6x - 8 + 5x = 11x - 8. Alternativ A glömmer att multiplicera -4 med 2, C är inte förenklat, D har fel tecken på konstanten."
+    },
+    {
+      "id": 8,
+      "question": "En linjär funktion har ekvationen y = 2x + 3. Vilket y-värde ger x = -2?",
+      "options": {
+        "A": "-7",
+        "B": "-1",
+        "C": "1",
+        "D": "7"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom y = 2·(-2) + 3 = -4 + 3 = -1. Alternativ A använder y = -2·(-2)-3 = -7 (fel tecken), C är -1+2=1 (räknefel) och D är 2·2+3=7 (ignorerar minustecknet)."
+    },
+    {
+      "id": 9,
+      "question": "Av 200 elever på en skola cyklar 35 % till skolan. Hur många elever är det?",
+      "options": {
+        "A": "35",
+        "B": "60",
+        "C": "70",
+        "D": "80"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom 200 · 0,35 = 70 elever. Alternativ A är procentsatsen, B är 200·0,30, och D är 200·0,40."
+    },
+    {
+      "id": 10,
+      "question": "Lös olikheten 2x - 5 > 7.",
+      "options": {
+        "A": "x > 1",
+        "B": "x > 6",
+        "C": "x > 7",
+        "D": "x > 12"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom 2x > 7 + 5 = 12, alltså x > 6. Alternativ A löser 2x - 5 > -3, C och D är felaktiga algebraiska steg."
+    },
+    {
+      "id": 11,
+      "question": "Medelvärdet av talen 8, 12, 6, 14 och 10 är:",
+      "options": {
+        "A": "9",
+        "B": "10",
+        "C": "11",
+        "D": "12"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom (8+12+6+14+10)/5 = 50/5 = 10. Alternativ A, C och D ger fel summering eller division."
+    },
+    {
+      "id": 12,
+      "question": "En rät linje har ekvationen y = -3x + 6. Var skär linjen x-axeln?",
+      "options": {
+        "A": "x = -2",
+        "B": "x = 1",
+        "C": "x = 2",
+        "D": "x = 6"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom vi sätter y = 0: 0 = -3x + 6, 3x = 6, x = 2. Alternativ A ger y=-3·(-2)+6=12≠0, B ger y=-3+6=3≠0 och D är y-interceptet, inte x-interceptet."
+    },
+    {
+      "id": 13,
+      "question": "Priset på en TV steg från 4 000 kr till 4 600 kr. Med hur många procent steg priset?",
+      "options": {
+        "A": "6 %",
+        "B": "13 %",
+        "C": "15 %",
+        "D": "18 %"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom procentuell ökning = (4600-4000)/4000 · 100 = 600/4000 · 100 = 15 %. Alternativ A är 600/4600·100≈13% (fel bas), B och D bygger på felaktiga beräkningar."
+    },
+    {
+      "id": 14,
+      "question": "Vilket uttryck beskriver nth termen i talföljden 3, 7, 11, 15, ...?",
+      "options": {
+        "A": "3n",
+        "B": "4n - 1",
+        "C": "3n + 1",
+        "D": "2n + 1"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom differensen är 4 och första termen är 3: a_n = 3 + (n-1)·4 = 4n - 1. Kontroll: n=1→3, n=2→7, n=3→11. De andra alternativen ger fel värden."
+    },
+    {
+      "id": 15,
+      "question": "I ett diagram visas att 40 elever av 160 föredrar idrott. Hur många procent av eleverna föredrar idrott?",
+      "options": {
+        "A": "20 %",
+        "B": "25 %",
+        "C": "30 %",
+        "D": "40 %"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom 40/160 · 100 = 25 %. Alternativ A är 40/200·100, C och D ger andra fel kvoter."
+    },
+    {
+      "id": 16,
+      "question": "Lös ekvationssystemet: x + y = 8 och x - y = 2.",
+      "options": {
+        "A": "x = 3, y = 5",
+        "B": "x = 4, y = 4",
+        "C": "x = 5, y = 3",
+        "D": "x = 6, y = 2"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom addition av ekvationerna ger 2x = 10, x = 5, och sedan y = 8 - 5 = 3. Alternativ A har x+y=8 och x-y=-2 (fel), B har x-y=0, D har x+y=8 men x-y=4."
+    },
+    {
+      "id": 17,
+      "question": "Vilket av följande är en funktion av x med riktningskoefficient -2 och y-intercept 5?",
+      "options": {
+        "A": "y = 2x + 5",
+        "B": "y = -2x - 5",
+        "C": "y = 5x - 2",
+        "D": "y = -2x + 5"
+      },
+      "correct": "D",
+      "explanation": "D är rätt eftersom formen y = kx + m med k = -2 och m = 5 ger y = -2x + 5. Alternativ A har fel riktningskoefficient, B har fel y-intercept, C har utbytta k och m."
+    },
+    {
+      "id": 18,
+      "question": "En bil köptes för 120 000 kr. Den minskar i värde med 15 % per år. Vilket är bilens värde efter 1 år?",
+      "options": {
+        "A": "18 000 kr",
+        "B": "100 000 kr",
+        "C": "102 000 kr",
+        "D": "105 000 kr"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom 120 000 · (1 - 0,15) = 120 000 · 0,85 = 102 000 kr. Alternativ A är bara minskningen (18 000), B är 120 000·(1-1/6), D är 120 000·0,875."
+    },
+    {
+      "id": 19,
+      "question": "Vilket värde på x gör att uttrycket (x + 3)/4 = 2 stämmer?",
+      "options": {
+        "A": "x = 2",
+        "B": "x = 5",
+        "C": "x = 8",
+        "D": "x = 11"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom (x+3) = 2·4 = 8, alltså x = 8 - 3 = 5. Alternativ A ger (2+3)/4=5/4≠2, C ger (8+3)/4=11/4≠2, D ger (11+3)/4=14/4≠2."
+    },
+    {
+      "id": 20,
+      "question": "Vilken är typvärdet (modet) i datamaterialet: 3, 5, 7, 5, 8, 3, 5, 9?",
+      "options": {
+        "A": "3",
+        "B": "5",
+        "C": "7",
+        "D": "9"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom 5 förekommer tre gånger (position 2, 4 och 7), vilket är flest gånger. Talet 3 förekommer två gånger, 7 och 9 en gång var."
+    },
+    {
+      "id": 21,
+      "question": "En linjär funktion passerar genom origo och punkten (4, 10). Vilken är funktionens ekvation?",
+      "options": {
+        "A": "y = 2x",
+        "B": "y = 2,5x",
+        "C": "y = 4x",
+        "D": "y = 10x"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom riktningskoefficienten k = 10/4 = 2,5 och m = 0 (passerar origo), vilket ger y = 2,5x. Alternativ A ger y(4)=8≠10, C ger y(4)=16≠10, D ger y(4)=40≠10."
+    },
+    {
+      "id": 22,
+      "question": "Vilket tal är 40 % av 250?",
+      "options": {
+        "A": "60",
+        "B": "80",
+        "C": "100",
+        "D": "120"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom 40/100 · 250 = 0,40 · 250 = 100. Alternativ A är 24 % av 250, B är 32 % av 250, D är 48 % av 250."
+    },
+    {
+      "id": 23,
+      "question": "Förenkla bråket (6x² + 4x) / (2x).",
+      "options": {
+        "A": "3x + 4",
+        "B": "3x + 2",
+        "C": "6x + 4",
+        "D": "3x²+ 2"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom (6x² + 4x)/(2x) = 6x²/(2x) + 4x/(2x) = 3x + 2. Alternativ A glömmer dividera 4x med 2x korrekt (4x/2x=2, inte 4), C förenklar inte nämnaren alls, D har fel exponent."
+    },
+    {
+      "id": 24,
+      "question": "I en klass på 25 elever fick 8 elever betyget A. Hur stor är andelen elever med betyget A i procent?",
+      "options": {
+        "A": "8 %",
+        "B": "24 %",
+        "C": "32 %",
+        "D": "40 %"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom 8/25 · 100 = 32 %. Alternativ A är procentsatsen råt, B är 6/25·100, D är 10/25·100."
+    },
+    {
+      "id": 25,
+      "question": "Lös ekvationen 5(x - 2) = 3x + 4.",
+      "options": {
+        "A": "x = 3",
+        "B": "x = 5",
+        "C": "x = 7",
+        "D": "x = 9"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom 5x - 10 = 3x + 4, 2x = 14, x = 7. Kontroll: 5(7-2) = 25 = 3·7+4 = 25 ✓. De andra alternativen uppfyller inte ekvationen."
+    },
+    {
+      "id": 26,
+      "question": "Vilket diagram-påstående stämmer om ett lådagram (box-plot)? Lådan representerar:",
+      "options": {
+        "A": "de 50 % av data som ligger närmast medelvärdet",
+        "B": "de mittersta 50 % av data (Q1 till Q3)",
+        "C": "alla datapunkter utom extremvärden",
+        "D": "intervallet från minimum till maximum"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom lådan i ett lådagram sträcker sig från första kvartilen (Q1) till tredje kvartilen (Q3), vilket innebär att de mittersta 50 % av datavärden finns representerade. De andra alternativen beskriver fel delar av lådagrammet."
+    },
+    {
+      "id": 27,
+      "question": "En produkt säljs för 680 kr efter att ett påslag på 36 % lagts på inköpspriset. Vad är inköpspriset?",
+      "options": {
+        "A": "435 kr",
+        "B": "445 kr",
+        "C": "500 kr",
+        "D": "544 kr"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom inköpspris · 1,36 = 680, alltså inköpspris = 680/1,36 = 500 kr. Alternativ A är 680/1,36 felberäknat, B och D är andra felaktiga beräkningar."
+    },
+    {
+      "id": 28,
+      "question": "Spridningsmåttet som anger den genomsnittliga avvikelsen från medelvärdet kallas:",
+      "options": {
+        "A": "Median",
+        "B": "Variationsbredd",
+        "C": "Standardavvikelse",
+        "D": "Typvärde"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom standardavvikelsen mäter hur mycket datavärden i genomsnitt avviker från medelvärdet. Median är ett lägesmått, variationsbredd är max minus min, och typvärde är det vanligaste värdet."
+    },
+    {
+      "id": 29,
+      "question": "Vilket par av linjära funktioner har parallella grafer?",
+      "options": {
+        "A": "y = 2x + 1 och y = 3x + 1",
+        "B": "y = 2x + 3 och y = 2x - 5",
+        "C": "y = -x + 4 och y = x + 4",
+        "D": "y = 3x - 2 och y = -3x + 2"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom båda linjerna y = 2x + 3 och y = 2x - 5 har samma riktningskoefficient k = 2, vilket innebär att de är parallella. Alternativ A har k=2 vs k=3, C har k=-1 vs k=1, D har k=3 vs k=-3."
+    },
+    {
+      "id": 30,
+      "question": "En familj budgeterar 2 400 kr per månad för mat. De spenderar 2 700 kr. Hur många procent överskreds budgeten med?",
+      "options": {
+        "A": "10,5 %",
+        "B": "11,1 %",
+        "C": "12,5 %",
+        "D": "13,0 %"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom överskridningen är 300 kr och procentuell ökning räknas mot budget: 300/2400 · 100 = 12,5 %. Alternativ B är 300/2700·100≈11,1% (fel bas – utgiften används som bas istället för budgeten), A och D bygger på felaktiga beräkningar."
+    }
+  ]
+}

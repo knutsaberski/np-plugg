@@ -1,0 +1,247 @@
+{
+  "subject": "engelska7",
+  "category": "gym3",
+  "generated": "2026-05-19",
+  "questions": [
+    {
+      "id": 1,
+      "question": "In Shakespeare's 'Hamlet', what is the primary function of the play-within-a-play ('The Mousetrap')?",
+      "options": {
+        "A": "To entertain the Danish court and demonstrate Hamlet's artistic interests",
+        "B": "To confirm Claudius's guilt by provoking a visible reaction from him",
+        "C": "To distract Ophelia from her growing madness",
+        "D": "To prove to Gertrude that her marriage to Claudius is illegitimate"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom Hamlet explicit förklarar sin plan: 'The play's the thing / Wherein I'll catch the conscience of the king.' Han vill provocera fram en reaktion hos Claudius som bekräftar spöktes anklagelse. A är fel – underhållning är inte syftet. C är fel – Ophelia är inte fokus. D är fel – Gertruds äktenskap ifrågasätts inte via pjäsen."
+    },
+    {
+      "id": 2,
+      "question": "Which literary device is predominantly used in the following sentence: 'The fog comes on little cat feet. It sits looking over harbor and city on silent haunches and then moves on.'?",
+      "options": {
+        "A": "Hyperbole",
+        "B": "Alliteration",
+        "C": "Extended metaphor",
+        "D": "Pathetic fallacy"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom Carl Sandburgs dikt 'Fog' använder en utvidgad metafor (extended metaphor) där dimman genomgående jämförs med en katt – den 'kommer på kattfötter', 'sitter' och 'rör sig vidare'. Hyperbole (A) innebär överdrift, vilket saknas. Alliteration (B) kräver upprepade konsonanter i rad. Pathetic fallacy (D) tillskriver naturen mänskliga känslor, vilket inte är fallet här."
+    },
+    {
+      "id": 3,
+      "question": "In academic writing, which of the following sentences uses hedging language most appropriately?",
+      "options": {
+        "A": "Climate change is definitely caused solely by human activity.",
+        "B": "The data proves that economic growth always leads to increased inequality.",
+        "C": "The findings suggest that there may be a correlation between social media use and anxiety in adolescents.",
+        "D": "It is completely impossible that other factors contributed to the result."
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom hedging (häckning) i akademisk engelska innebär att man tonar ned påståenden för att undvika att göra alltför starka anspråk. 'Suggest', 'may be' och 'correlation' är typiska hedging-uttryck. A använder 'definitely' och 'solely' vilket är alltför absolut. B använder 'proves' och 'always' – ej hedging. D är en absolut negation, inte hedging."
+    },
+    {
+      "id": 4,
+      "question": "George Orwell's 'Animal Farm' is best described as which type of literary work?",
+      "options": {
+        "A": "A Bildungsroman exploring the maturation of its animal protagonists",
+        "B": "A political allegory satirising totalitarianism and the corruption of revolutionary ideals",
+        "C": "A Gothic novel examining themes of isolation and the supernatural",
+        "D": "A picaresque novel following the adventures of a roguish hero"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom 'Animal Farm' är en politisk allegori där djuren representerar verkliga historiska figurer (t.ex. Napoleon = Stalin) och händelser från den ryska revolutionen. Orwell kritiserar hur revolutionära ideal korrumperas till totalitarism. A (Bildungsroman) handlar om personlig mognad. C (Gothic) fokuserar på det övernaturliga. D (pikaresque) handlar om en skälmaktig hjälte på äventyr."
+    },
+    {
+      "id": 5,
+      "question": "Which word best completes the following sentence in formal academic English: 'The researcher's conclusions, while intriguing, remain ______ in the absence of peer-reviewed empirical evidence.'?",
+      "options": {
+        "A": "unsure",
+        "B": "speculative",
+        "C": "guessed",
+        "D": "doubtful-like"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom 'speculative' är det korrekta akademiska uttrycket för påståenden som saknar empiriskt stöd och som bygger på spekulation snarare än bevisade fakta. 'Unsure' (A) är informellt och beskriver snarare ett subjekt som känner osäkerhet. 'Guessed' (C) är alltför informellt och kognitivt. 'Doubtful-like' (D) är ett icke-existerande akademiskt uttryck."
+    },
+    {
+      "id": 6,
+      "question": "In F. Scott Fitzgerald's 'The Great Gatsby', what does the green light at the end of Daisy's dock primarily symbolise?",
+      "options": {
+        "A": "Gatsby's envy of Tom Buchanan's social status",
+        "B": "The American Dream and Gatsby's unattainable longing for the past",
+        "C": "The corruption and moral decay of the wealthy elite",
+        "D": "Daisy's permission for Gatsby to pursue their relationship"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom det gröna ljuset är ett av romanens centrala symboler. Fitzgerald kopplar explicit samman det med drömmar och hopp: 'Gatsby believed in the green light, the orgastic future.' Det representerar den omöjliga drömmen att återvinna det förflutna och det ouppnåeliga löftet om framgång. A handlar om avundsjuka. C är mer kopplat till den gula bilen och East Egg. D saknar stöd i texten."
+    },
+    {
+      "id": 7,
+      "question": "Identify the grammatical error in the following sentence: 'Each of the students are required to submit their thesis by Friday.'",
+      "options": {
+        "A": "The use of 'required' should be replaced with 'requiring'",
+        "B": "'Each' is a singular pronoun and requires the singular verb 'is', not 'are'",
+        "C": "'Their' should be replaced with 'his or her' in all formal contexts",
+        "D": "'Submit' should be in the past tense to match 'required'"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom 'each' alltid tar singular verb på engelska, oavsett vad som följer. Korrekt mening: 'Each of the students IS required...' A är fel – 'required' är korrekt i passiv konstruktion. C är delvis omtvistat – 'their' är idag accepterat som könsneutralt singulär i modernt engelska, men felet i meningen är subjekts-verbkongruensen. D är fel – tempus är korrekt."
+    },
+    {
+      "id": 8,
+      "question": "What is the term for the rhetorical strategy where a speaker directly addresses an absent or imaginary person, concept, or object?",
+      "options": {
+        "A": "Anaphora",
+        "B": "Apostrophe",
+        "C": "Antithesis",
+        "D": "Aphorism"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom apostrophe (retorik) är den stilistiska figuren där talaren vänder sig direkt till något frånvarande, abstrakt eller dött, t.ex. 'O Death, where is thy sting?' Anaphora (A) är upprepning av ord i början av meningar. Antithesis (C) ställer motsatta idéer mot varandra. Aphorism (D) är ett kort, träffande uttryck för en sanning."
+    },
+    {
+      "id": 9,
+      "question": "Read this passage: 'It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness.' Which rhetorical device does Dickens primarily employ?",
+      "options": {
+        "A": "Chiasmus",
+        "B": "Synecdoche",
+        "C": "Anaphora combined with antithesis",
+        "D": "Litotes"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom Dickens använder både anaphora (upprepningen av 'it was the') och antithesis (kontrasten mellan 'best/worst', 'wisdom/foolishness'). Chiasmus (A) innebär omvänd spegling av fraser. Synecdoche (B) låter en del representera ett helt. Litotes (D) är en underdrift med dubbel negation, t.ex. 'not bad'."
+    },
+    {
+      "id": 10,
+      "question": "In Toni Morrison's 'Beloved', the character Beloved primarily functions as a symbol of:",
+      "options": {
+        "A": "The hope for racial reconciliation in post-Civil War America",
+        "B": "The repressed trauma of slavery and its haunting psychological legacy",
+        "C": "The failure of the Reconstruction era's political promises",
+        "D": "The spiritual connection between African and American cultural identities"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom Beloved representerar det kollektiva och personliga traumat av slaveriet – det som förträngs men aldrig kan glömmas. Morrison använder Beloved som ett fysiskt manifesterat trauma, 'rememory', som tvingar karaktärerna att konfrontera det förflutna. A fokuserar på försoning vilket inte är Beloveds funktion. C handlar om politik. D handlar om kulturell identitet, inte Beloveds primära symbolik."
+    },
+    {
+      "id": 11,
+      "question": "Which of the following best defines the term 'unreliable narrator' in literary theory?",
+      "options": {
+        "A": "A narrator who frequently changes perspective between characters",
+        "B": "A narrator whose credibility is compromised, requiring the reader to question the accuracy of the narration",
+        "C": "A narrator who tells the story in a non-chronological order",
+        "D": "A narrator who withholds information deliberately to create suspense"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom en 'unreliable narrator' är en vars trovärdighet är ifrågasatt – antingen på grund av begränsad kunskap, psykisk instabilitet, partiskhet eller lögner. Läsaren måste aktivt ifrågasätta berättarens version. A beskriver multipla perspektiv. C beskriver analepsis/prolepsis (icke-kronologisk berättelse). D är en vanlig berättarteknik men definierar inte opålitlighet."
+    },
+    {
+      "id": 12,
+      "question": "Which transitional phrase most appropriately introduces a concession in a formal argumentative essay?",
+      "options": {
+        "A": "In addition to this,",
+        "B": "As a result,",
+        "C": "Admittedly,",
+        "D": "For instance,"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom 'Admittedly' (erkännbart, visserligen) är ett typiskt concession-ord som erkänner ett motarguments giltighet innan man bemöter det, t.ex. 'Admittedly, renewable energy is costly, however...' 'In addition to this' (A) lägger till information. 'As a result' (B) anger konsekvens. 'For instance' (D) introducerar ett exempel."
+    },
+    {
+      "id": 13,
+      "question": "The narrative technique used in Virginia Woolf's 'Mrs Dalloway', where the narrative moves fluidly between characters' inner thoughts, is called:",
+      "options": {
+        "A": "Epistolary narration",
+        "B": "Stream of consciousness",
+        "C": "Third-person omniscient narration",
+        "D": "Free indirect discourse"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom Woolf är känd för stream of consciousness – en teknik som imiterar tankens flöde, associationer och inre monolog utan tydlig struktur. Epistolary narration (A) berättar via brev eller dagböcker. Third-person omniscient (C) är en berättare som vet allt men inte nödvändigtvis imiterar tankens flöde. Free indirect discourse (D) är en relaterad men distinkt teknik där berättarröst och karaktärsröst blandas utan tydliga markörer."
+    },
+    {
+      "id": 14,
+      "question": "In postcolonial literary theory, what does the term 'the Other' primarily refer to?",
+      "options": {
+        "A": "Characters in a narrative who function as antagonists",
+        "B": "The dominant colonising culture's construction of colonised peoples as fundamentally different and inferior",
+        "C": "Alternative endings or narrative possibilities within a text",
+        "D": "The spiritual or supernatural elements present in indigenous storytelling traditions"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom 'the Other' inom postkolonial teori (grundad bl.a. av Edward Said) syftar på hur den koloniserande makten konstruerar de koloniserade som fundamentalt annorlunda, exotiska och underlägsna för att legitimera kolonialism. Begreppet härrör från Hegels herr-slav-dialektik och används av Fanon och Said. A, C och D representerar inte termens teoretiska innebörd."
+    },
+    {
+      "id": 15,
+      "question": "Which of the following sentences contains a dangling modifier?",
+      "options": {
+        "A": "Running through the park, she noticed the flowers were blooming.",
+        "B": "Having submitted the report, the committee approved the budget.",
+        "C": "The students, exhausted from the exam, went home immediately.",
+        "D": "After reading the novel, the themes became clear to her."
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom participialkonstruktionen 'Having submitted the report' logiskt borde syfta på subjektet i huvudsatsen, men subjektet är 'the committee' – inte den som lämnade in rapporten. Det är en dangling modifier. I A syftar 'Running' korrekt på 'she'. I C syftar 'exhausted' korrekt på 'students'. I D är det lite tvetydigt men acceptabelt – 'After reading the novel' syftar på 'her'."
+    },
+    {
+      "id": 16,
+      "question": "What is the central argument of Matthew Arnold's concept of 'touchstones' in literary criticism?",
+      "options": {
+        "A": "Literature should be evaluated based on its commercial success and popular appeal",
+        "B": "Great literature transcends its historical context and speaks to universal human truths",
+        "C": "Excerpts from acknowledged masterpieces can serve as standards against which other works are measured",
+        "D": "The moral intention of an author is the primary criterion for judging literary quality"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom Matthew Arnold föreslog att man kan använda korta stycken från erkänt stora verk (t.ex. Homer, Dante, Shakespeare) som 'touchstones' – måttstockar – för att bedöma kvaliteten hos annan litteratur genom jämförelse. A handlar om popularitet. B är mer Northrop Fryes eller nyplatonistiska ståndpunkter. D liknar Dr Johnsons moralistiska kritik."
+    },
+    {
+      "id": 17,
+      "question": "Read this excerpt: 'The white mule she kept / Was eating out of a paper bag. / Somebody had parked it there.' This is from Sylvia Plath's 'Ariel'. What poetic technique does the abrupt, fragmented syntax primarily create?",
+      "options": {
+        "A": "A sense of calm detachment and objective observation",
+        "B": "A disorienting, tense atmosphere reflecting psychological fragmentation",
+        "C": "A celebration of rural American life and simplicity",
+        "D": "A nostalgic tone evoking childhood memories"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom Plaths fragmenterade syntax och abrupta meningar i 'Ariel' är karakteristisk för hennes konfessionella stil och speglar psykisk spänning och instabilitet. Den korta, kalla meningsstrukturen skapar desorienterande effekt. A är fel – distansen är klinisk och hotfull, inte lugn. C är en feltolkning av den rurala miljön. D saknar stöd – tonen är inte nostalgisk."
+    },
+    {
+      "id": 18,
+      "question": "In English for Specific Purposes (ESP), which register is most appropriate when writing an abstract for a scientific research paper?",
+      "options": {
+        "A": "Colloquial register with first-person narrative to engage readers personally",
+        "B": "Formal, impersonal register using passive constructions and nominalisations",
+        "C": "Semi-formal register with rhetorical questions to stimulate interest",
+        "D": "Informal register that makes complex ideas accessible to a general audience"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom vetenskapliga abstrakt kräver ett formellt, opersonligt register. Passiva konstruktioner ('was conducted', 'were analysed') och nominaliseringar ('investigation', 'determination') är kännetecken för akademisk-vetenskaplig prosa. A är för personligt och informellt. C är mer lämpat för populärvetenskap. D passar för science communication men inte för akademiska abstrakt."
+    },
+    {
+      "id": 19,
+      "question": "Which of the following best describes the difference between 'theme' and 'subject' in literary analysis?",
+      "options": {
+        "A": "Subject refers to minor narrative events, while theme refers to the main plot",
+        "B": "Subject is the general topic of a work, while theme is the specific insight or argument the work makes about that topic",
+        "C": "Theme is always explicitly stated by the narrator, while subject must be inferred",
+        "D": "Subject applies only to non-fiction, while theme applies exclusively to fiction"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom ämnet (subject) är det allmänna ämnet – t.ex. 'kärlek' eller 'krig' – medan temat (theme) är det specifika påståendet eller insikten verket gör om detta ämne, t.ex. 'kärlek leder oundvikligen till förlust'. A blandar ihop händelser med struktur. C är fel – teman är sällan explicita utan ofta implicita. D är fel – båda begreppen gäller för all litteratur."
+    },
+    {
+      "id": 20,
+      "question": "In Samuel Beckett's 'Waiting for Godot', the repeated line 'Let's go. / They do not move.' at the end of both acts is most effectively interpreted as:",
+      "options": {
+        "A": "A stage direction error that was never corrected in the published version",
+        "B": "Evidence that the characters are physically incapable of movement due to illness",
+        "C": "A theatrical embodiment of the existentialist theme of paralysis, futility and the impossibility of change",
+        "D": "A comedic device intended to provide comic relief after the drama of the preceding scenes"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom den paradoxala slutreplikens struktur – orden säger att de ska gå men handlingen visar att de stannar – är ett av teaterns mest kända uttryck för existentialistisk paralys och meningslöshet. Beckett gestaltar hur människan är fången i sin existens, oförmögen att förändra sin situation trots intentioner. A är fel. B saknar textuellt stöd. D underskattar den filosofiska tyngden – även om Beckett använder humor, är detta primärt ett meningsfullt tematiskt grepp."
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "subject": "naturkunskap1",
+  "category": "gym2",
+  "generated": "2026-05-19",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Vilket av följande ämnen är en växthusgas som i störst utsträckning bidrar till den förstärkta växthuseffekten på grund av mänsklig aktivitet?",
+      "options": {
+        "A": "Syrgas (O₂)",
+        "B": "Kväve (N₂)",
+        "C": "Koldioxid (CO₂)",
+        "D": "Argon (Ar)"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom koldioxid (CO₂) är den växthusgas som människan i störst utsträckning ökar koncentrationen av, främst genom förbränning av fossila bränslen och avskogning. Syrgas och kväve är visserligen dominerande i atmosfären men är inte växthusgaser – de absorberar inte infraröd strålning. Argon är en ädelgas och reagerar inte med strålning på ett sätt som bidrar till växthuseffekten."
+    },
+    {
+      "id": 2,
+      "question": "En person äter en måltid bestående av bröd, smör och ägg. Vilken av följande processer sker när kroppen tar upp energi från brödet?",
+      "options": {
+        "A": "Proteiner bryts ned till aminosyror i magsäcken med hjälp av saltsyra",
+        "B": "Kolhydrater bryts ned till glukos i tunntarmen och tas upp i blodet",
+        "C": "Fetter emulgeras av magsyra och tas direkt upp i blodet",
+        "D": "Glukos bildas i levern och transporteras till musklerna via lymfsystemet"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom kolhydrater (som stärkelse i bröd) bryts ned enzymatiskt till glukos, huvudsakligen i tunntarmen, och absorberas sedan via tarmväggen till blodet. A är delvis korrekt gällande proteinerna men felaktig då proteinets nedbrytning startar i magsäcken med pepsin, inte primärt saltsyra, och det handlar dessutom om ägg, inte bröd. C är fel eftersom fetter emulgeras av galla (inte magsyra) och tas upp via lymfsystemet, inte blodet direkt. D är fel eftersom glukos inte bildas i levern från måltiden – det är blodsockret som regleras där."
+    },
+    {
+      "id": 3,
+      "question": "Vad menas med begreppet 'ekologiskt fotavtryck'?",
+      "options": {
+        "A": "Antalet kvadratmeter naturmark som finns i ett land per invånare",
+        "B": "Mängden koldioxid som en människa släpper ut per år",
+        "C": "Den biologiskt produktiva mark- och vattenyta som krävs för att försörja en persons livsstil och ta hand om dess avfall",
+        "D": "Andelen förnybar energi som används i ett lands energisystem"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom det ekologiska fotavtrycket är ett mått på hur mycket biologiskt produktiv mark och vatten som krävs för att producera de resurser en person förbrukar och absorbera det avfall som genereras. A beskriver enbart tillgång på naturmark, inte konsumtion. B är ett delvis relaterat begrepp (koldioxidavtryck) men inte detsamma. D handlar om energimix, vilket är ett helt annat mått."
+    },
+    {
+      "id": 4,
+      "question": "Vilket påstående om DNA och proteinsyntesen är korrekt?",
+      "options": {
+        "A": "DNA lämnar cellkärnan och transporteras direkt till ribosomerna för proteinsyntes",
+        "B": "mRNA bildas i cellkärnan utifrån DNA och transporteras sedan till ribosomerna",
+        "C": "Proteiner bildas direkt i cellkärnan när DNA kopieras",
+        "D": "tRNA bär den genetiska informationen från DNA till ribosomerna"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom transkription sker i cellkärnan där mRNA (budbärar-RNA) bildas som en kopia av DNA-sekvensen. mRNA transporteras sedan ut ur kärnan till ribosomerna i cytoplasman där translation sker och proteinet byggs upp. A är fel – DNA lämnar normalt inte cellkärnan. C är fel – proteiner bildas inte i kärnan. D är fel – tRNA transporterar aminosyror till ribosomerna, inte den genetiska informationen."
+    },
+    {
+      "id": 5,
+      "question": "Vilket av följande är ett exempel på en förnybar energikälla?",
+      "options": {
+        "A": "Naturgas",
+        "B": "Uran",
+        "C": "Kol",
+        "D": "Vindkraft"
+      },
+      "correct": "D",
+      "explanation": "D är rätt eftersom vindkraft utnyttjar rörelsenergi i vinden, som är en naturligt förnybar resurs driven av solenergi och jordens rotation. Naturgas och kol är fossila bränslen som tar miljoner år att bildas och är därmed icke-förnybara. Uran används i kärnkraftverk och är ett icke-förnybart grundämne som bryts ur marken."
+    },
+    {
+      "id": 6,
+      "question": "Vad är den primära orsaken till att ozonskiktet i stratosfären har tunnats ut sedan 1970-talet?",
+      "options": {
+        "A": "Ökade utsläpp av koldioxid från industriell verksamhet",
+        "B": "Utsläpp av klorfluorkarboner (CFC) från kylskåp och sprayburkar",
+        "C": "Försurning av haven som minskar produktionen av ozon",
+        "D": "Ökad solinstrålning till följd av variationer i solaktiviteten"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom CFC-föreningar (klorfluorkarboner) är stabila i troposfären men sönderdelas i stratosfären av UV-strålning och frigör kloratomer som katalytiskt bryter ned ozonmolekyler. Koldioxid bidrar till växthuseffekten men inte till nedbrytning av ozonskiktet. Havsförsurning påverkar marina ekosystem men inte ozonskiktet. Solaktivitetsvariationer har viss effekt men är inte den primära orsaken till den antropogena uttunningen."
+    },
+    {
+      "id": 7,
+      "question": "En studie visar att barn som dricker söta drycker dagligen har ökad risk för karies. Vilken slutsats är vetenskapligt korrekt att dra av detta?",
+      "options": {
+        "A": "Söta drycker orsakar alltid karies hos barn",
+        "B": "Det finns ett samband mellan daglig konsumtion av söta drycker och ökad kariesrisk",
+        "C": "Barn som inte dricker söta drycker får aldrig karies",
+        "D": "Söta drycker är den enda faktorn som påverkar kariesutveckling"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom en epidemiologisk studie kan visa på korrelationer (samband) men inte nödvändigtvis orsakssamband. Man kan konstatera att det finns ett samband mellan söta drycker och kariesrisk. A är fel eftersom 'alltid' är ett alltför absolut påstående – inte alla barn som dricker söta drycker får karies. C är fel av samma anledning. D är fel eftersom karies påverkas av flera faktorer, bland annat munhygien, fluortandkräm och kost i övrigt."
+    },
+    {
+      "id": 8,
+      "question": "Vilket av följande bäst beskriver skillnaden mellan aerob och anaerob cellandning?",
+      "options": {
+        "A": "Aerob cellandning sker i mitokondrierna och kräver syre, medan anaerob cellandning sker i cytoplasman och kräver inget syre",
+        "B": "Aerob cellandning producerar mjölksyra, medan anaerob cellandning producerar koldioxid och vatten",
+        "C": "Anaerob cellandning ger mer energi per glukosmolekyl än aerob cellandning",
+        "D": "Aerob cellandning sker bara i djurceller, medan anaerob cellandning sker bara i växtceller"
+      },
+      "correct": "A",
+      "explanation": "A är rätt eftersom aerob cellandning kräver syre och sker i mitokondrierna, där glukos fullständigt bryts ned till koldioxid och vatten med hög energiutvinning. Anaerob cellandning sker i cytoplasman utan syre och ger betydligt mindre energi. B är omvänt fel – det är den anaeroba processen (mjölksyrajäsning) som ger mjölksyra. C är fel – aerob cellandning ger mer energi (ca 36-38 ATP mot 2 ATP). D är fel – båda processerna kan ske i de flesta levande celler beroende på syretillgång."
+    },
+    {
+      "id": 9,
+      "question": "Vad innebär begreppet 'biologisk mångfald'?",
+      "options": {
+        "A": "Det totala antalet individer av en viss art i ett ekosystem",
+        "B": "Variationen av liv på jorden, inklusive variation inom arter, mellan arter och av ekosystem",
+        "C": "Antalet olika ekosystem i ett land",
+        "D": "Den genetiska likheten mellan individer i en population"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom biologisk mångfald (biodiversitet) är ett heltäckande begrepp som innefattar tre nivåer: genetisk variation inom arter, artrikedom (antal olika arter) och mångfald av ekosystem. A beskriver bara populationsstorlek för en art. C täcker bara en av de tre nivåerna. D beskriver tvärtom genetisk likhet, vilket är det motsatta av genetisk mångfald."
+    },
+    {
+      "id": 10,
+      "question": "I kolets kretslopp – vilken process bidrar till att kol binds från atmosfären?",
+      "options": {
+        "A": "Cellandning hos djur",
+        "B": "Förbränning av fossila bränslen",
+        "C": "Fotosyntes hos växter och alger",
+        "D": "Nedbrytning av organiskt material"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom fotosyntes är den process där växter, alger och vissa bakterier tar upp koldioxid från atmosfären och omvandlar det till organiska föreningar (glukos) med hjälp av solenergi. Cellandning hos djur, förbränning av fossila bränslen och nedbrytning av organiskt material frigör alla kol (som CO₂) till atmosfären – de är alltså källor till kol, inte sänkor."
+    },
+    {
+      "id": 11,
+      "question": "Vilket påstående om vaccination är korrekt?",
+      "options": {
+        "A": "Vaccination ger kroppen antikroppar direkt som injiceras med vaccinet",
+        "B": "Vaccination stimulerar immunsystemet att bilda minnesceller och antikroppar mot ett specifikt ämne",
+        "C": "Vaccination botar redan pågående infektionssjukdomar",
+        "D": "Vaccination fungerar enbart mot bakteriella infektioner, inte virala"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom ett vaccin innehåller försvagade, dödade eller delar av smittämnen (antigener) som stimulerar immunsystemet att reagera och bilda minnesceller samt antikroppar. Vid framtida kontakt med det verkliga smittämnet kan immunsystemet reagera snabbt. A är fel – vaccinet innehåller inte färdiga antikroppar (det är passiv immunisering med serum som gör det). C är fel – vaccin är profylaktiskt, inte behandling för pågående infektion. D är fel – det finns vacciner mot både bakterier och virus."
+    },
+    {
+      "id": 12,
+      "question": "Havsförsurning är ett miljöproblem som ökar i takt med stigande koldioxidhalter i atmosfären. Vad är den direkta kemiska orsaken till att haven försuras?",
+      "options": {
+        "A": "Svaveldioxid från industrier löser sig i havsvatten och bildar svavelsyra",
+        "B": "Koldioxid löser sig i havsvatten och bildar kolsyra som sänker pH-värdet",
+        "C": "Kväveoxider från trafiken faller ned i haven som surt nedfall",
+        "D": "Övergödning leder till syrebrist som gör haven surare"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom koldioxid (CO₂) från atmosfären löser sig i havsvatten och reagerar med vatten för att bilda kolsyra (H₂CO₃), som sedan dissocierar och sänker pH-värdet i havet. A beskriver surt nedfall (sur regn) som kan påverka sjöar men är inte den primära orsaken till global havsförsurning. C beskriver också surt nedfall men inte havsförsurning kopplad till CO₂. D beskriver en annan problematik (eutrofiering och syrebrist) som inte direkt orsakar havsförsurning i kemisk mening."
+    },
+    {
+      "id": 13,
+      "question": "En ung kvinna lever ett stillasittande liv, röker och äter en kost rik på mättat fett. Vilken kombination av livsstilsfaktorer ökar hennes risk för hjärt-kärlsjukdom mest?",
+      "options": {
+        "A": "Enbart rökning",
+        "B": "Enbart stillasittande livsstil",
+        "C": "Rökning, brist på fysisk aktivitet och kost rik på mättat fett – alla tre samverkar",
+        "D": "Enbart kost rik på mättat fett"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom hjärt-kärlsjukdom är multifaktoriell – rökning skadar kärlväggar och ökar propprisk, brist på fysisk aktivitet försämrar hjärtats kondition och ämnesomsättning, och mättat fett höjer LDL-kolesterol och bidrar till åderförkalkning. Alla tre faktorerna samverkar och förstärker varandras effekter. Att lyfta fram enbart en faktor (A, B eller D) ger en ofullständig bild av den sammantagna riskbilden."
+    },
+    {
+      "id": 14,
+      "question": "Vilket av följande påståenden om naturvetenskaplig metod är korrekt?",
+      "options": {
+        "A": "En hypotes som bekräftas i ett enda experiment kan betraktas som en bevisad sanning",
+        "B": "Vetenskapliga teorier kan aldrig förändras när de väl är etablerade",
+        "C": "En vetenskaplig undersökning ska vara reproducerbar och kunna granskas av andra forskare",
+        "D": "Anekdotiska berättelser från många människor räknas som vetenskapliga bevis"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom reproducerbarhet och kollegial granskning (peer review) är grundläggande principer i vetenskaplig metodik. Om ett experiment inte kan upprepas med liknande resultat av oberoende forskare, ifrågasätts dess giltighet. A är fel – ett enda experiment räcker inte; upprepade, oberoende studier krävs. B är fel – teorier revideras och uppdateras när ny evidens framkommer. D är fel – anekdotiska berättelser är inte kontrollerade och kan inte ligga till grund för vetenskapliga slutsatser."
+    },
+    {
+      "id": 15,
+      "question": "Vad är skillnaden mellan ett ämnes smältpunkt och kokpunkt?",
+      "options": {
+        "A": "Smältpunkten är temperaturen då ett flytande ämne övergår till gas, kokpunkten är då ett fast ämne övergår till vätska",
+        "B": "Smältpunkten är temperaturen då ett fast ämne övergår till vätska, kokpunkten är temperaturen då en vätska övergår till gas",
+        "C": "Smältpunkt och kokpunkt är samma sak men används för olika aggregationstillstånd",
+        "D": "Smältpunkten gäller enbart metaller, kokpunkten gäller enbart vatten"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom smältpunkten definieras som den temperatur vid vilken ett fast ämne övergår till flytande tillstånd (smälter), medan kokpunkten är temperaturen vid vilken en vätska övergår till gasform (kokar/förångas) vid ett givet lufttryck. A blandar ihop begreppen. C är fel – de är inte samma sak. D är fel – smältpunkt och kokpunkt gäller för alla ämnen med dessa aggregationstillstånd."
+    },
+    {
+      "id": 16,
+      "question": "Övergödning (eutrofiering) av sjöar och kustvatten är ett miljöproblem i Sverige. Vad är den huvudsakliga konsekvensen av övergödning?",
+      "options": {
+        "A": "Vattnet blir surare och fiskar dör av pH-förändringen",
+        "B": "Alger och cyanobakterier växer okontrollerat, vilket kan leda till syrebrist och döda bottnar",
+        "C": "Mängden vattenlevande djur ökar kraftigt eftersom de får mer föda",
+        "D": "Tungmetaller ansamlas i vattenlevande organismer"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom övergödning innebär att överskott av näringsämnen (kväve och fosfor) stimulerar kraftig tillväxt av alger och cyanobakterier. När dessa organismer dör bryts de ned av bakterier som förbrukar syre, vilket leder till syrebrist (hypoxi) och döda bottnar där djurlivet slås ut. A beskriver försurning, ett annat problem. C är felaktig – övergödning minskar biodiversiteten trots ökad algproduktion. D beskriver bioackumulering av tungmetaller, ett annat miljöproblem."
+    },
+    {
+      "id": 17,
+      "question": "Vilken av följande beskrivningar stämmer bäst in på hur hormoner fungerar i kroppen?",
+      "options": {
+        "A": "Hormoner är proteiner som bryter ned socker direkt i blodet",
+        "B": "Hormoner är kemiska signalämnen som produceras i körtlar och transporteras med blodet till målceller där de reglerar kroppens funktioner",
+        "C": "Hormoner är elektriska signaler som sänds längs nervbanorna till olika organ",
+        "D": "Hormoner produceras i musklerna och hjälper till att omvandla glukos till energi"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom hormoner är kemiska budbärare som utsöndras av endokrina körtlar (t.ex. sköldkörteln, bukspottkörteln, binjurarna) och transporteras via blodet till specifika målceller eller organ där de binder till receptorer och påverkar cellernas aktivitet. A är fel – hormoner bryter inte ned socker direkt, insulin t.ex. reglerar sockerupptag men är inte ett nedbrytningsenzym. C beskriver nervimpulser, inte hormoner. D är fel i fråga om ursprung och funktion."
+    },
+    {
+      "id": 18,
+      "question": "Sverige har som mål att minska utsläppen av växthusgaser. Vilket av följande åtgärdsalternativ har störst potential att minska en privatpersons klimatpåverkan?",
+      "options": {
+        "A": "Byta ut alla glödlampor i hemmet mot LED-lampor",
+        "B": "Alltid källsortera sitt hushållsavfall",
+        "C": "Minska konsumtionen av nötkött och flygresor",
+        "D": "Stänga av standby-funktionen på elektroniska apparater"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom nötköttproduktion är extremt resursintensiv och bidrar med stora mängder metan (en potent växthusgas) samt kräver stora arealer, medan flygresor ger mycket höga koldioxidutsläpp per kilometer. Forskning visar konsekvent att kostomläggning (minska kött) och minskad flygning är de enskilt mest effektiva åtgärderna en privatperson kan vidta. LED-byten, källsortering och att stänga av standby är bra men ger i jämförelse marginell klimateffekt."
+    },
+    {
+      "id": 19,
+      "question": "Vad är skillnaden mellan smittsamma och icke-smittsamma sjukdomar? Vilket alternativ är korrekt?",
+      "options": {
+        "A": "Smittsamma sjukdomar orsakas alltid av bakterier, icke-smittsamma av virus",
+        "B": "Smittsamma sjukdomar kan överföras från en individ till en annan via smittvägar, medan icke-smittsamma inte sprids mellan individer",
+        "C": "Icke-smittsamma sjukdomar kan enbart botas med antibiotika, smittsamma med operation",
+        "D": "Smittsamma sjukdomar kan aldrig förebyggas med vaccin"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom den grundläggande definitionen av en smittsam (infektiös) sjukdom är att den orsakas av ett smittämne (virus, bakterie, parasit etc.) och kan överföras mellan individer via direktkontakt, luftvägar, vatten, mat eller vektorer. Icke-smittsamma sjukdomar (NCD), som cancer, diabetes och hjärt-kärlsjukdomar, sprids inte mellan individer. A är fel – smittsamma sjukdomar orsakas av både bakterier och virus. C är helt felaktig. D är fel – vaccin är just ett verktyg för att förebygga smittsamma sjukdomar."
+    },
+    {
+      "id": 20,
+      "question": "En ny studie om ett kosttillskott publiceras i en vetenskaplig tidskrift. Studien har finansierats av företaget som säljer kosttillskottet, men metoden verkar solid och resultaten positiva. Vilket förhållningssätt är mest vetenskapligt korrekt?",
+      "options": {
+        "A": "Resultaten kan accepteras fullt ut eftersom de är publicerade i en vetenskaplig tidskrift",
+        "B": "Studien bör förkastas direkt eftersom den är finansierad av ett företag",
+        "C": "Man bör beakta finansieringskällan som en potentiell intressekonflikt och invänta oberoende replikering av resultaten",
+        "D": "Studiens resultat gäller enbart fram tills en ny studie publiceras, oavsett kvalitet"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom ett källkritiskt och vetenskapligt förhållningssätt innebär att man noterar potentiella intressekonflikter (i detta fall att studien finansieras av den som tjänar på positiva resultat) utan att automatiskt förkasta studien. Man bör söka oberoende replikering – att andra forskargrupper utan kommersiellt intresse kan reproducera resultaten. A är naivt – publicering garanterar inte frihet från bias. B är för kategoriskt – finansieringskällan är en varningsflagga men diskvalificerar inte automatiskt. D saknar logik och vetenskaplig grund."
+    }
+  ]
+}

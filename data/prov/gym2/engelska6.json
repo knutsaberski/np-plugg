@@ -1,0 +1,367 @@
+{
+  "subject": "engelska6",
+  "category": "gym2",
+  "generated": "2026-05-19",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which sentence uses the subjunctive mood correctly?",
+      "options": {
+        "A": "I wish he was here with us tonight.",
+        "B": "I wish he were here with us tonight.",
+        "C": "I wish he is here with us tonight.",
+        "D": "I wish he would be here with us tonight."
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom subjunktiv (subjunctive mood) kräver 'were' för alla personer i kontrafaktiska villkorssatser efter 'wish'. A är vardagligt men grammatiskt felaktigt i formell engelska. C använder presens indikativ vilket är felaktigt. D uttrycker en önskan om framtida handling snarare än en kontrafaktisk situation i nuet."
+    },
+    {
+      "id": 2,
+      "question": "What does the idiom 'to burn the midnight oil' mean?",
+      "options": {
+        "A": "To waste energy on unimportant tasks",
+        "B": "To work or study late into the night",
+        "C": "To make a reckless decision",
+        "D": "To destroy something valuable"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom uttrycket 'burn the midnight oil' härstammar från tiden före elektricitet, då man brände lampolja sent på natten för att arbeta eller studera. Det betyder alltså att arbeta hårt långt in på natten. A, C och D har ingen koppling till idiomets faktiska betydelse."
+    },
+    {
+      "id": 3,
+      "question": "In George Orwell's 'Nineteen Eighty-Four', what is the name of the totalitarian leader who is worshipped by the Party?",
+      "options": {
+        "A": "Emmanuel Goldstein",
+        "B": "O'Brien",
+        "C": "Big Brother",
+        "D": "Winston Smith"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom 'Big Brother' är den allestädes närvarande, dyrkade ledaren i Orwells dystopiska roman. Emmanuel Goldstein är den officiella fienden som folket indoktrineras att hata. O'Brien är en högt uppsatt Partimedlem. Winston Smith är romanens protagonist och motståndsman."
+    },
+    {
+      "id": 4,
+      "question": "Choose the correct form: 'Had she known about the meeting, she _______ attended.'",
+      "options": {
+        "A": "would have",
+        "B": "would",
+        "C": "had",
+        "D": "will have"
+      },
+      "correct": "A",
+      "explanation": "A är rätt eftersom detta är en tredje konditionalis (third conditional) som beskriver en hypotetisk situation i det förflutna. Strukturen är: If + past perfect (had known) → would have + past participle (attended). B saknar 'have' och bildar en andra konditionalis. C och D är grammatiskt felaktiga i denna konstruktion."
+    },
+    {
+      "id": 5,
+      "question": "Which of the following words is a SYNONYM for 'ambiguous'?",
+      "options": {
+        "A": "Transparent",
+        "B": "Equivocal",
+        "C": "Definitive",
+        "D": "Explicit"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom 'equivocal' betyder tvetydig eller oklar, precis som 'ambiguous'. 'Transparent' betyder genomskinlig eller tydlig – en antonym. 'Definitive' betyder avgörande eller slutgiltig – också en antonym. 'Explicit' betyder uttrycklig eller tydlig – också en antonym."
+    },
+    {
+      "id": 6,
+      "question": "Which literary device is used in the phrase: 'The wind whispered through the trees'?",
+      "options": {
+        "A": "Hyperbole",
+        "B": "Alliteration",
+        "C": "Personification",
+        "D": "Oxymoron"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom 'personification' innebär att man tillskriver mänskliga egenskaper till icke-mänskliga ting. Vinden 'viskar' är en mänsklig handling tillskriven ett naturfenomen. Hyperbole är överdrift. Allitteration är upprepning av inledande konsonantljud (vilket inte förekommer här). Oxymoron är en kombination av motsatta begrepp."
+    },
+    {
+      "id": 7,
+      "question": "Select the sentence with the correct use of the passive voice in the past perfect tense:",
+      "options": {
+        "A": "The report has been submitted before the deadline.",
+        "B": "The report had been submitted before the deadline.",
+        "C": "The report was submitted before the deadline.",
+        "D": "The report being submitted before the deadline."
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom past perfect passive bildas med 'had been + past participle'. A är present perfect passive. C är simple past passive. D är ett participialfras och inte en komplett mening med korrekt passiv konstruktion i past perfect."
+    },
+    {
+      "id": 8,
+      "question": "What does the phrase 'to sit on the fence' mean?",
+      "options": {
+        "A": "To take a strong political stance",
+        "B": "To avoid making a decision or commitment",
+        "C": "To observe a situation from a distance",
+        "D": "To support both sides equally and fairly"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom 'to sit on the fence' betyder att undvika att ta ställning eller fatta ett beslut, att vara neutral till den grad att man inte bestämmer sig. A är motsatsen. C handlar om observation men inte om beslutsundvikande. D antyder aktiv, rättvis stöttning av båda sidor, vilket inte stämmer med idiomets betydelse."
+    },
+    {
+      "id": 9,
+      "question": "In Shakespeare's 'Hamlet', what is the famous opening line of Hamlet's soliloquy in Act 3?",
+      "options": {
+        "A": "'All the world's a stage, and all the men and women merely players.'",
+        "B": "'To be, or not to be, that is the question.'",
+        "C": "'What a piece of work is a man!'",
+        "D": "'The lady doth protest too much, methinks.'"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom 'To be, or not to be, that is the question' är den ikoniska inledningsraden i Hamlets soliloki i akt 3, scen 1, där han reflekterar över liv och död. A är från 'As You Like It'. C är också från Hamlet men från en annan scen. D sägs av Gertrud i Hamlet men är inte solilokiets öppningsrad."
+    },
+    {
+      "id": 10,
+      "question": "Which sentence correctly uses a participle clause?",
+      "options": {
+        "A": "Walking down the street, the rain started to fall.",
+        "B": "Walking down the street, she noticed a familiar face.",
+        "C": "To walk down the street, she was getting wet.",
+        "D": "While she walked, the street was quiet."
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom participialkonstruktionen 'Walking down the street' korrekt syftar på subjektet 'she' i huvudsatsen. A innehåller ett s.k. 'dangling participle' – det är inte 'the rain' som gick på gatan. C använder ett infinitivuttryck felaktigt. D är en korrekt bisats men använder inte en participialkonstruktion."
+    },
+    {
+      "id": 11,
+      "question": "Which of the following is an example of an ANTONYM pair?",
+      "options": {
+        "A": "Benevolent – Malevolent",
+        "B": "Rapid – Swift",
+        "C": "Eloquent – Articulate",
+        "D": "Tenacious – Persistent"
+      },
+      "correct": "A",
+      "explanation": "A är rätt eftersom 'benevolent' (välvillig) och 'malevolent' (illvillig) är antonymer – ord med motsatt betydelse. B, C och D är synonympar – ord med liknande eller samma betydelse."
+    },
+    {
+      "id": 12,
+      "question": "In F. Scott Fitzgerald's 'The Great Gatsby', what does the green light at the end of Daisy's dock symbolize?",
+      "options": {
+        "A": "Gatsby's wealth and material success",
+        "B": "The corruption of the American upper class",
+        "C": "Gatsby's dreams, hopes and the unattainable ideal",
+        "D": "The danger and moral decay of the Jazz Age"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom det gröna ljuset är ett centralt symbol i romanen för Gatsbys drömmar, hopp och hans ouppnåeliga längtan – framförallt hans kärlek till Daisy och den amerikanska drömmen. A beskriver Gatsbys status men inte symbolikens djupare mening. B och D är teman i romanen men de kopplas inte specifikt till det gröna ljuset."
+    },
+    {
+      "id": 13,
+      "question": "Choose the correct relative pronoun: 'The scientist _______ research changed medicine forever was awarded the Nobel Prize.'",
+      "options": {
+        "A": "who",
+        "B": "whom",
+        "C": "whose",
+        "D": "which"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom 'whose' används för att visa tillhörighet (possessiv relativpronomen). Här syftar det på 'the scientist's research'. 'Who' används för subjekt. 'Whom' används för objekt. 'Which' syftar på saker, inte personer."
+    },
+    {
+      "id": 14,
+      "question": "What is the meaning of the word 'ephemeral'?",
+      "options": {
+        "A": "Lasting for a very short time",
+        "B": "Extremely beautiful and striking",
+        "C": "Deeply philosophical in nature",
+        "D": "Difficult to understand or explain"
+      },
+      "correct": "A",
+      "explanation": "A är rätt eftersom 'ephemeral' kommer från det grekiska ordet för 'dag' och betyder kortvarig, flyktiga eller övergående. B beskriver snarare 'ethereal' eller 'sublime'. C liknar 'metaphysical'. D liknar 'abstruse' eller 'enigmatic'."
+    },
+    {
+      "id": 15,
+      "question": "Identify the correct use of inversion in a formal/literary context:",
+      "options": {
+        "A": "Rarely I have seen such talent in a student.",
+        "B": "Rarely have I seen such talent in a student.",
+        "C": "Rarely I seen have such talent in a student.",
+        "D": "Rarely such talent in a student I have seen."
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom inversion med negativa adverbial (som 'rarely', 'never', 'seldom') kräver att hjälpverbet placeras före subjektet: 'Rarely + have + I'. A har korrekt ordföljd för ett påstående men felaktig inversionsordföljd. C och D har felaktig ordföljd och är grammatiskt inkorrekta."
+    },
+    {
+      "id": 16,
+      "question": "What does the idiom 'a blessing in disguise' mean?",
+      "options": {
+        "A": "Something that appears good but turns out to be harmful",
+        "B": "A religious ceremony held in secret",
+        "C": "Something that seems bad at first but has a positive outcome",
+        "D": "An unexpected gift from a stranger"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom 'a blessing in disguise' beskriver något som till en början verkar negativt eller olyckligt men som visar sig ha ett positivt utfall. A är nästan motsatsen. B har ingen koppling till idiomets verkliga innebörd. D beskriver inte idiomets betydelse korrekt."
+    },
+    {
+      "id": 17,
+      "question": "Which tense is used in this sentence and why is it correct? 'By the time she arrives, I will have finished the presentation.'",
+      "options": {
+        "A": "Future simple – describes a future action",
+        "B": "Future continuous – describes an ongoing future action",
+        "C": "Future perfect – describes an action completed before a future point",
+        "D": "Present perfect – describes a recently completed action"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom 'will have finished' är future perfect tense, som används för att beskriva en handling som kommer att vara avslutad före en annan specifik tidpunkt i framtiden ('by the time she arrives'). Future simple (A) skulle användas för en enkel framtida händelse. Future continuous (B) beskriver en pågående framtida handling. Present perfect (D) syftar på det förflutna i relation till nu."
+    },
+    {
+      "id": 18,
+      "question": "In Mary Shelley's 'Frankenstein', which theme is most prominently explored?",
+      "options": {
+        "A": "The importance of family and social bonds",
+        "B": "The dangers of unchecked scientific ambition and playing God",
+        "C": "The struggle between social classes in 19th century England",
+        "D": "The redemptive power of nature and rural life"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom Shelleys roman primärt utforskar de etiska och moraliska konsekvenserna av vetenskaplig hybris – att skapa liv utan att ta ansvar för konsekvenserna. A är ett subtema men inte det centrala. C är mer kopplat till Dickens. D är ett tema men inte det dominerande i Frankenstein."
+    },
+    {
+      "id": 19,
+      "question": "Choose the sentence that correctly uses a CLEFT sentence for emphasis:",
+      "options": {
+        "A": "John gave the book to Mary.",
+        "B": "It was John who gave the book to Mary.",
+        "C": "John, he gave the book to Mary.",
+        "D": "The book was given by John to Mary."
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom en klyvd mening (cleft sentence) använder konstruktionen 'It is/was + fokuserat element + who/that + rest of the sentence' för att betona ett specifikt element – här 'John'. A är en vanlig mening utan emfas. C är en icke-standardiserad konstruktion. D är passiv röst, inte en klyvd mening."
+    },
+    {
+      "id": 20,
+      "question": "What does 'to beat around the bush' mean?",
+      "options": {
+        "A": "To work extremely hard in difficult conditions",
+        "B": "To avoid the main topic and talk around an issue",
+        "C": "To search thoroughly for something that is lost",
+        "D": "To win a competition through indirect methods"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom 'to beat around the bush' betyder att undvika att komma till saken, att prata runt ett ämne utan att ta upp det direkt. A, C och D har ingen koppling till idiomets faktiska innebörd."
+    },
+    {
+      "id": 21,
+      "question": "Which sentence contains a MISPLACED modifier?",
+      "options": {
+        "A": "Running quickly, she caught the bus.",
+        "B": "He almost drove his children to school every day.",
+        "C": "Exhausted from the journey, the traveller fell asleep.",
+        "D": "The dog that bit the postman was taken away."
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom 'almost' är felplacerat och modifierar 'drove' istället för 'every day'. Meningen antyder att han nästan körde dem (kanske gick han istället) snarare än att han inte körde dem varje dag. Korrekt mening borde vara: 'He drove his children to school almost every day.' A, C och D har korrekt placerade modifier."
+    },
+    {
+      "id": 22,
+      "question": "In Harper Lee's 'To Kill a Mockingbird', what does the mockingbird symbolize?",
+      "options": {
+        "A": "The legal system and its flaws",
+        "B": "The racism and hatred in Southern society",
+        "C": "Innocence and goodness that should not be destroyed",
+        "D": "The complexity of moral choices in difficult times"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom härmtrasten i romanen symboliserar oskuld och godhet – varelser som inte gör någon skada och därför inte ska skadas. Atticus förklarar att det är synd att döda härmtrastar. Karaktärer som Tom Robinson och Boo Radley representerar denna symbolik. A, B och D är teman i romanen men kopplas inte specifikt till härmtrasten som symbol."
+    },
+    {
+      "id": 23,
+      "question": "Select the correct form of the verb: 'The committee _______ unable to reach a consensus at yesterday's meeting.'",
+      "options": {
+        "A": "were",
+        "B": "was",
+        "C": "are",
+        "D": "is"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom 'committee' är ett kollektivt substantiv som i amerikansk och formell brittisk engelska behandlas som singular. Eftersom meningen refererar till gårdagens möte (preteritum), är 'was' korrekt. I brittisk engelska kan kollektiva substantiv ta plural verb, men i formella sammanhang och på NP-nivå är singular att föredra. C och D är presensformer och felaktiga här."
+    },
+    {
+      "id": 24,
+      "question": "What is the literary term for a narrative that presents a story within a story?",
+      "options": {
+        "A": "Epistolary narrative",
+        "B": "Stream of consciousness",
+        "C": "Frame narrative",
+        "D": "Unreliable narrator"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom 'frame narrative' (ramaberättelse) är en berättarstruktur där en yttre berättelse innehåller en eller flera inre berättelser. Exempel: 'Wuthering Heights' och '1001 nätterna'. Epistolary narrative (A) berättas genom brev och dokument. Stream of consciousness (B) är en teknik som skildrar karaktärers tankeflöde. Unreliable narrator (D) är en berättare vars trovärdighet kan ifrågasättas."
+    },
+    {
+      "id": 25,
+      "question": "Choose the correct preposition: 'She has been interested _______ marine biology since childhood.'",
+      "options": {
+        "A": "about",
+        "B": "for",
+        "C": "in",
+        "D": "with"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom det korrekta uttrycket på engelska är 'interested in' (prepositionsfras). 'Interested about' (A) existerar inte som fast uttryck. 'Interested for' (B) är felaktigt. 'Interested with' (D) är också felaktigt. 'In' är den etablerade prepositionen som följer adjektivet 'interested'."
+    },
+    {
+      "id": 26,
+      "question": "What does the word 'sycophantic' mean?",
+      "options": {
+        "A": "Extremely knowledgeable and well-read",
+        "B": "Excessively flattering to gain favour; servile",
+        "C": "Deeply critical and cynical about human nature",
+        "D": "Prone to sudden changes in mood or opinion"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom 'sycophantic' beskriver någon som smickrar andra överdrivet för att vinna fördelar eller gunst, en ja-sägare. Det comes from Greek 'sykophantēs'. A liknar 'erudite'. C liknar 'misanthropic' eller 'sardonic'. D liknar 'capricious' eller 'mercurial'."
+    },
+    {
+      "id": 27,
+      "question": "Which of the following sentences demonstrates correct use of a RESTRICTIVE relative clause (without commas)?",
+      "options": {
+        "A": "My brother, who lives in London, is a doctor.",
+        "B": "The book, which I borrowed from the library, was fascinating.",
+        "C": "The students who pass the exam will receive a certificate.",
+        "D": "Shakespeare, who was born in 1564, wrote 37 plays."
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom restriktiva relativsatser (defining relative clauses) inte omges av kommatecken och begränsar referenten – bara de elever som klarar provet, inte alla elever. A och D är icke-restriktiva relativsatser om specifika individer och omges korrekt av kommatecken. B är också icke-restriktiv (kommatecken används korrekt) och syftar på en specifik bok."
+    },
+    {
+      "id": 28,
+      "question": "In John Steinbeck's 'Of Mice and Men', what does Lennie's obsession with soft things (rabbits, mice, velvet) symbolize?",
+      "options": {
+        "A": "His desire to return to childhood innocence",
+        "B": "His gentle nature and his dream of a peaceful life",
+        "C": "His lack of intelligence and self-awareness",
+        "D": "His fear of the harsh realities of the Great Depression"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom Lennies fascination för mjuka saker symboliserar hans innerst inne goda och kärleksfulla natur, samt hans och Georges dröm om ett eget litet hem med kaniner – ett liv fyllt av omsorg och enkelhet. A är en övertolkning. C är en förenkling och missar symbolikens djup. D ignorerar den personliga symboliken."
+    },
+    {
+      "id": 29,
+      "question": "Which sentence correctly uses a MIXED CONDITIONAL (combining second and third conditional)?",
+      "options": {
+        "A": "If she had studied harder, she would pass the exam.",
+        "B": "If she had studied harder, she would have passed the exam.",
+        "C": "If she had studied harder, she would be a doctor now.",
+        "D": "If she studied harder, she would pass the exam."
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom en blandad konditionalis (mixed conditional) kombinerar en hypotetisk situation i det förflutna (if + past perfect: 'had studied') med ett kontrafaktiskt resultat i nuet (would + base verb: 'would be now'). A blandar fel tempusformer. B är en ren tredje konditionalis. D är en ren andra konditionalis."
+    },
+    {
+      "id": 30,
+      "question": "What is the rhetorical device used when a speaker addresses an absent person, concept, or object directly, as in 'O Death, where is thy sting?'",
+      "options": {
+        "A": "Anaphora",
+        "B": "Apostrophe",
+        "C": "Allusion",
+        "D": "Chiasmus"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom 'apostrophe' (retorisk apostrofering) är när en talare eller skribent direkt tilltalar ett frånvarande ämne, en abstrakt idé eller en icke-mänsklig entitet som om den vore närvarande och kunde svara. Anaphora (A) är upprepning av ord i inledningen av fraser. Allusion (C) är en indirekt hänvisning till en känd text, person eller händelse. Chiasmus (D) är en korsad parallelism av grammatiska strukturer."
+    }
+  ]
+}

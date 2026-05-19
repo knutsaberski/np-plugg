@@ -1,0 +1,247 @@
+{
+  "subject": "svenska3",
+  "category": "gym3",
+  "generated": "2026-05-19",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Vilken retorisk figur används i följande mening: 'Hans ord var svärd som skar genom tystnaden'?",
+      "options": {
+        "A": "Metonymin",
+        "B": "Litotes",
+        "C": "Metaforen",
+        "D": "Synekdoken"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom en metafor är en direkt jämförelse där något beskrivs som något annat utan att använda 'som' eller 'liksom' – men här används 'var' för att likställa orden med svärd, vilket är en klassisk metafor. A (metonymin) ersätter ett ord med ett närstående begrepp. B (litotes) är understatement via negation. D (synekdoken) använder del för helhet eller tvärtom. Ingen av dessa stämmer in på konstruktionen i meningen."
+    },
+    {
+      "id": 2,
+      "question": "I ett akademiskt resonemang skiljer man på deskriptiva och normativa påståenden. Vilket av följande är ett normativt påstående?",
+      "options": {
+        "A": "Medeltemperaturen i Sverige har stigit med 1,5 grader sedan 1900-talet.",
+        "B": "Majoriteten av befolkningen stödjer klimatlagstiftning enligt en undersökning.",
+        "C": "Samhället bör prioritera förnybar energi framför fossila bränslen.",
+        "D": "Koldioxidutsläppen ökade globalt med tre procent förra året."
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom normativa påståenden handlar om vad som bör eller ska vara – de uttrycker värderingar och rekommendationer. 'Bör prioritera' är ett tydligt värdeomdöme. A, B och D är deskriptiva påståenden som beskriver faktiska förhållanden och kan i princip verifieras empiriskt utan att ta ställning till vad som är rätt eller fel."
+    },
+    {
+      "id": 3,
+      "question": "Vilket begrepp inom narratologi beskriver den ordning i vilken händelser berättas i en text, till skillnad från den kronologiska ordning de faktiskt inträffat?",
+      "options": {
+        "A": "Fabula",
+        "B": "Syuzhet",
+        "C": "Focalisering",
+        "D": "Diegesis"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom syuzhet (eller sujet) syftar på berättelsens disposition – den ordning och det sätt som händelserna presenteras i texten. A (fabula) är däremot den kronologiska händelseföljden som abstraktion. C (focalisering) handlar om vems perspektiv berättelsen filtreras genom. D (diegesis) syftar på den berättade världen. Distinktionen fabula/syuzhet är central inom narratologi och textanalys på avancerad nivå."
+    },
+    {
+      "id": 4,
+      "question": "En essä karaktäriseras av flera drag. Vilket av följande är det mest utmärkande draget för essägenren?",
+      "options": {
+        "A": "Strikt kronologisk disposition och objektiv ton",
+        "B": "Subjektivt, reflekterande förhållningssätt och personlig röst",
+        "C": "Tydlig tes följd av tre bevisande argument och en slutsats",
+        "D": "Fiktiva karaktärer och en dramatisk intrig"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom essän som genre sedan Montaigne definieras av ett personligt, reflekterande och ofta undersökande förhållningssätt där skribentens röst och tankeprocess är central. A beskriver snarare en faktarapport. C beskriver den klassiska argumenterande uppsatsen (five-paragraph essay). D beskriver skönlitteratur som roman eller novell. Essäns kärna är det subjektiva utforskandet av ett ämne."
+    },
+    {
+      "id": 5,
+      "question": "Vad menas med begreppet 'intertextualitet' inom litteraturvetenskapen?",
+      "options": {
+        "A": "Att en text har en inre logisk sammanhållning",
+        "B": "Att en texts mening skapas i relation till andra texter",
+        "C": "Att läsaren tolkar texten utifrån sina egna erfarenheter",
+        "D": "Att en text innehåller dolda politiska budskap"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom intertextualitet, ett begrepp myntat av Julia Kristeva med inspiration från Bachtin, syftar på hur texter refererar till, citerar, parodierar eller dialogiserar med andra texter och hur en texts mening delvis skapas genom dessa relationer. A beskriver koherens. C beskriver läsarrespons- eller receptionsteori. D syftar snarare på ideologikritisk läsning. Intertextualitet handlar specifikt om text-till-text-relationer."
+    },
+    {
+      "id": 6,
+      "question": "I vilken typ av text är det mest adekvat att använda passiv verbform och nominalisering för att uppnå en formell, opersonlig stil?",
+      "options": {
+        "A": "En personlig krönika",
+        "B": "En debattartikel med tydlig avsändare",
+        "C": "En vetenskaplig rapport",
+        "D": "En dagboksanteckning"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom vetenskapliga rapporter konventionellt använder passiv verbform ('undersökningen genomfördes') och nominalisering ('genomförande av undersökning') för att skapa objektivitet och distans till avsändaren. A, B och D är genrer där en personlig och aktiv stil är mer lämplig eller förväntat. Nominalisering och passivering är stilistiska drag kopplade till akademiska och vetenskapliga register."
+    },
+    {
+      "id": 7,
+      "question": "August Strindbergs 'Fröken Julie' brukar analyseras utifrån naturalistiska principer. Vilket av följande påståenden stämmer bäst med naturalismens litteratursyn?",
+      "options": {
+        "A": "Karaktärerna är fria individer som väljer sina öden oberoende av omgivningen",
+        "B": "Karaktärernas handlingar och öden bestäms av arv och miljö",
+        "C": "Det övernaturliga spelar en viktig roll för handlingens utveckling",
+        "D": "Texten betonar skönhet och ideal snarare än verklighet"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom naturalismen, influerad av Darwins evolutionslära och Zolas programmatiska texter, betonade att människans karaktär och öde determineras av biologiskt arv och social miljö. Julie är ett offer för sin klass, sitt kön och sin uppväxt. A motsäger determinismen. C beskriver romantikens eller gotikens drag. D liknar snarare idealismens eller klassicismens estetik. Strindberg var tydligt influerad av naturalistisk determinism."
+    },
+    {
+      "id": 8,
+      "question": "Vilket av följande är ett exempel på en anafor i en text?",
+      "options": {
+        "A": "Meningen avslutas med samma ord som den börjar med",
+        "B": "Upprepning av ett ord eller en fras i slutet av flera meningar",
+        "C": "Upprepning av ett ord eller en fras i början av flera meningar",
+        "D": "En menings mitt innehåller en parentes med förtydligande"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom anaforen (av grekiskans 'anafora', att bära tillbaka) är en retorisk figur där samma ord eller fras upprepas i inledningen av på varandra följande meningar eller versrader. Martin Luther Kings 'I have a dream' är ett välkänt exempel. A beskriver snarare en epanalepsis. B beskriver epiforen (epistrofen), som är anafors motsats. D är ingen etablerad retorisk figur av det slaget."
+    },
+    {
+      "id": 9,
+      "question": "Vad innebär begreppet 'opålitlig berättare' (unreliable narrator) i skönlitteratur?",
+      "options": {
+        "A": "En berättare som inte känner till alla fakta i handlingen",
+        "B": "En berättare vars trovärdighet undergrävs av texten själv",
+        "C": "En berättare som medvetet ljuger för läsaren",
+        "D": "En berättare som är psykiskt sjuk eller påverkad av droger"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom begreppet 'opålitlig berättare', myntades av Wayne C. Booth i 'The Rhetoric of Fiction' (1961), och syftar på en berättare vars utsaga texten på olika sätt signalerar inte kan tas för god – inte nödvändigtvis för att de medvetet ljuger (C) eller är psykiskt instabila (D), utan för att deras perspektiv är begränsat, fördomsfullt eller självbedrägligt. A beskriver en allvetande berättares begränsning, vilket är ett annat fenomen. Opålitligheten uppstår i relationen mellan berättarens utsaga och de textuella signalerna."
+    },
+    {
+      "id": 10,
+      "question": "Vilken av följande stilfigurer innebär att man tillskriver livlösa ting eller abstrakta begrepp mänskliga egenskaper?",
+      "options": {
+        "A": "Allegori",
+        "B": "Personifikation",
+        "C": "Hyperbel",
+        "D": "Eufemism"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom personifikation (prosopopeia) innebär att något icke-mänskligt – ett ting, ett djur eller ett abstrakt begrepp – tillskrivs mänskliga egenskaper, känslor eller handlingar. Exempel: 'Stormen viskade sin hämnd'. A (allegori) är en längre berättelse med en genomgående symbolisk innebörd. C (hyperbel) är överdriven överdrift. D (eufemism) ersätter ett tabubelagt uttryck med ett mildare. Ingen av dessa handlar om att tillskriva ting mänskliga drag."
+    },
+    {
+      "id": 11,
+      "question": "En students uppsats innehåller följande mening: 'Problemet är att det är problem med problemen i detta problemfyllda ämne.' Vilket språkfel är mest framträdande?",
+      "options": {
+        "A": "Syftningsfel",
+        "B": "Ordfattigdom och onödig upprepning",
+        "C": "Styckeindelningsfel",
+        "D": "Felaktig satsradning"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom meningen upprepar roten 'problem' i fyra varianter utan stilistisk effekt, vilket vittnar om begränsat ordförråd och bristande förmåga att variera språket. Det är ett klassiskt drag av ordfattigdom. A (syftningsfel) handlar om oklara pronomenreferenser. C (styckeindelningsfel) gäller textens övergripande disposition. D (satsradning) innebär att satser fogats samman utan korrekt interpunktion eller konjunktion. Inget av dessa stämmer bäst in på detta exempel."
+    },
+    {
+      "id": 12,
+      "question": "Vilket litteraturvetenskapligt begrepp beskriver den miljö och det sammanhang – historiskt, socialt och kulturellt – i vilket en text tillkom och som kan belysa dess innebörd?",
+      "options": {
+        "A": "Textuell immanens",
+        "B": "Receptionsestetik",
+        "C": "Kontext",
+        "D": "Dekonstruktion"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom kontext syftar på de omgivande omständigheter – historiska, biografiska, kulturella, sociala – som omger en text och kan användas för att fördjupa förståelsen av den. A (textuell immanens) är snarast ett drag inom nykritiken som betonar att texten ska analyseras i sig själv utan yttre faktorer. B (receptionsestetik) handlar om hur läsare tar emot och tolkar texter. D (dekonstruktion) är en läsningsstrategi som ifrågasätter stabila meningar. Kontextbegreppet är det centrala svaret här."
+    },
+    {
+      "id": 13,
+      "question": "I argumentationsanalys – vad kallas den underförstådda premiss som kopplar samman ett påstående med dess bevis utan att uttryckligen formuleras i texten?",
+      "options": {
+        "A": "Konklusion",
+        "B": "Belägget",
+        "C": "Topos",
+        "D": "Garanten"
+      },
+      "correct": "D",
+      "explanation": "D är rätt eftersom Stephen Toulmins argumentationsmodell identifierar 'garanten' (warrant) som den underförstådda principen eller regeln som motiverar övergången från belägg till påstående. Konklusion (A) är slutsatsen. Belägget (B) är de fakta som stödjer påståendet. Topos (C) är ett retoriskt begrepp för argumentationsplats eller gemensamt antagande, men är inte Toulmins term för den underförstådda kopplingsprincipen. Garanten är alltså det korrekta svaret i Toulmins modell."
+    },
+    {
+      "id": 14,
+      "question": "Toni Morrisons roman 'Beloved' analyseras ofta utifrån postkolonial teori. Vilket av följande påståenden är mest centralt inom postkolonial litteraturteori?",
+      "options": {
+        "A": "Litteratur bör bedömas enbart utifrån estetiska kriterier",
+        "B": "Litteraturen avslöjar och utmanar koloniala maktstrukturer och representation",
+        "C": "Texters mening är instabil och kan aldrig fixeras",
+        "D": "Läsarens tolkning är den enda giltiga meningsskaparen"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom postkolonial teori (Fanon, Said, Spivak, Bhabha) fokuserar på hur kolonialism och dess efterverkningar präglar litteraturen – hur maktrelationer, representation av 'den andre', hybriditet och motberättelser gestaltas. A liknar nykritikens esteticism. C liknar dekonstruktionens syn på texters instabilitet. D liknar läsarresponsteori. Postkolonial analys är explicit politisk och historisk i sin inriktning."
+    },
+    {
+      "id": 15,
+      "question": "Vilken av följande meningar innehåller ett syftningsfel?",
+      "options": {
+        "A": "Läraren förklarade uppgiften, och eleverna lyssnade noga.",
+        "B": "När Maria mötte sin syster berättade hon om resan.",
+        "C": "Boken låg på bordet, och jag tog upp den.",
+        "D": "Han löste problemet snabbt och effektivt."
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom pronomenet 'hon' är oklart – det är omöjligt att avgöra om det syftar på Maria eller hennes syster. Detta är ett klassiskt syftningsfel där ett pronomen har en oklar referent. A är tydlig och korrekt. C är tydlig – 'den' syftar på boken. D innehåller inga pronomenreferensproblem. Syftningsfel uppstår specifikt när det är oklart vad ett pronomen syftar tillbaka på."
+    },
+    {
+      "id": 16,
+      "question": "Vilket av följande begrepp används för att beskriva en texts övergripande kommunikativa syfte – alltså vad texten vill åstadkomma hos mottagaren?",
+      "options": {
+        "A": "Stil",
+        "B": "Register",
+        "C": "Intention",
+        "D": "Funktion"
+      },
+      "correct": "D",
+      "explanation": "D är rätt eftersom textfunktion (eller kommunikativ funktion) syftar på vad en text är till för – att informera, övertyga, underhålla, instruera, skapa kontakt etc. Inom funktionell grammatik (Halliday) är detta centralt. A (stil) handlar om hur texten är skriven – val av ord, syntax, ton. B (register) handlar om situationsbetingad språkvariation. C (intention) syftar på avsändarens medvetna syfte, men är ett snävare psykologiskt begrepp. Funktion är det mest adekvata terminologiska svaret."
+    },
+    {
+      "id": 17,
+      "question": "En text börjar med en kraftfull, specifik händelse och bakgrunden förklaras successivt. Vilket kompositionssätt används?",
+      "options": {
+        "A": "Kronologisk disposition",
+        "B": "In medias res",
+        "C": "Deduktiv disposition",
+        "D": "Retrospektiv disposition"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom 'in medias res' (latin: 'mitt i sakerna') är ett klassiskt berättartekniskt grepp där berättelsen börjar i mitten av handlingen – ofta med en dramatisk händelse – och bakgrunden fylls i efterhand. A (kronologisk disposition) börjar från början och rör sig framåt i tid. C (deduktiv disposition) börjar med en generell tes och specificerar sedan. D (retrospektiv disposition) är ett vidare begrepp för tillbakablickar, men beskriver inte precis denna startteknik. In medias res är den korrekta termen."
+    },
+    {
+      "id": 18,
+      "question": "Vad utmärker den ironiska stilen i en text?",
+      "options": {
+        "A": "Att skribenten använder tekniska facktermer genomgående",
+        "B": "Att det finns en klyfta mellan vad som sägs och vad som menas",
+        "C": "Att texten saknar logisk struktur och är svår att följa",
+        "D": "Att skribenten explicit markerar sina egna ståndpunkter"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom ironi (av grekiskans 'eironeia', låtsad okunnighet) bygger på en medveten klyfta eller diskrepans mellan det bokstavliga och det avsedda – det som sägs är motsatsen till eller annorlunda än det som menas. Läsaren förväntas genomskåda denna diskrepans. A handlar om fackspråklighet. C handlar om bristande koherens, inte ironi. D beskriver tvärtom ett direkt, explicit uttryckssätt. Ironin kräver alltså ett tolkningstillägg från läsarens sida."
+    },
+    {
+      "id": 19,
+      "question": "Vilken av följande är en korrekt definition av begreppet 'polyfoni' i litterär och språkvetenskaplig analys?",
+      "options": {
+        "A": "En text som har en enda, dominerande berättarröst",
+        "B": "En texts melodiska och rytmiska kvaliteter",
+        "C": "Förekomsten av flera olika röster, perspektiv eller diskurser i en text",
+        "D": "En retorisk teknik där man förutser och bemöter motargument"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom polyfoni, ett begrepp utvecklat av Michail Bachtin i hans analyser av Dostojevskij, syftar på att en text rymmer flera jämbördiga röster och perspektiv som inte reduceras till en enda auktoritär berättarröst. Begreppet används också i diskursanalys. A är motsatsen – monofoni. B blandar ihop polyfoni med musikaliska eller fonetiska kvaliteter. D beskriver prokatalepsis eller motifreplering. Polyfoni är specifikt ett flerstämmighetsfenomen."
+    },
+    {
+      "id": 20,
+      "question": "I akademiskt skrivande är det viktigt att skilja mellan källhänvisning och källkritik. Vilket av följande påståenden är korrekt avseende källkritik?",
+      "options": {
+        "A": "Källkritik innebär att man alltid förkastar källor som är äldre än tio år",
+        "B": "Källkritik handlar enbart om att kontrollera att källan är korrekt citerad",
+        "C": "Källkritik innebär en systematisk bedömning av källans trovärdighet, relevans och syfte",
+        "D": "Källkritik är endast relevant för digitala och internetbaserade källor"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom källkritik är en systematisk metod för att bedöma en källas trovärdighet, äkthet, tendens (syfte och vinkling), beroende (om flera källor bygger på varandra) och relevans för den specifika frågeställningen. A är fel – ålder är en faktor men absoluta åldersgränser används inte. B är för snävt – korrekt citering är källhänvisningens uppgift, inte källkritikens. D är fel – källkritik gäller alla typer av källor, tryckt som digitalt."
+    }
+  ]
+}

@@ -3,23 +3,35 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>NP-Plugg – AI-quiz för nationella prov</title>
+  <title>Provklar – Öva till nationella proven</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
+  <div class="bg-glows" aria-hidden="true">
+    <div class="glow glow-tl"></div>
+    <div class="glow glow-tr"></div>
+    <div class="glow glow-bl"></div>
+    <div class="glow glow-br"></div>
+  </div>
+
   <div id="app">
 
-    <!-- ── Startskärm – välj årskurs ── -->
+    <!-- ── Startskärm ── -->
     <div id="screen-home" class="screen active">
       <header class="hero">
-        <h1>🎓 NP-Plugg</h1>
-        <p class="tagline">AI-genererade quiz för nationella prov</p>
+        <div class="hero-badge">AI-genererade frågor</div>
+        <h1><span class="logo-mark">Prov</span>klar</h1>
+        <p class="tagline">Öva smarter. Prestera bättre.</p>
       </header>
       <p class="pick-label">Välj årskurs</p>
       <div class="subject-grid" id="category-grid"></div>
     </div>
 
-    <!-- ── Ämneval – välj ämne inom en årskurs ── -->
+    <!-- ── Ämneval ── -->
     <div id="screen-subjects" class="screen">
       <div class="back-bar">
         <button class="btn-icon" id="btn-back-categories" title="Tillbaka">←</button>
@@ -33,7 +45,7 @@
     <div id="screen-loading" class="screen">
       <div class="loading-wrap">
         <div class="spinner"></div>
-        <h2>Genererar frågor…</h2>
+        <h2>Genererar frågor</h2>
         <p id="loading-subject-label"></p>
       </div>
     </div>
@@ -52,9 +64,46 @@
       </div>
       <div class="quiz-body">
         <div class="question-card">
-          <p class="question-number" id="q-number"></p>
+          <div class="q-meta">
+            <p class="question-number" id="q-number"></p>
+            <span class="level-badge hidden" id="q-level-badge"></span>
+          </div>
           <h2 class="question-text" id="q-text"></h2>
+
+          <!-- Flerval -->
           <div class="options" id="q-options"></div>
+
+          <!-- Skriftligt svar -->
+          <div class="written-section hidden" id="written-section">
+            <textarea id="written-input" class="written-input" placeholder="Skriv ditt svar här..."></textarea>
+            <button class="btn-primary" id="btn-submit-written">Skicka in svar</button>
+          </div>
+
+          <!-- Rättar... -->
+          <div class="grading-loading hidden" id="grading-loading">
+            <div class="grading-spinner"></div>
+            <span>Rättar ditt svar...</span>
+          </div>
+
+          <!-- Rättningsresultat -->
+          <div class="grading-result hidden" id="grading-result">
+            <div class="grade-header">
+              <span class="grade-badge" id="grade-badge"></span>
+              <p id="grade-summary"></p>
+            </div>
+            <div class="grade-detail">
+              <div class="grade-section grade-strengths-box">
+                <strong>Vad som var bra</strong>
+                <p id="grade-strengths"></p>
+              </div>
+              <div class="grade-section grade-improvements-box">
+                <strong>Kan förbättras</strong>
+                <p id="grade-improvements"></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Forklaring (flerval) -->
           <div class="explanation hidden" id="q-explanation">
             <div class="exp-icon" id="exp-icon"></div>
             <div>
@@ -62,8 +111,9 @@
               <p id="exp-body"></p>
             </div>
           </div>
+
           <button class="btn-primary" id="btn-next" style="display:none">
-            Nästa fråga →
+            Nästa fråga
           </button>
         </div>
       </div>

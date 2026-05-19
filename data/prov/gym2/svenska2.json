@@ -1,0 +1,247 @@
+{
+  "subject": "svenska2",
+  "category": "gym2",
+  "generated": "2026-05-19",
+  "questions": [
+    {
+      "id": 1,
+      "question": "En skribent vill skriva en debattartikel om skolans digitalisering. Vilket av följande påståenden utgör det starkaste retoriska argumentet med logosappell?",
+      "options": {
+        "A": "Jag minns hur vi som elever kämpade med trasiga datorer varje dag.",
+        "B": "Enligt Skolverkets rapport från 2022 presterar elever i skolor med väl fungerande digital infrastruktur 18% bättre på nationella prov.",
+        "C": "Det är verkligen tragiskt att våra barn ska behöva lida för politikernas misslyckanden.",
+        "D": "Alla föräldrar jag känner är djupt oroade över situationen i skolan."
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom logos-appellen bygger på fakta, statistik och logiska bevis. Alternativ B hänvisar till en konkret rapport med exakta siffror, vilket är typiskt för logos. A är ett pathos-argument (personlig erfarenhet som väcker känslor). C är ett tydligt pathos-argument med laddade ord som 'tragiskt' och 'lida'. D är ett svagt induktivt argument baserat på ett litet urval, inte ett logos-argument."
+    },
+    {
+      "id": 2,
+      "question": "I en analys av en sakprosatexts disposition är det viktigt att skilja på olika strukturer. Vilken dispositionsmodell utgår från att presentera en tes, sedan motargument och slutligen ett stärkande av ursprungstesen?",
+      "options": {
+        "A": "Kronologisk disposition",
+        "B": "Problemlösningsdisposition",
+        "C": "Concessionsdisposition",
+        "D": "Trattmodellen"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom concessionsdispositionen (medgivandedispositionen) innebär att skribenten presenterar sin tes, medger motargumentens existens och delvis giltighet (concessio), för att sedan bemöta dem och stärka sin ursprungliga ståndpunkt. A (kronologisk) organiserar innehållet efter tidföljd. B (problemlösning) presenterar ett problem och leder fram till en lösning. D (trattmodellen) rör introduceringsteknik, inte argumentation kring motargument."
+    },
+    {
+      "id": 3,
+      "question": "Vilket stilistiskt grepp används i meningen: 'Dimman lade sig som ett tungt täcke över staden och tynade bort varje ljud'?",
+      "options": {
+        "A": "Personifikation och synestesi",
+        "B": "Liknelse och metafor",
+        "C": "Allitteration och anafor",
+        "D": "Ironi och litotes"
+      },
+      "correct": "A",
+      "explanation": "A är rätt eftersom 'lade sig' och 'tynade bort varje ljud' ger dimman mänskliga/levande egenskaper (personifikation), och 'tynade bort varje ljud' blandar sinnesintrycken syn/rörelse med hörsel (synestesi). B är fel – det finns visserligen en bildlig jämförelse men 'som ett tungt täcke' är en liknelse, och det förekommer ingen ren metafor utan det är kombinationen med personifikation och synestesi som är det centrala. C (allitteration/anafor) saknas i meningen. D (ironi/litotes) förekommer inte heller."
+    },
+    {
+      "id": 4,
+      "question": "En elev håller ett formellt anförande och säger: 'Som ni alla säkert vet är detta ett komplext ämne.' Vilket retoriskt problem uppstår med denna formulering?",
+      "options": {
+        "A": "Eleven använder ett alltför avancerat ordförråd.",
+        "B": "Formuleringen skapar en känsla av överlägsenhet och riskerar att alienera publiken.",
+        "C": "Meningen saknar ett tydligt predikativt komplement.",
+        "D": "Eleven borde inte använda 'ni' i ett formellt sammanhang."
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom frasen 'Som ni alla säkert vet' är en s.k. captatio med negativ effekt – den antyder att lyssnarna redan borde känna till detta, vilket kan uppfattas som nedlåtande om de inte vet det, eller onödigt om de faktiskt vet det. Det riskerar att skapa distans och irritation hos publiken. A är fel – ordförrådet är inte ovanligt avancerat. C är en grammatisk bedömning som inte är det primära problemet. D är fel – 'ni' är fullt acceptabelt och vanligt i formell svenska."
+    },
+    {
+      "id": 5,
+      "question": "Läs följande textstycke: 'Regeringen påstår sig värna om välfärden, men varje reform de genomför tycks syfta till att erodera den.' Vilket argumentationsfel förekommer i texten?",
+      "options": {
+        "A": "Halmgubbeargument",
+        "B": "Cirkelargument",
+        "C": "Etiketteringsfel (ad hominem)",
+        "D": "Falsk dikotomi"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom skribenten attackerar regeringen som aktör och tillskriver dem dolda motiv ('tycks syfta till') snarare än att bemöta de faktiska argumenten för reformerna. Detta är ett ad hominem-argument där man angriper källan snarare än sakfrågan. A (halmgubbe) innebär att man förvrider motståndarens argument till något svagare – det sker inte här. B (cirkelargument) innebär att premisserna förutsätter slutsatsen – det sker inte heller. D (falsk dikotomi) innebär att man presenterar två alternativ som om de vore de enda – det förekommer inte."
+    },
+    {
+      "id": 6,
+      "question": "Vilket av följande är ett exempel på en implicit utsaga (underförstådd mening) i sakprosa?",
+      "options": {
+        "A": "Klimatförändringarna är ett faktum som vetenskapen har bevisat.",
+        "B": "Det är dags att vi tar ansvar för framtida generationers skull.",
+        "C": "Trots upprepade varningar har utsläppen ökat med 12% det senaste decenniet.",
+        "D": "Den som ifrågasätter klimatvetenskapen har uppenbarligen inte läst forskningen."
+      },
+      "correct": "D",
+      "explanation": "D är rätt eftersom meningen inte explicit säger att klimatförnekare har fel, men implicerar det starkt genom att koppla ifrågasättande till bristande läsning av forskning. Det är en implicit värdering inbäddad i en skenbart neutral kommentar. A är en explicit faktautsaga. B är en explicit normativ uppmaning. C är en explicit statistisk påstående. D innehåller den implicita slutsatsen 'Den som ifrågasätter är okunnig', utan att faktiskt säga det rakt ut."
+    },
+    {
+      "id": 7,
+      "question": "En text analyseras med avseende på modalitet. Vilket av följande påståenden har LÄGST modalitet (svagast grad av säkerhet/nödvändighet)?",
+      "options": {
+        "A": "Resultaten visar att metoden fungerar.",
+        "B": "Det är möjligt att resultaten kan tyda på att metoden eventuellt fungerar.",
+        "C": "Metoden fungerar utan tvekan.",
+        "D": "Det bör vara så att metoden fungerar."
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom det innehåller tre staplade modalitetsmarkörer ('möjligt', 'kan', 'eventuellt') som alla sänker graden av säkerhet, vilket ger en mycket låg modalitet. A är en direkt, säker påstågeutsaga (hög modalitet). C har explicit hög modalitet med 'utan tvekan'. D har medelhög modalitet med 'bör' som uttrycker sannolikhet/nödvändighet, men ändå starkare än B."
+    },
+    {
+      "id": 8,
+      "question": "I en litterär analys av en roman beskriver en elev att berättaren 'vet mer än vad karaktärerna vet och kan se in i alla karaktärers tankar'. Vilket berättarperspektiv beskrivs?",
+      "options": {
+        "A": "Jagberättare med intern fokalisering",
+        "B": "Allvetande berättare med nollfokalisation",
+        "C": "Tredjepersonsberättare med extern fokalisering",
+        "D": "Opålitlig berättare med växlande fokalisering"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom en allvetande berättare med nollfokalisation (Genettes term) har tillgång till alla karaktärers inre liv, tankar och känslor, och vet mer än någon enskild karaktär. A (jagberättare med intern fokalisering) innebär att berättaren är en av karaktärerna och begränsar sig till sin egen kunskap. C (extern fokalisering) innebär att berättaren vet MINDRE än karaktärerna – vi ser bara utifrån. D (opålitlig berättare) handlar om trovärdighet, inte omnisciens."
+    },
+    {
+      "id": 9,
+      "question": "Vilket av följande är ett korrekt exempel på anafor som stilfigur?",
+      "options": {
+        "A": "'Frid, frihet och framtid' – tre ord som alla börjar på f.",
+        "B": "'Vi kämpar för er. Vi offrar för er. Vi lever för er.'",
+        "C": "'Livet är en dans, döden är en paus.'",
+        "D": "'Han visste inte vad han visste att han visste.'"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom anafor innebär att samma ord eller fras upprepas i BÖRJAN av på varandra följande satser eller meningar. Här upprepas 'Vi' och verbstrukturen i inledningen av tre meningar. A beskriver allitteration (upprepning av begynnelseljud). C är en antites (kontrast mellan liv och död). D är en polyptoton/repetition med variation, inte anafor."
+    },
+    {
+      "id": 10,
+      "question": "En talare använder etosappell i sitt anförande. Vilket av följande påståenden representerar bäst en etosappell?",
+      "options": {
+        "A": "Statistik från WHO visar att 800 000 människor dör av självmord varje år.",
+        "B": "Tänk på alla de familjer som förlorar sina nära – det är en ohygglig sorg.",
+        "C": "Som legitimerad psykolog med 20 års erfarenhet av suicidprevention vet jag att tidiga insatser räddar liv.",
+        "D": "Antingen satsar vi på mental hälsa nu, eller så kommer samhällskostnaderna att explodera."
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom etos handlar om talarens trovärdighet och auktoritet. Att hänvisa till sin yrkeskompetens och erfarenhet ('legitimerad psykolog med 20 års erfarenhet') är ett klassiskt etos-argument – det bygger förtroende för talaren som källa. A är logos (statistik och fakta). B är pathos (väcker känslor av sorg och empati). D är ett logos-argument med inslag av falsk dikotomi, inte etos."
+    },
+    {
+      "id": 11,
+      "question": "Vilken av följande meningar innehåller ett KORREKT användande av semikolon enligt svenska skriftspråksnormer?",
+      "options": {
+        "A": "Hon ville resa; men hade inte råd.",
+        "B": "Mötet avbröts; ingen visste varför.",
+        "C": "Han köpte äpplen; päron och bananer.",
+        "D": "Rapporten visade; att resultaten var alarmerande."
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom semikolon korrekt används för att binda samman två självständiga huvudsatser som är innehållsligt nära besläktade. Båda delarna av meningen kan stå som självständiga meningar. A är fel – semikolon används inte före konjunktioner som 'men' (komma används). C är fel – semikolon används inte i en enkel uppräkning (komma används). D är fel – semikolon ska inte placeras direkt före en att-sats som är objekt till verbet."
+    },
+    {
+      "id": 12,
+      "question": "En elev analyserar en texts kohesion. Vilket av följande är ett exempel på lexikal kohesion?",
+      "options": {
+        "A": "Användningen av pronomen 'hon' för att syfta tillbaka på 'Maria'.",
+        "B": "Användningen av 'dessutom' för att koppla samman två påståenden.",
+        "C": "Att synonymen 'fordon' används omväxlande med 'bil' i samma text.",
+        "D": "Att texten har en tydlig inledning, mitt och avslutning."
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom lexikal kohesion skapas genom ordval – synonymer, hyperonymer och upprepade ord som bildar semantiska kedjor och binder texten samman på ordnivå. Att använda 'fordon' och 'bil' omväxlande är ett exempel på lexikal kohesion genom synonymi/hyperonymi. A är grammatisk kohesion (referensbindning med pronomen). B är retorisk/logisk kohesion (konnektiver/textbindningsord). D handlar om textstruktur/makrokomposition, inte kohesion."
+    },
+    {
+      "id": 13,
+      "question": "I en argumentation används följande resonemang: 'Alla ungdomar jag känner spelar dataspel. Alltså spelar alla ungdomar i Sverige dataspel.' Vilket logikfel förekommer?",
+      "options": {
+        "A": "Falsk kausalitet",
+        "B": "Hastig generalisering",
+        "C": "Auktoritetsargument",
+        "D": "Cirkelbevis"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom hastig generalisering (övergeneralisering) innebär att man drar en alltför bred slutsats från ett litet eller representativt urval. Att slutleda från 'ungdomar jag känner' till 'alla ungdomar i Sverige' är ett klassiskt exempel. A (falsk kausalitet) innebär att man felaktigt antar orsakssamband mellan händelser. C (auktoritetsargument) innebär att man hänvisar till en auktoritet på ett ogiltigt sätt. D (cirkelbevis) innebär att slutsatsen finns inbäddad i premisserna."
+    },
+    {
+      "id": 14,
+      "question": "Vilken av följande texttypsbeskrivningar stämmer bäst in på en instruerande text?",
+      "options": {
+        "A": "Texten återberättar händelser i kronologisk ordning och syftar till att informera om vad som hänt.",
+        "B": "Texten syftar till att påverka läsarens åsikt genom argumentation och belägg.",
+        "C": "Texten ger stegvisa direktiv för hur en uppgift ska utföras och använder ofta imperativformer.",
+        "D": "Texten beskriver egenskaper, processer och fenomen utan att värdera dem."
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom instruerande texter (t.ex. manualer, recept, bruksanvisningar) kännetecknas av stegvisa direktiv, imperativformer ('blanda', 'klicka', 'stäng av') och en tydlig handlingsorientering riktad mot läsaren. A beskriver en återberättande/narrativ text. B beskriver en argumenterande text. D beskriver en beskrivande/deskriptiv eller förklarande text."
+    },
+    {
+      "id": 15,
+      "question": "En gymnasieelev skriver en krönika. Vilken av följande egenskaper är MEST karakteristisk för krönikan som genre?",
+      "options": {
+        "A": "Objektiv och saklig framställning utan personliga åsikter.",
+        "B": "Strikt kronologisk återgivning av historiska händelser.",
+        "C": "Personlig röst, subjektivt perspektiv och ofta humoristisk eller ironisk ton.",
+        "D": "Vetenskaplig metodredovisning med källhänvisningar."
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom krönikan som journalistisk/litterär genre kännetecknas av en tydlig och personlig avsändarröst, subjektivt perspektiv, och ofta en lättsam, humoristisk eller ironisk stil. Skribenten syns tydligt i texten och för fram egna reflektioner. A är fel – objektivitet är snarare utmärkande för nyhetstext eller rapport. B är ett äldre historiografiskt krönikebegrepp, inte det moderna. D är utmärkande för vetenskapliga texter."
+    },
+    {
+      "id": 16,
+      "question": "Vilken av följande strategier är mest effektiv för att hantera nervositet inför ett muntligt framträdande, enligt retorisk och kommunikationspedagogisk forskning?",
+      "options": {
+        "A": "Memorera hela anförandet ord för ord för att minimera risken att tappa tråden.",
+        "B": "Undvika ögonkontakt med publiken för att inte bli distraherad.",
+        "C": "Omtolka nervositeten som aktivering och förbereda sig grundligt med dispositionsstöd.",
+        "D": "Tala så snabbt som möjligt för att minimera exponeringstiden."
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom forskning inom retorik och kommunikation visar att nervositetens fysiologiska tecken (ökad puls, adrenalinkick) kan omtolkas som positiv aktivering ('reframing'), och att grundlig förberedelse med dispositionsstöd (stödord, inte ordagrann text) ger trygghet utan att låsa talaren. A är kontraproduktivt – memorering ord för ord ökar risken för total minneslucka. B är fel – ögonkontakt bygger trovärdighet och minskar distansen till publiken. D är fel – snabbt tal sänker tydlighet och trovärdighet."
+    },
+    {
+      "id": 17,
+      "question": "Läs följande mening ur en elevtext: 'Den här romanen handlar om en kvinna som kämpar med sin identitet, vilket är ett vanligt tema i litteraturen.' Vilket är det viktigaste förbättringsförslaget för att höja den analytiska kvaliteten?",
+      "options": {
+        "A": "Byta ut 'handlar om' mot 'skildrar' för ett mer formellt språk.",
+        "B": "Ta bort 'Den här' och ersätta med romanens titel och författarens namn.",
+        "C": "Ersätta den vaga generaliseringen med en specifik analys av HUR och VARFÖR identitetstematiken gestaltas i just denna roman.",
+        "D": "Lägga till fler adjektiv för att göra analysen mer levande."
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom den analytiska svagheten i meningen är att den stannar vid referat ('handlar om') och vag generalisering ('vanligt tema') utan att analysera hur temat gestaltas med litterära grepp och varför just detta verk behandlar temat på detta sätt. En starkare analys kräver textbelägg och tolkningsdjup. A är en stilistisk finputsning men löser inte det analytiska problemet. B är ett formellt förbättringsförslag men det primära problemet är det analytiska djupet. D är direkt kontraproduktivt – fler adjektiv gör inte en analys bättre."
+    },
+    {
+      "id": 18,
+      "question": "Vilket av följande påståenden om den retoriska situationen (den retoriska situationens tre delar) är korrekt?",
+      "options": {
+        "A": "Den retoriska situationen består av logos, pathos och etos.",
+        "B": "Den retoriska situationen definieras av det retoriska problemet (exigence), den tänkta publiken (audience) och de begränsningar/möjligheter (constraints) som situationen innehåller.",
+        "C": "Den retoriska situationen är identisk med den kommunikativa kontexten och avgörs enbart av medium och kanal.",
+        "D": "Den retoriska situationen beskriver de tre delarna av ett anförande: introduktion, argumentation och avslutning."
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom Lloyd Bitzers klassiska definition av den retoriska situationen (1968) består av tre komponenter: exigence (det angelägna problemet eller behovet som motiverar kommunikationen), audience (den publik som kan påverkas och agera) och constraints (de faktorer – normer, förväntningar, begränsningar och möjligheter – som påverkar hur talaren kan agera). A beskriver de tre appellerna (bevismeden), inte situationen. C är en förenkling som missar exigence och constraints. D beskriver dispositionsstruktur, inte retorisk situation."
+    },
+    {
+      "id": 19,
+      "question": "En text inleds med: 'Skolsystemet i Sverige har aldrig fungerat.' Vilken typ av påstående är detta och vilket är det primära problemet med det som öppningsargument?",
+      "options": {
+        "A": "Det är ett deskriptivt påstående; problemet är att det saknar källhänvisning.",
+        "B": "Det är ett normativt påstående; problemet är att det inte anger vem som tycker så.",
+        "C": "Det är ett alltför absolut och obelagt påstående (hyperbol) som undergräver trovärdigheten redan i inledningen.",
+        "D": "Det är ett korrekt retoriskt grepp för att väcka läsarens uppmärksamhet och inget problem föreligger."
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom 'aldrig' är ett absolut ord som gör påståendet extremt och lätt motbevisbart (ett enda fungerande inslag i skolsystemet räcker för att vederlägga det). Överdrivna, obelagda absolutpåståenden i en inledning signalerar bristande nyansering och sänker skribentens trovärdighet (etos) hos en kritisk läsare. A är delvis rätt om bristen på belägg, men identifierar felaktigt texttypen och missar hyperbeln. B är fel om texttypen – det är ett faktapåstående formulerat som sanning, inte en explicit värdering. D är fel – greppet undergräver snarare än stärker argumentationen."
+    },
+    {
+      "id": 20,
+      "question": "Vilken av följande beskrivningar stämmer bäst överens med begreppet 'register' inom språkvetenskapen?",
+      "options": {
+        "A": "Register avser de grammatiska regler som styr satsbyggnad i ett språk.",
+        "B": "Register är de språkliga variationer som uppstår beroende på kommunikativ situation, syfte och relation mellan deltagarna.",
+        "C": "Register syftar på de dialektala skillnaderna mellan olika geografiska regioner i Sverige.",
+        "D": "Register är ett annat ord för en texts genre eller texttyp."
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom register inom funktionell lingvistik (t.ex. Hallidays systemisk-funktionella grammatik) avser hur språket varierar beroende på tre situationella variabler: field (ämne/verksamhet), tenor (relation och roller mellan deltagarna) och mode (kommunikationskanal och medium). Man väljer register beroende på om man är formell/informell, skriver/talar, om ämnet är tekniskt/vardagligt etc. A beskriver syntax/grammatik generellt. C beskriver dialekter (geografisk variation, inte situationell). D blandar ihop register med genre – dessa är relaterade men distinkta begrepp."
+    }
+  ]
+}

@@ -1,0 +1,367 @@
+{
+  "subject": "so",
+  "category": "ak9",
+  "generated": "2026-05-19",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Vilket år tog andra världskriget slut i Europa?",
+      "options": {
+        "A": "1943",
+        "B": "1944",
+        "C": "1945",
+        "D": "1946"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom Tyskland kapitulerade den 8 maj 1945, vilket markerade slutet på andra världskriget i Europa. 1943 var ett viktigt krigsår men inte slutet, 1944 skedde D-dagen men kriget fortsatte, och 1946 är ett år efter krigets slut."
+    },
+    {
+      "id": 2,
+      "question": "Vad är FN:s främsta uppgift?",
+      "options": {
+        "A": "Att reglera världshandeln",
+        "B": "Att upprätthålla internationell fred och säkerhet",
+        "C": "Att styra medlemsländernas ekonomier",
+        "D": "Att sprida demokrati med militära medel"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom FN grundades 1945 med det primära syftet att upprätthålla internationell fred och säkerhet samt förhindra nya världskrig. FN reglerar inte världshandeln (det gör WTO), styr inte länders ekonomier och använder inte militär för att sprida demokrati."
+    },
+    {
+      "id": 3,
+      "question": "Vilket av följande är ett exempel på ett kontinentalt klimat?",
+      "options": {
+        "A": "Milt och regnigt året om",
+        "B": "Varma somrar, kalla vintrar och relativt lite nederbörd",
+        "C": "Torrt och varmt hela året",
+        "D": "Kallt och fuktigt med lite sol"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom ett kontinentalt klimat kännetecknas av stora temperaturskillnader mellan årstiderna – varma somrar och kalla vintrar – samt relativt lite nederbörd eftersom man är långt från haven. Milt och regnigt året om beskriver maritimt klimat, torrt och varmt är ökenklimat, och kallt och fuktigt stämmer inte med definitionen."
+    },
+    {
+      "id": 4,
+      "question": "Vad innebär begreppet 'rättsstaten'?",
+      "options": {
+        "A": "Att domstolarna bestämmer över riksdagen",
+        "B": "Att alla medborgare och myndigheter är underkastade lagen",
+        "C": "Att staten äger alla domstolar",
+        "D": "Att rättsväsendet är statligt finansierat"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom rättsstaten innebär att både medborgare och offentliga myndigheter måste följa lagar som stiftats på ett demokratiskt sätt. Domstolarna bestämmer inte över riksdagen (A), staten äger inte domstolarna på det sättet (C), och statlig finansiering är inte kärnan i begreppet (D)."
+    },
+    {
+      "id": 5,
+      "question": "Vilket av följande länder är folkrikast?",
+      "options": {
+        "A": "USA",
+        "B": "Ryssland",
+        "C": "Indien",
+        "D": "Brasilien"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom Indien 2023 passerade Kina och blev världens folkrikaste land med över 1,4 miljarder invånare. USA har ca 330 miljoner, Ryssland ca 145 miljoner och Brasilien ca 215 miljoner invånare."
+    },
+    {
+      "id": 6,
+      "question": "Vad hände under Förintelsen (Förintelsen/Förintelsens historia)?",
+      "options": {
+        "A": "Sovjetunionen deporterade miljontals tyskar till Sibirien",
+        "B": "Nazityskland systematiskt mördade sex miljoner judar och andra grupper",
+        "C": "Allierade bomber förstörde tyska städer och dödade civilbefolkning",
+        "D": "Osmanerna genomförde ett folkmord på armenier"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom Förintelsen (Holocaust) syftar på nazisternas systematiska och industriella utrotning av ungefär sex miljoner judar samt hundratusentals romer, funktionshindrade och andra. De andra alternativen beskriver verkliga historiska händelser men är inte Förintelsen."
+    },
+    {
+      "id": 7,
+      "question": "Vilket organ i den svenska riksdagen bereder lagstiftningsärenden innan de beslutas av riksdagen?",
+      "options": {
+        "A": "Justitiekanslern",
+        "B": "Riksrevisionen",
+        "C": "Utskotten",
+        "D": "Statsrådet"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom riksdagens utskott (t.ex. konstitutionsutskottet och finansutskottet) granskar och bereder ärenden innan de går till omröstning i riksdagen. Justitiekanslern är ett ämbetsverk, Riksrevisionen granskar statens verksamhet, och Statsrådet är ett begrepp för regeringsmedlemmarna."
+    },
+    {
+      "id": 8,
+      "question": "Vilket av följande är ett monoteistiskt världsreligion?",
+      "options": {
+        "A": "Hinduism",
+        "B": "Buddhism",
+        "C": "Islam",
+        "D": "Shintoism"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom Islam är en strikt monoteistisk religion som tror på en enda Gud (Allah). Hinduism är polyteistisk med många gudar. Buddhism har inte en personlig skapargud i traditionell mening. Shintoism har många gudomligheter (kami)."
+    },
+    {
+      "id": 9,
+      "question": "Vilken revolution bröt ut i Frankrike 1789?",
+      "options": {
+        "A": "Den industriella revolutionen",
+        "B": "Den amerikanska revolutionen",
+        "C": "Den franska revolutionen",
+        "D": "Den ryska revolutionen"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom den franska revolutionen startade 1789 med stormningen av Bastiljen och ledde till att kungamakten störtades. Den industriella revolutionen gäller den ekonomiska omvandlingen, den amerikanska revolutionen var 1775–1783, och den ryska revolutionen var 1917."
+    },
+    {
+      "id": 10,
+      "question": "Vilket av följande länder tillhör Mellanöstern?",
+      "options": {
+        "A": "Pakistan",
+        "B": "Marocko",
+        "C": "Etiopien",
+        "D": "Jordanien"
+      },
+      "correct": "D",
+      "explanation": "D är rätt eftersom Jordanien geografiskt tillhör Mellanöstern. Pakistan räknas till Sydasien, Marocko till Nordafrika och Etiopien till Östafrika. Mellanöstern brukar inkludera länder som Israel, Jordanien, Syrien, Irak, Iran och Saudiarabien."
+    },
+    {
+      "id": 11,
+      "question": "Vad menas med 'direkt demokrati'?",
+      "options": {
+        "A": "Medborgarna väljer representanter som fattar beslut å deras vägnar",
+        "B": "En stark ledare fattar beslut utan val",
+        "C": "Medborgarna fattar beslut direkt, exempelvis genom folkomröstningar",
+        "D": "Domstolarna har sista ordet i politiska frågor"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom direkt demokrati innebär att medborgarna själva deltar i beslutsfattandet, till exempel via folkomröstningar, utan att gå via valda representanter. Alternativ A beskriver representativ demokrati, B beskriver diktatur, och D är inte en demokratiform."
+    },
+    {
+      "id": 12,
+      "question": "Vilken religion grundades av Siddharta Gautama?",
+      "options": {
+        "A": "Hinduism",
+        "B": "Sikhism",
+        "C": "Jainism",
+        "D": "Buddhism"
+      },
+      "correct": "D",
+      "explanation": "D är rätt eftersom Buddhism grundades av Siddharta Gautama (Buddha) i norra Indien för ungefär 2 500 år sedan. Hinduism är en mycket äldre religion utan en enskild grundare, Sikhism grundades av Guru Nanak på 1400-talet, och Jainism förknippas med Mahavira."
+    },
+    {
+      "id": 13,
+      "question": "Vilket av följande är ett exempel på en push-faktor vid migration?",
+      "options": {
+        "A": "Höga löner i mottagarlandet",
+        "B": "Bra sjukvård i det nya landet",
+        "C": "Krig och förföljelse i hemlandet",
+        "D": "Familj och vänner som redan bor utomlands"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom push-faktorer är negativa omständigheter som driver folk att lämna ett land, exempelvis krig, fattigdom och förföljelse. Höga löner och bra sjukvård är pull-faktorer (lockande faktorer i det nya landet). Familjenätverk kan vara en pull-faktor, inte en push-faktor."
+    },
+    {
+      "id": 14,
+      "question": "Vilket år bildades Europeiska unionen (EU) i sin nuvarande form genom Maastrichtfördraget?",
+      "options": {
+        "A": "1957",
+        "B": "1973",
+        "C": "1993",
+        "D": "2004"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom Maastrichtfördraget trädde i kraft 1993 och skapade EU som organisation. 1957 grundades EEG (Romfördraget), 1973 utvidgades EEG med bland annat Storbritannien, och 2004 skedde en stor östutvidgning av EU."
+    },
+    {
+      "id": 15,
+      "question": "Vad kallas den ekonomiska politiken som innebär att staten ska ha minimalt inflytande i ekonomin och låta marknaden styra?",
+      "options": {
+        "A": "Keynesianism",
+        "B": "Socialism",
+        "C": "Liberalism (ekonomisk)/nyliberalism",
+        "D": "Merkantilism"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom ekonomisk liberalism/nyliberalism förespråkar fri marknad, minimal statlig inblandning och avregleringar. Keynesianism förespråkar tvärtom statliga stimulanser, socialism innebär kollektivt ägande, och merkantilism är en äldre ekonomisk teori om att staten aktivt ska styra handeln för att bygga upp rikedom."
+    },
+    {
+      "id": 16,
+      "question": "Vilket hav ligger mellan Europa och Amerika?",
+      "options": {
+        "A": "Indiska oceanen",
+        "B": "Stilla havet",
+        "C": "Atlanten",
+        "D": "Arktiska oceanen"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom Atlanten (Atlantiska oceanen) skiljer Europa och Afrika från Amerika. Indiska oceanen ligger mellan Afrika, Asien och Australien, Stilla havet ligger väster om Amerika, och Arktiska oceanen omger Nordpolen."
+    },
+    {
+      "id": 17,
+      "question": "Under vilken period pågick det kalla kriget huvudsakligen?",
+      "options": {
+        "A": "1918–1939",
+        "B": "1939–1945",
+        "C": "1947–1991",
+        "D": "1962–1989"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom det kalla kriget brukar dateras från 1947 (Trumandoktrinen och Marshallplanen) till 1991 då Sovjetunionen upplöstes. 1918–1939 är mellankrigstiden, 1939–1945 är andra världskriget, och 1962–1989 är en period inom det kalla kriget men inte hela tidsperioden."
+    },
+    {
+      "id": 18,
+      "question": "Vilket av följande stämmer om den svenska grundlagen?",
+      "options": {
+        "A": "Sverige har en grundlag som kallas 'Konstitutionen'",
+        "B": "Sverige har fyra grundlagar, däribland Regeringsformen",
+        "C": "Sverige saknar grundlag och styrs av vanliga lagar",
+        "D": "Sverige har en grundlag som godkändes av folkrätting 1972"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom Sverige har fyra grundlagar: Regeringsformen (RF), Successionsordningen, Tryckfrihetsförordningen och Yttrandefrihetsgrundlagen. Det finns ingen grundlag kallad 'Konstitutionen', Sverige saknar inte grundlag, och den nuvarande Regeringsformen antogs 1974 (inte 1972)."
+    },
+    {
+      "id": 19,
+      "question": "Vad är 'BNP per capita' ett mått på?",
+      "options": {
+        "A": "Hur jämn inkomstfördelningen är i ett land",
+        "B": "Landets totala folkmängd delat på ytan",
+        "C": "Det genomsnittliga ekonomiska välståndet per person i ett land",
+        "D": "Statens totala skuld dividerat med befolkningen"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom BNP per capita (bruttonationalprodukt per person) visar ett lands totala ekonomiska produktion dividerat med befolkningsmängden, vilket används som ett mått på genomsnittligt ekonomiskt välstånd. Det mäter inte inkomstfördelning (det gör Gini-koefficienten), befolkningstäthet eller statsskuld."
+    },
+    {
+      "id": 20,
+      "question": "Vilket av dessa påståenden om kristendom stämmer?",
+      "options": {
+        "A": "Kristendomen grundades av aposteln Paulus i Rom",
+        "B": "Kristendomen har sin heliga skrift i Koranen",
+        "C": "Kristendomen tror på Jesus Kristus som Guds son och frälsare",
+        "D": "Kristendomen uppstod i Egypten under antiken"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom tron på Jesus Kristus som Guds son och mänsklighetens frälsare är kärnan i kristen tro. Kristendomen grundades inte av Paulus (Jesus var central), den heliga skriften är Bibeln (inte Koranen, som är islamsk), och kristendomen uppstod i Palestina/nuvarande Israel."
+    },
+    {
+      "id": 21,
+      "question": "Vad innebär kolonialism?",
+      "options": {
+        "A": "När ett land frivilligt ingår allianser med grannländer",
+        "B": "När ett land erövrar och kontrollerar ett annat lands territorium och befolkning för ekonomisk vinning",
+        "C": "När ett land tar emot många invandrare från andra länder",
+        "D": "När ett land delar sin valuta med andra nationer"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom kolonialism innebär att ett mäktigare land erövrar och utnyttjar ett svagare lands resurser och befolkning. Det är inte frivilliga allianser (A), invandringspolitik (C) eller valutasamarbete (D)."
+    },
+    {
+      "id": 22,
+      "question": "Vilken flod är världens längsta?",
+      "options": {
+        "A": "Amazonfloden",
+        "B": "Yangtzeflooden",
+        "C": "Nilen",
+        "D": "Mississippi"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom Nilen i Afrika traditionellt räknas som världens längsta flod med ca 6 650 km. Amazonfloden är dock störst till vattenflöde. Yangtze är Asiens längsta flod och Mississippi är en av Nordamerikas längsta flodar."
+    },
+    {
+      "id": 23,
+      "question": "Vad är syftet med Barnkonventionen (FN:s konvention om barnets rättigheter)?",
+      "options": {
+        "A": "Att reglera adoptioner mellan länder",
+        "B": "Att fastslå barns grundläggande rättigheter och skydd världen över",
+        "C": "Att förbjuda barnarbete i industriländerna",
+        "D": "Att styra hur länder ska organisera sin skola"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom Barnkonventionen från 1989 slår fast alla barns grundläggande mänskliga rättigheter – till liv, skydd, utbildning och delaktighet – och gäller globalt. Den reglerar inte enbart adoptioner, är inte begränsad till industriländer och bestämmer inte hur skolor ska organiseras."
+    },
+    {
+      "id": 24,
+      "question": "Vilket av följande är ett exempel på en förnybar energikälla?",
+      "options": {
+        "A": "Stenkol",
+        "B": "Naturgas",
+        "C": "Olja",
+        "D": "Vindkraft"
+      },
+      "correct": "D",
+      "explanation": "D är rätt eftersom vindkraft är en förnybar energikälla som utnyttjar naturens egna processer och inte tar slut. Stenkol, naturgas och olja är fossila bränslen som bildas under miljontals år och är ändliga resurser som inte förnyas i mänsklig tidsskala."
+    },
+    {
+      "id": 25,
+      "question": "Vad var Berlinmurens funktion under kalla kriget?",
+      "options": {
+        "A": "Att skydda Västberlin mot bombningar",
+        "B": "Att förhindra att Östtyskar flydde till Väst",
+        "C": "Att markera gränsen mellan Polen och Östtyskland",
+        "D": "Att skydda mot sovjetiska kärnvapen"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom DDR (Östtyskland) byggde Berlinmuren 1961 för att stoppa den massiva flykten av östtyska medborgare till Västberlin och Västtyskland. Muren var ingen bombarrest, gränsade inte mot Polen och skyddade inte mot kärnvapen."
+    },
+    {
+      "id": 26,
+      "question": "Vilket av dessa länder har ett parlamentariskt styrelseskick?",
+      "options": {
+        "A": "USA",
+        "B": "Sverige",
+        "C": "Ryssland",
+        "D": "Kina"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom Sverige har ett parlamentariskt system där regeringen är beroende av riksdagens förtroende. USA har ett presidentsystem, Ryssland har ett semi-presidentiellt system med stor makt hos presidenten, och Kina styrs av ett enpartisystem under kommunistpartiet."
+    },
+    {
+      "id": 27,
+      "question": "Vad kallas den heliga skrift inom Judaism?",
+      "options": {
+        "A": "Talmud",
+        "B": "Torah",
+        "C": "Hadith",
+        "D": "Vedas"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom Torahen (de fem Moseböckerna) är Judendomens primära heliga skrift och innehåller Guds lag. Talmud är en viktig kommentarsamling men inte den primära heliga texten. Hadith är islamska berättelser om profeten Muhammed, och Vedas tillhör Hinduismen."
+    },
+    {
+      "id": 28,
+      "question": "Vad innebär begreppet 'globalisering'?",
+      "options": {
+        "A": "Att alla länder inför samma lagar och regler",
+        "B": "Att världens länder isolerar sig från varandra ekonomiskt",
+        "C": "Att världens länder och ekonomier blir alltmer sammankopplade och beroende av varandra",
+        "D": "Att FN styr världens länder gemensamt"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom globalisering beskriver den ökande rörligheten av varor, tjänster, kapital, information och människor som gör att världens länder och ekonomier integreras mer. Det handlar inte om enhetliga lagar (A), isolering (B) eller FN-styre (D)."
+    },
+    {
+      "id": 29,
+      "question": "Vilket av följande påståenden om industrialiseringen i Sverige är korrekt?",
+      "options": {
+        "A": "Sverige industrialiserades redan på 1700-talet, tidigare än England",
+        "B": "Industrialiseringen i Sverige tog fart under andra hälften av 1800-talet",
+        "C": "Sverige industrialiserades aldrig i någon större utsträckning",
+        "D": "Industrialiseringen i Sverige startade på 1920-talet"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom Sveriges industrialisering tog fart under 1800-talets andra hälft, med textil-, järn- och träindustrin som drivkrafter. England var pionjär på 1700-talet, och påstå att Sverige aldrig industrialiserades eller att det startade på 1920-talet är felaktigt."
+    },
+    {
+      "id": 30,
+      "question": "Vilken av följande faktorer bidrar MEST till växthuseffekten och den globala uppvärmningen?",
+      "options": {
+        "A": "Utbyggnaden av kärnkraft",
+        "B": "Avskogning och förbränning av fossila bränslen",
+        "C": "Ökad användning av vindkraft",
+        "D": "Befolkningsminskning i industriländerna"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom förbränning av fossila bränslen (kol, olja, gas) och avskogning är de dominerande källorna till de växthusgaser (framför allt koldioxid) som förstärker växthuseffekten och orsakar global uppvärmning. Kärnkraft och vindkraft bidrar minimalt till koldioxidutsläpp, och befolkningsminskning är inte en primär faktor."
+    }
+  ]
+}

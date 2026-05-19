@@ -1,0 +1,367 @@
+{
+  "subject": "engelska",
+  "category": "ak9",
+  "generated": "2026-05-19",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Choose the correct verb form: 'She _____ to London three times this year.'",
+      "options": {
+        "A": "went",
+        "B": "has been",
+        "C": "was going",
+        "D": "goes"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom 'this year' indikerar en tidsperiod som fortfarande pågår, vilket kräver present perfect ('has been'). A ('went') är simple past och kräver en avslutad tidpunkt. C ('was going') är past continuous. D ('goes') är simple present och stämmer inte kontextuellt."
+    },
+    {
+      "id": 2,
+      "question": "What does the idiom 'to bite the bullet' mean?",
+      "options": {
+        "A": "To eat something very hard",
+        "B": "To endure a painful situation with courage",
+        "C": "To shoot someone with a gun",
+        "D": "To make a quick decision"
+      },
+      "correct": "B",
+      "explanation": "B är rätt. 'Bite the bullet' betyder att uthärda en svår eller smärtsam situation med mod och beslutsamhet. A är en bokstavlig tolkning som är fel. C och D är felaktiga tolkningar av uttrycket."
+    },
+    {
+      "id": 3,
+      "question": "Choose the word that best completes the sentence: 'The scientist made a remarkable _____ that changed our understanding of the universe.'",
+      "options": {
+        "A": "discovery",
+        "B": "invention",
+        "C": "creation",
+        "D": "production"
+      },
+      "correct": "A",
+      "explanation": "A är rätt. 'Discovery' används när man hittar något som redan existerar (t.ex. ett vetenskapligt fenomen). B ('invention') används för något som skapas för första gången. C och D passar inte i vetenskaplig kontext på detta sätt."
+    },
+    {
+      "id": 4,
+      "question": "Read the sentence and choose the correct relative pronoun: 'The book _____ I borrowed from the library was fascinating.'",
+      "options": {
+        "A": "who",
+        "B": "whom",
+        "C": "which",
+        "D": "whose"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom 'which' används för saker och ting, inte personer. 'The book' är ett objekt, inte en person. A och B ('who'/'whom') används för personer. D ('whose') används för ägande och passar inte här."
+    },
+    {
+      "id": 5,
+      "question": "Which sentence is grammatically correct?",
+      "options": {
+        "A": "I didn't went to school yesterday.",
+        "B": "She don't like coffee.",
+        "C": "They are playing football right now.",
+        "D": "He have finished his homework."
+      },
+      "correct": "C",
+      "explanation": "C är rätt. 'They are playing football right now' är korrekt present continuous. A är fel eftersom 'went' inte ska användas efter 'didn't' (ska vara 'go'). B är fel, det ska vara 'doesn't'. D är fel, det ska vara 'has finished'."
+    },
+    {
+      "id": 6,
+      "question": "What is the meaning of the word 'ambiguous'?",
+      "options": {
+        "A": "Very clear and easy to understand",
+        "B": "Having more than one possible meaning",
+        "C": "Extremely dangerous",
+        "D": "Completely wrong"
+      },
+      "correct": "B",
+      "explanation": "B är rätt. 'Ambiguous' betyder att något kan tolkas på mer än ett sätt och därför är oklart. A är motsatsen. C och D är helt felaktiga definitioner."
+    },
+    {
+      "id": 7,
+      "question": "Choose the correct preposition: 'She has been waiting _____ two hours.'",
+      "options": {
+        "A": "since",
+        "B": "for",
+        "C": "during",
+        "D": "while"
+      },
+      "correct": "B",
+      "explanation": "B är rätt. 'For' används med en tidsperiod (two hours). A ('since') används med en specifik startpunkt (since 3 o'clock). C ('during') används med händelser eller perioder (during the meeting). D ('while') är en konjunktion, inte preposition i detta sammanhang."
+    },
+    {
+      "id": 8,
+      "question": "Read this passage: 'Despite the heavy rain, the outdoor concert attracted thousands of fans who waited patiently for the band to appear.' What can we conclude about the fans?",
+      "options": {
+        "A": "They were angry about the bad weather.",
+        "B": "They were dedicated and determined to see the band.",
+        "C": "They had never seen the band before.",
+        "D": "They left as soon as the rain started."
+      },
+      "correct": "B",
+      "explanation": "B är rätt. Texten säger att fansen väntade tålmodigt trots kraftigt regn, vilket visar hängivenhet och beslutsamhet. A motsägs av 'patiently'. C och D nämns inte i texten och texten antyder tvärtom."
+    },
+    {
+      "id": 9,
+      "question": "What does the phrasal verb 'give up' mean in this sentence: 'After failing three times, she decided to give up on her dream of becoming a doctor.'",
+      "options": {
+        "A": "To work harder",
+        "B": "To ask for help",
+        "C": "To stop trying",
+        "D": "To succeed eventually"
+      },
+      "correct": "C",
+      "explanation": "C är rätt. 'Give up' betyder att sluta försöka eller att ge upp något. A är motsatsen. B och D stämmer inte med betydelsen av 'give up'."
+    },
+    {
+      "id": 10,
+      "question": "Choose the correct form of the adjective: 'This is _____ film I have ever seen.'",
+      "options": {
+        "A": "the most boring",
+        "B": "the more boring",
+        "C": "most boring",
+        "D": "a most boring"
+      },
+      "correct": "A",
+      "explanation": "A är rätt. Superlativ av 'boring' är 'the most boring', och när man använder superlativ behövs bestämd artikel 'the'. B är komparativ, inte superlativ. C saknar 'the'. D är grammatiskt felaktigt."
+    },
+    {
+      "id": 11,
+      "question": "Which word is a synonym for 'enormous'?",
+      "options": {
+        "A": "Tiny",
+        "B": "Colossal",
+        "C": "Gentle",
+        "D": "Rapid"
+      },
+      "correct": "B",
+      "explanation": "B är rätt. 'Colossal' och 'enormous' betyder båda mycket stor. A ('tiny') är antonymet – mycket liten. C ('gentle') betyder varsam/mild. D ('rapid') betyder snabb."
+    },
+    {
+      "id": 12,
+      "question": "Choose the correct passive form: 'Someone stole my bike.' → 'My bike _____.'",
+      "options": {
+        "A": "was stealing",
+        "B": "has stolen",
+        "C": "was stolen",
+        "D": "stolen"
+      },
+      "correct": "C",
+      "explanation": "C är rätt. Passiv form i simple past bildas med 'was/were + past participle'. 'Was stolen' är korrekt passiv konstruktion. A är past continuous passiv och skulle behöva 'being'. B saknar 'been'. D är ofullständigt utan hjälpverb."
+    },
+    {
+      "id": 13,
+      "question": "Read the sentence: 'The new policy will inevitably lead to widespread unemployment.' What does 'inevitably' mean?",
+      "options": {
+        "A": "Possibly",
+        "B": "Surprisingly",
+        "C": "Certainly and unable to be avoided",
+        "D": "Slowly but surely"
+      },
+      "correct": "C",
+      "explanation": "C är rätt. 'Inevitably' betyder att något säkert kommer att hända och inte kan undvikas. A ('possibly') antyder osäkerhet. B ('surprisingly') handlar om förvåning. D är en fras som inte exakt speglar ordets betydelse."
+    },
+    {
+      "id": 14,
+      "question": "What does the idiom 'under the weather' mean?",
+      "options": {
+        "A": "Standing in the rain",
+        "B": "Feeling slightly ill",
+        "C": "Being very happy",
+        "D": "Working outdoors"
+      },
+      "correct": "B",
+      "explanation": "B är rätt. 'Under the weather' är ett idiom som betyder att man känner sig lite sjuk eller inte mår bra. A är en bokstavlig och felaktig tolkning. C är fel – det är snarare motsatsen. D är irrelevant."
+    },
+    {
+      "id": 15,
+      "question": "Choose the correct conditional form: 'If I _____ more money, I would travel the world.'",
+      "options": {
+        "A": "have",
+        "B": "had",
+        "C": "will have",
+        "D": "would have"
+      },
+      "correct": "B",
+      "explanation": "B är rätt. Detta är en second conditional (hypotetisk situation i nutid/framtid), som bildas med 'if + past simple + would + infinitive'. A ('have') ger en first conditional som inte stämmer med 'would'. C och D är grammatiskt felaktiga i denna konstruktion."
+    },
+    {
+      "id": 16,
+      "question": "Read this text: 'Although Marcus had studied hard for weeks, he felt his mind go blank as soon as he opened the exam paper. His heart raced and his palms grew sweaty.' How does Marcus feel?",
+      "options": {
+        "A": "Confident and well-prepared",
+        "B": "Bored and uninterested",
+        "C": "Anxious and nervous",
+        "D": "Angry and frustrated"
+      },
+      "correct": "C",
+      "explanation": "C är rätt. Fysiska symtom som 'heart raced' och 'palms grew sweaty' kombinerat med att 'his mind go blank' beskriver tydlig ångest och nervositet. A motsägs av texten. B och D stöds inte av de beskrivna symptomen."
+    },
+    {
+      "id": 17,
+      "question": "Choose the word that does NOT belong in the group: 'anxious, terrified, delighted, frightened'",
+      "options": {
+        "A": "anxious",
+        "B": "terrified",
+        "C": "delighted",
+        "D": "frightened"
+      },
+      "correct": "C",
+      "explanation": "C är rätt. 'Delighted' betyder mycket glad, medan 'anxious', 'terrified' och 'frightened' alla uttrycker former av rädsla eller oro. 'Delighted' tillhör en annan känslokategori."
+    },
+    {
+      "id": 18,
+      "question": "Choose the correct reported speech: She said, 'I am going to the gym.' → She said that she _____ to the gym.",
+      "options": {
+        "A": "is going",
+        "B": "was going",
+        "C": "went",
+        "D": "will go"
+      },
+      "correct": "B",
+      "explanation": "B är rätt. I reported speech skiftar 'am going' (present continuous) tillbaka till 'was going' (past continuous). A är fel eftersom tempus ska backas ett steg. C ('went') är simple past. D ('will go') är fel form i reported speech."
+    },
+    {
+      "id": 19,
+      "question": "What is the meaning of the word 'scarce'?",
+      "options": {
+        "A": "Available in large amounts",
+        "B": "Very frightening",
+        "C": "Not enough of something; rare",
+        "D": "Expensive and luxurious"
+      },
+      "correct": "C",
+      "explanation": "C är rätt. 'Scarce' betyder att det finns lite av något, att det är ont om det. A är motsatsen. B förväxlar 'scarce' med 'scary'. D är en felaktig definition."
+    },
+    {
+      "id": 20,
+      "question": "Read the following text and answer the question: 'The documentary revealed how fast fashion contributes to pollution, exploits workers, and wastes resources. Yet, millions continue to buy cheap clothes without considering the consequences.' What is the main message of the text?",
+      "options": {
+        "A": "Fast fashion is always affordable.",
+        "B": "People should be more aware of the negative impact of fast fashion.",
+        "C": "Documentaries are important for education.",
+        "D": "Workers in the fashion industry earn good wages."
+      },
+      "correct": "B",
+      "explanation": "B är rätt. Textens budskap är att fast fashion orsakar allvarliga problem men att folk ändå fortsätter köpa utan att tänka på konsekvenserna – en tydlig uppmaning till medvetenhet. A, C och D stöds inte av texten."
+    },
+    {
+      "id": 21,
+      "question": "Which sentence contains a correct use of the apostrophe?",
+      "options": {
+        "A": "The dog wagged it's tail.",
+        "B": "The childrens' toys were on the floor.",
+        "C": "She's been waiting for an hour.",
+        "D": "The boy's were playing outside."
+      },
+      "correct": "C",
+      "explanation": "C är rätt. 'She's' är en korrekt kontraktion av 'she has'. A är fel – 'its' (possessiv) ska inte ha apostrof. B är fel – det korrekta är 'children's' (plural är oregelbundet). D är fel – 'boys' i plural possessiv behöver ingen apostrof om det är subjekt."
+    },
+    {
+      "id": 22,
+      "question": "Choose the correct question tag: 'You haven't met her before, _____?'",
+      "options": {
+        "A": "have you",
+        "B": "haven't you",
+        "C": "did you",
+        "D": "don't you"
+      },
+      "correct": "A",
+      "explanation": "A är rätt. Question tags bildas med motsatt polaritet – en negativ mening får ett positivt question tag. 'Haven't' → 'have you'. B är fel eftersom det har samma negativa polaritet. C och D använder fel hjälpverb."
+    },
+    {
+      "id": 23,
+      "question": "What does the phrasal verb 'come across' mean in: 'I came across an interesting article while browsing the internet.'",
+      "options": {
+        "A": "To write",
+        "B": "To find by chance",
+        "C": "To delete",
+        "D": "To share with others"
+      },
+      "correct": "B",
+      "explanation": "B är rätt. 'Come across' betyder att stöta på eller hitta något av en slump, utan att aktivt söka efter det. A, C och D är felaktiga tolkningar av detta phrasal verb."
+    },
+    {
+      "id": 24,
+      "question": "Choose the correct sentence:",
+      "options": {
+        "A": "Neither of the students have done their homework.",
+        "B": "Neither of the students has done their homework.",
+        "C": "Neither of the students has done his homework.",
+        "D": "Neither of the students done their homework."
+      },
+      "correct": "B",
+      "explanation": "B är rätt. 'Neither of' tar singularis verb ('has'), och 'their' används numera som könsneutralt pronomen i modern engelska och accepteras i de flesta sammanhang. A har 'have' vilket är fel. C är äldre form men B anses vara mer korrekt i modern engelska. D saknar hjälpverb."
+    },
+    {
+      "id": 25,
+      "question": "Read the text: 'Despite being only sixteen, Emma had a profound understanding of social injustice, often engaging teachers in debates that left them speechless.' What does 'profound' mean in this context?",
+      "options": {
+        "A": "Very deep and thorough",
+        "B": "Very basic and simple",
+        "C": "Completely wrong",
+        "D": "Slightly confused"
+      },
+      "correct": "A",
+      "explanation": "A är rätt. 'Profound' betyder djup och genomgripande – i detta fall en djup förståelse. B är motsatsen. C och D är felaktiga tolkningar som inte stämmer med kontexten."
+    },
+    {
+      "id": 26,
+      "question": "Which of the following is an example of formal English suitable for an essay?",
+      "options": {
+        "A": "Lots of people think climate change is a big deal.",
+        "B": "Climate change is, like, super serious these days.",
+        "C": "A significant proportion of the population regards climate change as a critical issue.",
+        "D": "Everyone's freaking out about the climate and stuff."
+      },
+      "correct": "C",
+      "explanation": "C är rätt. Meningen använder formellt ordval ('significant proportion', 'regards', 'critical issue') som passar en akademisk uppsats. A, B och D innehåller informella eller talspråkliga uttryck som 'lots of', 'like, super' och 'freaking out'."
+    },
+    {
+      "id": 27,
+      "question": "Choose the correct word: 'The two countries signed a peace _____ after years of conflict.'",
+      "options": {
+        "A": "treat",
+        "B": "treaty",
+        "C": "treatment",
+        "D": "treating"
+      },
+      "correct": "B",
+      "explanation": "B är rätt. 'Treaty' är ett formellt avtal mellan länder (fredsavtal). A ('treat') är ett verb eller sötsak. C ('treatment') betyder behandling. D ('treating') är en verbform. Dessa passar inte i kontexten."
+    },
+    {
+      "id": 28,
+      "question": "Read the text: 'The athlete trained relentlessly for four years, sacrificing weekends, holidays, and social events. When she finally stood on the Olympic podium, every tear she shed was well deserved.' What tone does the author use?",
+      "options": {
+        "A": "Critical and disapproving",
+        "B": "Admiring and respectful",
+        "C": "Humorous and playful",
+        "D": "Neutral and factual"
+      },
+      "correct": "B",
+      "explanation": "B är rätt. Ord som 'relentlessly', 'sacrificing' och frasen 'well deserved' visar att författaren beundrar och respekterar atletens prestationer. A är fel – det finns ingen kritik. C är fel – tonen är allvarlig. D är fel – texten är känslomässigt laddad."
+    },
+    {
+      "id": 29,
+      "question": "What does the idiom 'to burn bridges' mean?",
+      "options": {
+        "A": "To work as a firefighter",
+        "B": "To permanently damage a relationship or opportunity",
+        "C": "To build something quickly",
+        "D": "To feel very hot"
+      },
+      "correct": "B",
+      "explanation": "B är rätt. 'Burn bridges' betyder att permanent förstöra en relation eller möjlighet genom sina handlingar, så att man inte kan gå tillbaka. A, C och D är bokstavliga eller felaktiga tolkningar av detta idiom."
+    },
+    {
+      "id": 30,
+      "question": "Choose the sentence with the correct use of 'fewer' and 'less': 'There are _____ people at the concert than last year, but there is _____ noise than expected.'",
+      "options": {
+        "A": "less / fewer",
+        "B": "fewer / fewer",
+        "C": "fewer / less",
+        "D": "less / less"
+      },
+      "correct": "C",
+      "explanation": "C är rätt. 'Fewer' används med räknebara substantiv (people – räknebart), och 'less' används med oräknebara substantiv (noise – oräknebart). A blandas i fel ordning. B använder 'fewer' för båda, men 'noise' är oräknebart. D använder 'less' för båda, men 'people' är räknebart."
+    }
+  ]
+}

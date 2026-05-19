@@ -1,0 +1,367 @@
+{
+  "subject": "no",
+  "category": "ak9",
+  "generated": "2026-05-19",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Vilken av följande partiklar finns i atomkärnan?",
+      "options": {
+        "A": "Elektroner och protoner",
+        "B": "Protoner och neutroner",
+        "C": "Elektroner och neutroner",
+        "D": "Endast protoner"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom atomkärnan består av protoner (positivt laddade) och neutroner (oladdade). Elektronerna befinner sig i skalet runt kärnan, inte i kärnan. Alternativ A och C inkluderar elektroner i kärnan, vilket är fel. Alternativ D stämmer inte eftersom neutroner också finns i kärnan (utom i väte-1)."
+    },
+    {
+      "id": 2,
+      "question": "En elev mäter pH i tre olika lösningar och får värdena 3, 7 och 11. Vilken av lösningarna är basisk?",
+      "options": {
+        "A": "Lösningen med pH 3",
+        "B": "Lösningen med pH 7",
+        "C": "Lösningen med pH 11",
+        "D": "Alla tre lösningarna är basiska"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom pH-skalan går från 0 till 14, där pH under 7 är surt, pH 7 är neutralt och pH över 7 är basiskt. Lösningen med pH 11 är alltså basisk. pH 3 är surt och pH 7 är neutralt. Alternativ D är fel eftersom bara en av dem är basisk."
+    },
+    {
+      "id": 3,
+      "question": "Vilken process använder växter för att bilda socker från koldioxid och vatten?",
+      "options": {
+        "A": "Cellandning",
+        "B": "Jäsning",
+        "C": "Fotosyntes",
+        "D": "Transpiration"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom fotosyntes är den process där växter använder solljus, koldioxid och vatten för att producera socker (glukos) och syrgas. Cellandning är den omvända processen där socker bryts ned. Jäsning är en anaerob process. Transpiration handlar om vattenavdunstning från bladen."
+    },
+    {
+      "id": 4,
+      "question": "Vilket av följande ämnen är en grundämnena?",
+      "options": {
+        "A": "Vatten (H₂O)",
+        "B": "Koldioxid (CO₂)",
+        "C": "Syre (O₂)",
+        "D": "Natriumklorid (NaCl)"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom syre (O₂) består enbart av syreatomer och är därmed ett grundämne (i molekylform). Vatten, koldioxid och natriumklorid är kemiska föreningar eftersom de innehåller atomer av olika grundämnen bundna till varandra."
+    },
+    {
+      "id": 5,
+      "question": "En bil bromsar in och stannar. Vad händer med rörelseenergin?",
+      "options": {
+        "A": "Den förstörs helt",
+        "B": "Den omvandlas till värmeenergi i bromsarna",
+        "C": "Den lagras i däcken",
+        "D": "Den omvandlas till elektrisk energi"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom energi inte kan förstöras (energiprincipen). När bilen bromsar omvandlas rörelseenergin (kinetisk energi) till värmeenergi genom friktionen i bromsarna. Energin förstörs aldrig (utesluter A). Den lagras inte i däcken (C). Regenerativ bromsning (D) finns men är inte vad som sker i vanliga bromsar."
+    },
+    {
+      "id": 6,
+      "question": "Vilket organ i människokroppen producerar insulin?",
+      "options": {
+        "A": "Levern",
+        "B": "Njurarna",
+        "C": "Bukspottkörteln",
+        "D": "Mjälten"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom insulin produceras av betaceller i de Langerhanska öarna i bukspottkörteln (pankreas). Insulin reglerar blodsockernivån. Levern lagrar glykogen men producerar inte insulin. Njurarna filtrerar blod. Mjälten är del av immunsystemet."
+    },
+    {
+      "id": 7,
+      "question": "Vad är det kemiska tecknet för guld?",
+      "options": {
+        "A": "Gu",
+        "B": "Go",
+        "C": "Ag",
+        "D": "Au"
+      },
+      "correct": "D",
+      "explanation": "D är rätt eftersom gulds kemiska tecken är Au, från latinets 'aurum'. Ag är silver (argentum). Gu och Go är inte giltiga kemiska tecken. Det är viktigt att känna till att många kemiska tecken kommer från latin eller tyska."
+    },
+    {
+      "id": 8,
+      "question": "Vilken typ av strålning kan stoppas av ett papper?",
+      "options": {
+        "A": "Betastrålning",
+        "B": "Gammastrålning",
+        "C": "Alfastrålning",
+        "D": "Röntgenstrålning"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom alfastrålning (heliumkärnor) har låg genomträngningsförmåga och kan stoppas av ett papper eller några centimeter luft. Betastrålning kräver ett aluminiumskikt. Gammastrålning och röntgenstrålning är elektromagnetisk strålning med hög genomträngningsförmåga och kräver bly eller tjock betong."
+    },
+    {
+      "id": 9,
+      "question": "Vilket av följande påståenden om DNA stämmer?",
+      "options": {
+        "A": "DNA finns i cellens mitokondrier men inte i cellkärnan",
+        "B": "DNA är uppbyggt av aminosyror",
+        "C": "DNA innehåller den genetiska informationen i en cell",
+        "D": "DNA tillverkas av ribosomerna"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom DNA (deoxiribonukleinsyra) bär den genetiska informationen som styr cellens funktioner och ärvs vidare till nästa generation. DNA finns i cellkärnan (och i mitokondrier), inte bara i mitokondrier (A är fel). DNA är uppbyggt av nukleotider, inte aminosyror (B är fel). Ribosomerna tillverkar proteiner, inte DNA (D är fel)."
+    },
+    {
+      "id": 10,
+      "question": "En ledare har motståndet 10 Ω och strömmen som flödar genom den är 2 A. Vilken är spänningen över ledaren?",
+      "options": {
+        "A": "5 V",
+        "B": "8 V",
+        "C": "12 V",
+        "D": "20 V"
+      },
+      "correct": "D",
+      "explanation": "D är rätt eftersom Ohms lag säger att U = R × I, alltså spänning = motstånd × ström. U = 10 Ω × 2 A = 20 V. Alternativ A är 10/2=5 (division istället för multiplikation). Alternativ B och C är felräknade värden."
+    },
+    {
+      "id": 11,
+      "question": "Vilket av följande är ett exempel på en kemisk reaktion?",
+      "options": {
+        "A": "Is smälter till vatten",
+        "B": "Socker löser sig i vatten",
+        "C": "Järn rostar",
+        "D": "Salt krossas till mindre bitar"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom rostning är en kemisk reaktion där järn (Fe) reagerar med syre (O₂) och vatten och bildar järnoxid (rost) – ett nytt ämne med nya egenskaper. Is som smälter och socker som löses är fysikaliska förändringar. Salt som krossas är också en fysikalisk förändring; det kemiska ämnet förändras inte."
+    },
+    {
+      "id": 12,
+      "question": "Vilken del av ögat reglerar hur mycket ljus som släpps in?",
+      "options": {
+        "A": "Linsen",
+        "B": "Näthinnan",
+        "C": "Pupillen",
+        "D": "Hornhinnan"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom pupillen (hålet i iris) reglerar mängden ljus som når näthinnan. I mörker vidgas pupillen och i starkt ljus dras den ihop. Linsen fokuserar ljuset. Näthinnan registrerar ljus. Hornhinnan är det genomskinliga skiktet längst fram i ögat."
+    },
+    {
+      "id": 13,
+      "question": "Vilket grundämne är vanligast i jordens atmosfär?",
+      "options": {
+        "A": "Syre",
+        "B": "Koldioxid",
+        "C": "Argon",
+        "D": "Kväve"
+      },
+      "correct": "D",
+      "explanation": "D är rätt eftersom kväve (N₂) utgör ungefär 78% av atmosfären. Syre utgör ca 21%, argon ca 0,93% och koldioxid bara ca 0,04%. Kväve är alltså det dominerande grundämnet i luften, vilket många förväxlar med syre."
+    },
+    {
+      "id": 14,
+      "question": "Vad kallas det när ett ämne går direkt från fast form till gasform utan att passera flytande fas?",
+      "options": {
+        "A": "Kondensation",
+        "B": "Sublimering",
+        "C": "Evaporation",
+        "D": "Smältning"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom sublimering är fasövergången direkt från fast till gasform. Torrislöser exempelvis sublimerar vid rumstemperatur. Kondensation är gas→vätska. Evaporation är vätska→gas. Smältning är fast→vätska."
+    },
+    {
+      "id": 15,
+      "question": "Vilket av följande är ett exempel på en förnybar energikälla?",
+      "options": {
+        "A": "Naturgas",
+        "B": "Kol",
+        "C": "Kärnkraft",
+        "D": "Vindkraft"
+      },
+      "correct": "D",
+      "explanation": "D är rätt eftersom vindkraft utnyttjar vinden som är en naturlig och ständigt förnyad energikälla. Naturgas och kol är fossila bränslen som tar miljontals år att bildas. Kärnkraft använder uran som bryts ur begränsade fyndigheter och klassas vanligtvis inte som förnybar."
+    },
+    {
+      "id": 16,
+      "question": "Vilket ämne bildas när kolväten förbränns fullständigt?",
+      "options": {
+        "A": "Kolmonoxid och vatten",
+        "B": "Koldioxid och vatten",
+        "C": "Kol och vätgas",
+        "D": "Koldioxid och vätgas"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom fullständig förbränning av ett kolväte (t.ex. propan eller bensin) ger koldioxid (CO₂) och vatten (H₂O) som produkter. Kolmonoxid (CO) bildas vid ofullständig förbränning (A är partiellt rätt men gäller ofullständig förbränning). Alternativ C och D innehåller felaktiga produkter."
+    },
+    {
+      "id": 17,
+      "question": "Vilket av följande påståenden beskriver bäst naturligt urval?",
+      "options": {
+        "A": "Alla individer i en population överlever lika länge",
+        "B": "Individer med egenskaper som passar miljön överlever och reproducerar sig i högre grad",
+        "C": "Mutationer uppstår alltid för att hjälpa organismen att överleva",
+        "D": "Starka djur äter alltid svaga djur"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom naturligt urval (Darwins teori) innebär att individer med fördelaktiga egenskaper har större chans att överleva och reproducera sig, vilket leder till att dessa egenskaper sprids i populationen. A är fel – överlevnad varierar. C är fel – mutationer är slumpmässiga. D beskriver predation, inte naturligt urval."
+    },
+    {
+      "id": 18,
+      "question": "Hur stor är tyngdaccelerationen på jordytan?",
+      "options": {
+        "A": "1 m/s²",
+        "B": "9,8 m/s²",
+        "C": "100 m/s²",
+        "D": "0,98 m/s²"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom tyngdaccelerationen (g) på jordytan är ungefär 9,8 m/s² (ofta avrundat till 10 m/s² i beräkningar). Detta innebär att ett fritt fallande föremål ökar sin hastighet med 9,8 m/s varje sekund. De övriga alternativen är felaktiga värden."
+    },
+    {
+      "id": 19,
+      "question": "Vilken av följande processer sker i cellens mitokondrier?",
+      "options": {
+        "A": "Fotosyntes",
+        "B": "Proteinsyntesen",
+        "C": "Cellandning",
+        "D": "DNA-replikation"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom cellandningen (nedbrytning av glukos till koldioxid och vatten med frisättning av energi i form av ATP) sker i mitokondrierna. Fotosyntes sker i kloroplaster. Proteinsyntesen sker vid ribosomerna. DNA-replikation sker i cellkärnan."
+    },
+    {
+      "id": 20,
+      "question": "Vilket av följande är en jonförening?",
+      "options": {
+        "A": "Vatten (H₂O)",
+        "B": "Syrgas (O₂)",
+        "C": "Natriumklorid (NaCl)",
+        "D": "Koldioxid (CO₂)"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom natriumklorid (bordssalt) bildas av joner – natriumjoner (Na⁺) och kloridjoner (Cl⁻) som hålls samman av elektrostatiska krafter (jonbindning). Vatten, syrgas och koldioxid är molekylföreningar eller grundämnen med kovalenta bindningar."
+    },
+    {
+      "id": 21,
+      "question": "En fjäder har fjäderkonstanten k = 200 N/m. Hur stor kraft behövs för att sträcka fjädern 0,05 m?",
+      "options": {
+        "A": "4 000 N",
+        "B": "0,025 N",
+        "C": "10 N",
+        "D": "200,05 N"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom Hookes lag säger att F = k × x, alltså kraft = fjäderkonstant × förlängning. F = 200 N/m × 0,05 m = 10 N. Alternativ A multiplicerar med 20 istället. Alternativ B dividerar konstanterna. Alternativ D adderar värdena."
+    },
+    {
+      "id": 22,
+      "question": "Vilken av följande sjukdomar orsakas av ett virus?",
+      "options": {
+        "A": "Tuberkulos",
+        "B": "Salmonella",
+        "C": "Influensa",
+        "D": "Malaria"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom influensa orsakas av influensavirus (typ A, B eller C). Tuberkulos och salmonella orsakas av bakterier. Malaria orsakas av en encellig parasit (Plasmodium) som sprids via myggor. Det är viktigt att skilja på sjukdomar orsakade av virus, bakterier och parasiter."
+    },
+    {
+      "id": 23,
+      "question": "Vad menas med ett ämnets densitet?",
+      "options": {
+        "A": "Ämnets massa i kilogram",
+        "B": "Ämnets massa delat med dess volym",
+        "C": "Ämnets volym delat med dess massa",
+        "D": "Ämnets vikt per sekund"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom densitet (ρ) definieras som massa per volymenhet: ρ = m/V, uttryckt i kg/m³ eller g/cm³. Alternativ A är bara massa. Alternativ C är volym/massa vilket är specifik volym, inte densitet. Alternativ D är en meningslös kombination av enheter."
+    },
+    {
+      "id": 24,
+      "question": "Vilket av följande påståenden om fotosyntesens och cellandningens gasutbyte är korrekt?",
+      "options": {
+        "A": "Fotosyntes förbrukar syrgas och cellandning producerar syrgas",
+        "B": "Fotosyntes producerar syrgas och cellandning förbrukar syrgas",
+        "C": "Båda processerna producerar koldioxid",
+        "D": "Båda processerna förbrukar koldioxid"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom vid fotosyntes tas koldioxid upp och syrgas frigörs som biprodukt. Vid cellandning förbrukas syrgas och koldioxid frigörs. Dessa processer är alltså varandras motsatser vad gäller gasutbyte. Alternativen A, C och D blandar ihop riktningarna."
+    },
+    {
+      "id": 25,
+      "question": "Vilket av följande ämnen är ett icke-metall grundämne?",
+      "options": {
+        "A": "Natrium (Na)",
+        "B": "Järn (Fe)",
+        "C": "Koppar (Cu)",
+        "D": "Klor (Cl)"
+      },
+      "correct": "D",
+      "explanation": "D är rätt eftersom klor (Cl) är ett icke-metalliskt grundämne som tillhör halogengruppen (grupp 17) i periodiska systemet. Det är ett gul-grönt gas vid rumstemperatur. Natrium, järn och koppar är alla metaller med typiska metalliska egenskaper som ledningsförmåga och metallglans."
+    },
+    {
+      "id": 26,
+      "question": "Vilken organell innehåller klorofyll och är platsen för fotosyntesen?",
+      "options": {
+        "A": "Mitokondrie",
+        "B": "Ribosom",
+        "C": "Kloroplast",
+        "D": "Vakuol"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom kloroplasten är den organell i växtceller som innehåller det gröna pigmentet klorofyll och där fotosyntesen äger rum. Mitokondrier är platsen för cellandning. Ribosomer tillverkar proteiner. Vakuolen är en vätskefylld blåsa som bland annat lagrar ämnen och ger växten stadga."
+    },
+    {
+      "id": 27,
+      "question": "Vad händer med ljuset när det går från luft in i glas?",
+      "options": {
+        "A": "Det böjs bort från normalen (bryts utåt)",
+        "B": "Det fortsätter rakt utan förändring",
+        "C": "Det böjs mot normalen (bryts inåt)",
+        "D": "Det reflekteras helt"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom när ljus går från ett optiskt tunnare medium (luft) till ett optiskt tätare medium (glas) bromsas det in och bryts mot normalen (vinkeln mot ytan minskar). Vid övergång åt andra hållet (glas till luft) bryts ljuset bort från normalen. Total reflektion sker inte vid övergång från luft till glas."
+    },
+    {
+      "id": 28,
+      "question": "Vilken av följande kemiska reaktioner är en neutralisationsreaktion?",
+      "options": {
+        "A": "Fe + S → FeS",
+        "B": "HCl + NaOH → NaCl + H₂O",
+        "C": "CaCO₃ → CaO + CO₂",
+        "D": "2H₂ + O₂ → 2H₂O"
+      },
+      "correct": "B",
+      "explanation": "B är rätt eftersom neutralisation sker när en syra (HCl) reagerar med en bas (NaOH) och bildar ett salt (NaCl) och vatten (H₂O). Alternativ A är en syntesreaktion. Alternativ C är en sönderfallsreaktion (kalksten löses upp vid upphettning). Alternativ D är en förbränningsreaktion (bildning av vatten)."
+    },
+    {
+      "id": 29,
+      "question": "Vilket av följande ekosystem har generellt högst biologisk mångfald?",
+      "options": {
+        "A": "Öknen",
+        "B": "Tundran",
+        "C": "Den tropiska regnskogen",
+        "D": "Den boreala barrskogen (tajgan)"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom den tropiska regnskogen har världens högsta biologiska mångfald med miljontals arter av växter, djur, svampar och mikroorganismer. Detta beror på stabilt varmt klimat, hög nederbörd och komplexa habitatstrukturer. Öken, tundra och taiga har relativt liten artrikedom på grund av extrema förhållanden."
+    },
+    {
+      "id": 30,
+      "question": "En radioaktiv isotop har en halveringstid på 10 år. En prov innehåller från början 80 g av isotopen. Hur mycket finns kvar efter 30 år?",
+      "options": {
+        "A": "40 g",
+        "B": "20 g",
+        "C": "10 g",
+        "D": "5 g"
+      },
+      "correct": "C",
+      "explanation": "C är rätt eftersom efter varje halveringstid halveras mängden. Efter 10 år: 80/2 = 40 g. Efter 20 år: 40/2 = 20 g. Efter 30 år: 20/2 = 10 g. Tre halveringstider innebär att mängden halveras tre gånger: 80 × (1/2)³ = 80/8 = 10 g. Alternativ A är efter en halveringstid, B efter två och D efter fyra."
+    }
+  ]
+}
