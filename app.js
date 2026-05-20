@@ -346,6 +346,148 @@ function showHistory() {
   requestAnimationFrame(() => renderHistoryView(''));
 }
 
+// ── Pluggtips per ämne ──────────────────────────────────────────
+const TIPS = {
+  matte: [
+    'Skriv alltid din lösningsgång steg för steg – poäng ges för rätt metod, inte bara rätt svar.',
+    'Kontrollera om ditt svar är rimligt. Kan en hastighet vara negativ? Kan en area vara 0?',
+    'Geometri: rita alltid en figur och märk ut alla kända mått innan du börjar räkna.',
+    'Träna extra på de formler du brukar glömma – skriv ner dem och repetera.',
+    'Läs uppgiften minst två gånger. Vad är egentligen frågan?',
+  ],
+  svenska: [
+    'Metafor likställer direkt ("livet är en resa"), liknelse använder "som" ("livet är som en resa").',
+    'Använd citat från texten som bevis när du analyserar – det stärker din argumentation.',
+    'Adverb svarar på HUR, NÄR och VAR – inte VEM eller VAD.',
+    'Tänk på dispositionen: en bra text har tydlig inledning, kärna och avslutning.',
+    'Källkritik: fråga alltid VEM som skapade källan, NÄR och I VILKET SYFTE.',
+  ],
+  engelska: [
+    'Läs frågorna INNAN texten vid reading comprehension – då vet du vad du letar efter.',
+    'Present perfect ("have done") kopplar det förflutna till nu. Past simple ("did") är avslutad händelse.',
+    'Efter "suggest" och "recommend" följer gerundium (-ing) eller that-sats, aldrig to-infinitiv.',
+    'Idiom lärs som fasta fraser: "sit on the fence" = ta ingen ställning.',
+    'Osäker på ett ord? Försök lista ut det från kontexten – läs hela meningen.',
+  ],
+  no: [
+    'Fotosyntes producerar socker och syre. Cellandning förbrukar socker och syre.',
+    'Skriv alltid ut enheter i svaret: m/s, kg, J, W, mol – det ger poäng.',
+    'Ekosystem: producenter → konsumenter → nedbrytare. Energi flödar, ämnen cirkulerar.',
+    'Kemi: jonföreningar bildas mellan metaller (positiva joner) och icke-metaller (negativa joner).',
+    'Fysik: P = U × I (effekt = spänning × ström). Lär dig grundformlerna utantill.',
+  ],
+  so: [
+    'Historia: tänk alltid ORSAK → HÄNDELSE → KONSEKVENS. Det ger struktur åt dina svar.',
+    'Parlamentarism: regeringen måste ha riksdagens förtroende för att kunna styra.',
+    'Klimatzoner beror på latitud, havsströmmar och terrängförhållanden.',
+    'Religion: jämför hur olika religioner ser på liknande frågor – det visar djupare förståelse.',
+    'Källkritik: bedöm AVSÄNDARE, SYFTE, TROVÄRDIGHET och AKTUALITET.',
+  ],
+  svenska1: [
+    'Retorik: logos (förnuft), ethos (trovärdighet) och pathos (känsla) – alla tre behövs i ett starkt tal.',
+    'En stark tes är grunden i all argumentation. Formulera den tydligt i inledningen.',
+    'Analysera TEXT, KONTEXT och SYFTE – varför skapades texten och för vem?',
+    'Litteraturhistoria: romantiken (känsla) → realismen (samhällskritik) → modernismen (experiment).',
+    'Muntlig kommunikation: ögonkontakt, tydligt tempo och röstvariation skapar engagemang.',
+  ],
+  engelska5: [
+    '"Go to school" (institutionen) men "go to the cinema" (byggnaden). Artikelregler är kontextberoende.',
+    'Modal verbs: "must" = krav, "should" = råd, "might" = möjlighet, "would" = hypotetiskt.',
+    'Second conditional: "If I were you, I would…" – hypotetisk situation i nutid.',
+    'Collocations: "make a decision", "do homework", "take a risk" – lär dem som fasta fraser.',
+    'Svara alltid med stöd från texten vid reading comprehension – citera eller parafrasera.',
+  ],
+  matematik1: [
+    'Linjär funktion: y = kx + m. k är lutningen, m är skärningen med y-axeln.',
+    'Procent: ökning med 15% → multiplicera med 1,15. Minskning med 15% → multiplicera med 0,85.',
+    'Statistik: medelvärde = summan / antalet. Medianen är mittvärdet i en sorterad lista.',
+    'Lös ekvationer systematiskt: samla x-termer på ena sidan, konstanter på den andra.',
+    'Negativa tal: (−3) × (−4) = +12. Minus gånger minus är alltid plus.',
+  ],
+  svenska2: [
+    'Litterär analys: undersök tema, berättarperspektiv och stilistiska drag i ett och samma verk.',
+    'Stark argumentation har tes, argument med belägg OCH bemötta motargument.',
+    'Variera meningslängden – korta meningar skapar kraft, långa skapar flöde.',
+    'Naturalismen: arv och miljö formar människan, ofta skildrat pessimistiskt och realistiskt.',
+    'Anpassa din stil efter publik och syfte – formell vs. informell register.',
+  ],
+  engelska6: [
+    '"Despite + noun/gerund" men "Although + clause". Blanda dem inte.',
+    'Litteraturanalys: undersök theme, character, narrative voice och language.',
+    'Formal writing: undvik förkortningar (don\'t → do not) och slang.',
+    'Inference-frågor testar vad texten ANTYDER, inte vad som sägs rakt ut.',
+    'Phrasal verbs: "put off" (skjuta upp), "carry out" (genomföra), "look into" (undersöka).',
+  ],
+  matematik2: [
+    'Trigonometri: SOH-CAH-TOA. Sin = Mot/Hyp, Cos = Närligg/Hyp, Tan = Mot/Närligg.',
+    'Andragradsekvation: x = (−b ± √(b²−4ac)) / 2a. Lär dig formeln utantill.',
+    'Kombinatorik: ordning spelar roll → permutationer. Ordning spelar ingen roll → kombinationer.',
+    'Sannolikhet: P(A eller B) = P(A) + P(B) − P(A och B) om de inte utesluter varandra.',
+    'Parabeln y = a(x−p)² + q har vertex i punkten (p, q).',
+  ],
+  historia1: [
+    'Källkritik: bedöm källans ÄKTHET, TROVÄRDIGHET, REPRESENTATIVITET och TENDENS.',
+    'Industrialiseringen startade i England på 1700-talet och nådde Sverige under 1800-talets andra hälft.',
+    'Demokratins framväxt i Sverige: allmän rösträtt för alla vuxna medborgare 1921.',
+    'Tänk i historiska samband: orsaker → händelse → konsekvenser.',
+    'Första världskriget orsakades av nationalism, imperialism, militarism och allianssystemet.',
+  ],
+  naturkunskap1: [
+    'Hållbar utveckling har tre dimensioner: ekologisk, social och ekonomisk hållbarhet.',
+    'Växthuseffekten: CO₂ och metan absorberar värmestrålning och höjer jordens medeltemperatur.',
+    'Ekosystemtjänster: det naturen ger gratis – pollinering, vattenrening, kolinlagring.',
+    'Vetenskaplig metod: hypotes → experiment → analys → slutsats. Upprepbarhet är nyckeln.',
+    'Hormoner är kemiska budbärare i blodet som reglerar kroppens olika funktioner.',
+  ],
+  svenska3: [
+    'Akademisk analys: var precis i begreppen – narrativ instans, focalisering, intertextualitet.',
+    'Retorisk analys: undersök dispositio (uppbyggnad), elocutio (stil) och inventio (innehåll).',
+    'Integrera motargument och nyansera din tes – undvik svart-vitt tänkande på A-nivå.',
+    'Placera alltid verket i sin historiska och kulturella kontext vid litteraturanalys.',
+    'Akademiskt skrivande: källhänvisningar, stringent argumentation och tydlig struktur är A-kraven.',
+  ],
+  engelska7: [
+    'Close reading: analysera specifika ordval och stilfigurer, inte bara övergripande teman.',
+    'Irony, satire and allegory – identify them, then explain their rhetorical function.',
+    'Dangling modifiers: the participial phrase must logically refer to the subject of the main clause.',
+    'Academic register: nominalisation ("the investigation of" rather than "investigating") sounds formal.',
+    'Intertextuality: how does this text reference, challenge or build upon other texts?',
+  ],
+  matematik34: [
+    'Derivata: f\'(x) anger funktionens momentana förändringshastighet och lutningen i varje punkt.',
+    'Integral: F(b) − F(a). Kom ihåg att subtrahera undre gränsvärdet från det övre.',
+    'Kedjeregeln: (f(g(x)))\' = f\'(g(x)) · g\'(x). Används vid sammansatta funktioner.',
+    'Vektorer: om skalärprodukten a · b = 0 är vektorerna vinkelräta mot varandra.',
+    'Komplexa tal: i² = −1. Lär dig att multiplicera och dividera på rektangulär form.',
+  ],
+};
+
+// ── Tips-rotation ────────────────────────────────────────────────
+let tipInterval = null;
+
+function startTipRotation(subjectKey) {
+  const tips = TIPS[subjectKey] || Object.values(TIPS).flat();
+  let idx = Math.floor(Math.random() * tips.length);
+  const el = $('loading-tip');
+
+  const show = () => {
+    el.classList.remove('tip-visible');
+    setTimeout(() => {
+      el.textContent = tips[idx % tips.length];
+      el.classList.add('tip-visible');
+      idx++;
+    }, 280);
+  };
+
+  show();
+  tipInterval = setInterval(show, 4000);
+}
+
+function stopTipRotation() {
+  clearInterval(tipInterval);
+  tipInterval = null;
+}
+
 // ── App-state ───────────────────────────────────────────────────
 const state = {
   category: null,
@@ -455,14 +597,17 @@ async function startQuiz(subjectKey) {
   const subj = SUBJECTS[subjectKey];
   $('loading-subject-label').textContent = `${subj.emoji} ${subj.name}`;
   showScreen('screen-loading');
+  startTipRotation(subjectKey);
 
   try {
     const questions = await fetchQuestions(subjectKey);
+    stopTipRotation();
     state.questions = questions;
     state.mcCount = questions.filter(q => q.type === 'multiple_choice').length;
     showQuestion();
     showScreen('screen-quiz');
   } catch (err) {
+    stopTipRotation();
     showScreen('screen-subjects');
     showToast('Fel: ' + (err.message || 'Kunde inte generera frågor'));
   }

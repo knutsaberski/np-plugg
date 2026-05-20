@@ -266,6 +266,37 @@ body.theme-red .glow { background: #b03a2e; opacity: 0.45; }
 .loading-wrap h2 { font-size: 1.3rem; font-weight: 700; }
 .loading-wrap p  { color: var(--muted); font-size: 0.9rem; }
 
+.tip-box {
+  margin-top: 12px;
+  background: var(--surface);
+  border: 1px solid var(--border-mid);
+  border-radius: var(--radius);
+  padding: 16px 20px;
+  max-width: 340px;
+  width: 100%;
+  text-align: left;
+}
+
+.tip-label {
+  display: block;
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--gold);
+  margin-bottom: 8px;
+}
+
+.tip-text {
+  font-size: 0.88rem;
+  color: var(--text);
+  line-height: 1.6;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  min-height: 2.8em;
+}
+.tip-text.tip-visible { opacity: 1; }
+
 .spinner {
   width: 48px;
   height: 48px;
