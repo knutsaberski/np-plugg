@@ -377,6 +377,7 @@ function showModal(msg) {
 function showScreen(id) {
   document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
   $(id).classList.add('active');
+  if (id === 'screen-home') setTheme(null);
 }
 
 let toastTimer;
