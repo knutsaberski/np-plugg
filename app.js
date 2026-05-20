@@ -612,6 +612,20 @@ function showQuestion() {
   }
 }
 
+// ── Detektera "vet inte"-svar ────────────────────────────────────
+function isNonAnswer(text) {
+  const s = text.toLowerCase().trim();
+  const nonAnswers = [
+    'vet inte', 'vet ej', 'kan inte', 'ingen aning', 'inga aning',
+    'okänt', 'oklart', 'fattar inte', 'förstår inte', 'ej', 'idk',
+    "don't know", "i don't know", 'no idea', 'not sure', 'dunno',
+  ];
+  if (nonAnswers.includes(s)) return true;
+  // Meningslöst kort (bara punkter, streck, x, frågetecken)
+  if (s.length < 6 && /^[.\-?!xX\s]+$/.test(s)) return true;
+  return false;
+}
+
 // ── Skicka in och rätta skriftligt svar ──────────────────────────
 async function handleWrittenSubmit() {
   const q = state.questions[state.current];
@@ -619,6 +633,14 @@ async function handleWrittenSubmit() {
 
   if (!studentAnswer) {
     showToast('Skriv ett svar innan du skickar in');
+    return;
+  }
+
+  if (isNonAnswer(studentAnswer)) {
+    const input = $('written-input');
+    input.classList.add('input-warn');
+    setTimeout(() => input.classList.remove('input-warn'), 1800);
+    showToast('Gissa alltid – även ett felaktigt försök ger dig feedback och är bättre än inget svar!');
     return;
   }
 

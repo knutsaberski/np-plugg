@@ -383,6 +383,24 @@ body.theme-red .glow { background: #b03a2e; opacity: 0.45; }
 .written-input:focus { border-color: var(--gold); }
 .written-input::placeholder { color: #94a3b8; }
 
+.written-input.input-warn {
+  border-color: var(--error);
+  animation: shake 0.4s ease;
+}
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25%       { transform: translateX(-6px); }
+  75%       { transform: translateX(6px); }
+}
+
+.written-hint {
+  font-size: 0.78rem;
+  color: #94a3b8;
+  font-style: italic;
+  margin: -4px 0 0;
+  line-height: 1.4;
+}
+
 /* ── Grading loading ── */
 .grading-loading {
   display: flex;
