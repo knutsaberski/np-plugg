@@ -29,6 +29,7 @@
       </header>
       <p class="pick-label">Välj årskurs</p>
       <div class="subject-grid" id="category-grid"></div>
+      <button class="btn-hist-link" id="btn-history">Se din historik →</button>
     </div>
 
     <!-- ── Ämneval ── -->
@@ -134,7 +135,45 @@
           <button class="btn-secondary" id="btn-home">Välj ämne</button>
           <button class="btn-primary" id="btn-retry">Kör igen</button>
         </div>
+        <button class="btn-hist-link" id="btn-show-history">Se din historik →</button>
       </div>
+    </div>
+
+    <!-- ── Historik ── -->
+    <div id="screen-history" class="screen">
+      <div class="back-bar">
+        <button class="btn-icon" id="btn-back-history" title="Tillbaka">←</button>
+        <h2>Historik</h2>
+      </div>
+
+      <div class="hist-filter-wrap">
+        <div class="hist-filter" id="hist-filter"></div>
+      </div>
+
+      <div class="hist-stats">
+        <div class="hist-stat-card">
+          <span class="hist-stat-val" id="hist-stat-total">0</span>
+          <span class="hist-stat-label">Quiz totalt</span>
+        </div>
+        <div class="hist-stat-card">
+          <span class="hist-stat-val" id="hist-stat-avg">–</span>
+          <span class="hist-stat-label">Genomsnitt</span>
+        </div>
+        <div class="hist-stat-card">
+          <span class="hist-stat-val" id="hist-stat-best">–</span>
+          <span class="hist-stat-label">Bästa resultat</span>
+        </div>
+      </div>
+
+      <div class="hist-chart-wrap">
+        <p class="hist-chart-title">Resultat över tid</p>
+        <canvas id="hist-chart"></canvas>
+      </div>
+
+      <p class="hist-section-label">Senaste quiz</p>
+      <div class="hist-list" id="hist-list"></div>
+
+      <button class="btn-hist-clear" id="btn-clear-history">Rensa historik</button>
     </div>
 
   </div>

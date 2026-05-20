@@ -163,6 +163,189 @@ const SUBJECTS = {
   },
 };
 
+// ── Historik (localStorage) ─────────────────────────────────────
+const HISTORY_KEY = 'provklar_history';
+
+function loadHistory() {
+  try { return JSON.parse(localStorage.getItem(HISTORY_KEY) || '[]'); }
+  catch { return []; }
+}
+
+function saveQuizResult() {
+  const total = state.questions.length;
+  const correctCount = state.answers.filter(a => a.isCorrect).length;
+  const entry = {
+    id: Date.now(),
+    date: new Date().toISOString(),
+    subject: state.subject,
+    subjectName: SUBJECTS[state.subject]?.name || state.subject,
+    category: state.category,
+    score: correctCount,
+    total,
+    pct: Math.round((correctCount / total) * 100),
+  };
+  const history = loadHistory();
+  history.unshift(entry);
+  localStorage.setItem(HISTORY_KEY, JSON.stringify(history.slice(0, 200)));
+}
+
+function renderHistoryChart(canvas, sessions) {
+  const ctx = canvas.getContext('2d');
+  const dpr = window.devicePixelRatio || 1;
+  const W = canvas.parentElement.clientWidth || 480;
+  const H = 180;
+  canvas.style.width = W + 'px';
+  canvas.style.height = H + 'px';
+  canvas.width = W * dpr;
+  canvas.height = H * dpr;
+  ctx.scale(dpr, dpr);
+
+  const PAD = { top: 16, right: 16, bottom: 36, left: 44 };
+  const data = [...sessions].reverse().slice(-20);
+
+  ctx.clearRect(0, 0, W, H);
+
+  if (data.length < 2) {
+    ctx.fillStyle = 'rgba(106,127,154,0.7)';
+    ctx.font = '13px Space Grotesk, sans-serif';
+    ctx.textAlign = 'center';
+    ctx.fillText(
+      data.length === 0 ? 'Inga resultat ännu' : 'Kör fler quiz för att se trenden',
+      W / 2, H / 2 + 4
+    );
+    return;
+  }
+
+  const cW = W - PAD.left - PAD.right;
+  const cH = H - PAD.top - PAD.bottom;
+
+  [0, 25, 50, 75, 100].forEach(pct => {
+    const y = PAD.top + cH - (pct / 100) * cH;
+    ctx.strokeStyle = 'rgba(255,255,255,0.06)';
+    ctx.lineWidth = 1;
+    ctx.beginPath(); ctx.moveTo(PAD.left, y); ctx.lineTo(PAD.left + cW, y); ctx.stroke();
+    ctx.fillStyle = 'rgba(106,127,154,0.75)';
+    ctx.font = '10px Space Grotesk, sans-serif';
+    ctx.textAlign = 'right';
+    ctx.fillText(pct + '%', PAD.left - 6, y + 4);
+  });
+
+  const pts = data.map((s, i) => ({
+    x: PAD.left + (i / (data.length - 1)) * cW,
+    y: PAD.top + cH - (s.pct / 100) * cH,
+    pct: s.pct,
+    d: new Date(s.date),
+  }));
+
+  const grad = ctx.createLinearGradient(0, PAD.top, 0, PAD.top + cH);
+  grad.addColorStop(0, 'rgba(201,168,76,0.22)');
+  grad.addColorStop(1, 'rgba(201,168,76,0)');
+  ctx.beginPath();
+  ctx.moveTo(pts[0].x, PAD.top + cH);
+  pts.forEach(p => ctx.lineTo(p.x, p.y));
+  ctx.lineTo(pts[pts.length - 1].x, PAD.top + cH);
+  ctx.closePath();
+  ctx.fillStyle = grad;
+  ctx.fill();
+
+  ctx.beginPath();
+  ctx.strokeStyle = '#c9a84c';
+  ctx.lineWidth = 2;
+  ctx.lineJoin = 'round';
+  pts.forEach((p, i) => i === 0 ? ctx.moveTo(p.x, p.y) : ctx.lineTo(p.x, p.y));
+  ctx.stroke();
+
+  pts.forEach(p => {
+    ctx.beginPath();
+    ctx.arc(p.x, p.y, 4, 0, Math.PI * 2);
+    ctx.fillStyle = '#c9a84c';
+    ctx.fill();
+    ctx.strokeStyle = '#08111f';
+    ctx.lineWidth = 2;
+    ctx.stroke();
+  });
+
+  const maxLabels = Math.min(pts.length, 5);
+  const step = Math.max(1, Math.floor((pts.length - 1) / (maxLabels - 1)));
+  const indices = new Set([0, pts.length - 1]);
+  for (let i = step; i < pts.length - 1; i += step) indices.add(i);
+  ctx.fillStyle = 'rgba(106,127,154,0.8)';
+  ctx.font = '10px Space Grotesk, sans-serif';
+  ctx.textAlign = 'center';
+  [...indices].sort((a, b) => a - b).forEach(i => {
+    const p = pts[i];
+    ctx.fillText(`${p.d.getDate()}/${p.d.getMonth() + 1}`, p.x, H - 6);
+  });
+}
+
+function renderHistoryView(subjectFilter) {
+  const all = loadHistory();
+  const sessions = subjectFilter ? all.filter(h => h.subject === subjectFilter) : all;
+  const n = sessions.length;
+  const avgPct = n ? Math.round(sessions.reduce((s, h) => s + h.pct, 0) / n) : 0;
+  const bestPct = n ? Math.max(...sessions.map(h => h.pct)) : 0;
+
+  $('hist-stat-total').textContent = n;
+  $('hist-stat-avg').textContent   = n ? avgPct + '%' : '–';
+  $('hist-stat-best').textContent  = n ? bestPct + '%' : '–';
+
+  renderHistoryChart($('hist-chart'), sessions);
+
+  const listEl = $('hist-list');
+  listEl.innerHTML = '';
+  if (n === 0) {
+    listEl.innerHTML = '<p class="hist-empty">Inga resultat ännu – kör ett quiz!</p>';
+    return;
+  }
+  sessions.slice(0, 30).forEach(s => {
+    const item = document.createElement('div');
+    item.className = 'hist-item';
+    const d = new Date(s.date);
+    const dateStr = d.toLocaleDateString('sv-SE', { day: 'numeric', month: 'short' }) +
+      ' ' + d.toLocaleTimeString('sv-SE', { hour: '2-digit', minute: '2-digit' });
+    const cls = s.pct >= 70 ? 'good' : s.pct >= 50 ? 'mid' : 'low';
+    item.innerHTML = `
+      <div class="hist-item-info">
+        <span class="hist-item-subject">${s.subjectName}</span>
+        <span class="hist-item-date">${dateStr}</span>
+      </div>
+      <div class="hist-item-score hist-score-${cls}">
+        <span class="hist-item-pts">${s.score}/${s.total}</span>
+        <span class="hist-item-pct">${s.pct}%</span>
+      </div>
+    `;
+    listEl.appendChild(item);
+  });
+}
+
+function showHistory() {
+  const history = loadHistory();
+  const subjects = [...new Set(history.map(h => h.subject))];
+  const filterEl = $('hist-filter');
+  filterEl.innerHTML = '';
+
+  const makeTab = (text, subject) => {
+    const btn = document.createElement('button');
+    btn.className = 'hist-tab' + (subject === '' ? ' active' : '');
+    btn.textContent = text;
+    btn.dataset.subject = subject;
+    return btn;
+  };
+  filterEl.appendChild(makeTab('Alla', ''));
+  subjects.forEach(k => filterEl.appendChild(makeTab(SUBJECTS[k]?.name || k, k)));
+
+  filterEl.addEventListener('click', e => {
+    const tab = e.target.closest('.hist-tab');
+    if (!tab) return;
+    filterEl.querySelectorAll('.hist-tab').forEach(t => t.classList.remove('active'));
+    tab.classList.add('active');
+    renderHistoryView(tab.dataset.subject);
+  });
+
+  showScreen('screen-history');
+  requestAnimationFrame(() => renderHistoryView(''));
+}
+
 // ── App-state ───────────────────────────────────────────────────
 const state = {
   category: null,
@@ -534,6 +717,7 @@ function handleNext() {
 
 // ── Resultatskärm ─────────────────────────────────────────────────
 function showResult() {
+  saveQuizResult();
   $('progress-fill').style.width = '100%';
   const total = state.questions.length;
   const correctCount = state.answers.filter(a => a.isCorrect).length;
@@ -604,4 +788,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
   $('btn-home').addEventListener('click', () => showScreen('screen-home'));
   $('btn-retry').addEventListener('click', () => startQuiz(state.subject));
+  $('btn-show-history').addEventListener('click', showHistory);
+
+  $('btn-history').addEventListener('click', showHistory);
+  $('btn-back-history').addEventListener('click', () => showScreen('screen-home'));
+  $('btn-clear-history').addEventListener('click', () => {
+    if (confirm('Vill du rensa all historik?')) {
+      localStorage.removeItem(HISTORY_KEY);
+      renderHistoryView('');
+      showToast('Historiken har rensats');
+    }
+  });
 });

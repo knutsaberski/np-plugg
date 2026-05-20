@@ -619,6 +619,219 @@ body.theme-red .glow { background: #b03a2e; opacity: 0.45; }
 }
 #toast.show { transform: translateX(-50%) translateY(0); }
 
+/* ── History link button ── */
+.btn-hist-link {
+  background: none;
+  border: none;
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 600;
+  font-family: 'Space Grotesk', sans-serif;
+  cursor: pointer;
+  padding: 8px 0 0;
+  text-align: center;
+  width: 100%;
+  transition: color var(--t);
+  letter-spacing: 0.02em;
+}
+.btn-hist-link:hover { color: var(--gold-light); }
+
+/* ── History screen ── */
+.hist-filter-wrap {
+  overflow-x: auto;
+  padding-bottom: 4px;
+  margin-bottom: 20px;
+  scrollbar-width: none;
+}
+.hist-filter-wrap::-webkit-scrollbar { display: none; }
+
+.hist-filter {
+  display: flex;
+  gap: 8px;
+  width: max-content;
+}
+
+.hist-tab {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--muted);
+  border-radius: 99px;
+  padding: 6px 16px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  font-family: 'Space Grotesk', sans-serif;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background var(--t), border-color var(--t), color var(--t);
+}
+.hist-tab:hover { border-color: var(--border-mid); color: var(--text); }
+.hist-tab.active {
+  background: var(--gold);
+  border-color: var(--gold);
+  color: #0d0a04;
+}
+
+/* ── Stats cards ── */
+.hist-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+.hist-stat-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  text-align: center;
+}
+
+.hist-stat-val {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: var(--gold);
+  line-height: 1;
+  letter-spacing: -0.5px;
+}
+
+.hist-stat-label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+/* ── Chart ── */
+.hist-chart-wrap {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px 16px 8px;
+  margin-bottom: 24px;
+}
+
+.hist-chart-title {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--muted);
+  margin-bottom: 12px;
+}
+
+#hist-chart {
+  display: block;
+  width: 100%;
+}
+
+/* ── Session list ── */
+.hist-section-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--muted);
+  margin-bottom: 10px;
+}
+
+.hist-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 32px;
+}
+
+.hist-empty {
+  color: var(--muted);
+  font-size: 0.88rem;
+  text-align: center;
+  padding: 24px 0;
+}
+
+.hist-item {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  transition: border-color var(--t);
+}
+.hist-item:hover { border-color: var(--border-mid); }
+
+.hist-item-info {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  min-width: 0;
+}
+
+.hist-item-subject {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.hist-item-date {
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+
+.hist-item-score {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2px;
+  flex-shrink: 0;
+}
+
+.hist-item-pts {
+  font-size: 1rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.hist-item-pct {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.hist-score-good .hist-item-pts { color: var(--success); }
+.hist-score-mid  .hist-item-pts { color: var(--gold); }
+.hist-score-low  .hist-item-pts { color: var(--error); }
+
+/* ── Clear history button ── */
+.btn-hist-clear {
+  background: none;
+  border: 1px solid rgba(239,68,68,0.2);
+  color: rgba(239,68,68,0.5);
+  font-size: 0.78rem;
+  font-weight: 600;
+  font-family: 'Space Grotesk', sans-serif;
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: var(--radius-sm);
+  width: 100%;
+  margin-bottom: 24px;
+  transition: border-color var(--t), color var(--t);
+}
+.btn-hist-clear:hover {
+  border-color: rgba(239,68,68,0.5);
+  color: #ef4444;
+}
+
 /* ── Responsive ── */
 @media (max-width: 420px) {
   .subject-grid  { grid-template-columns: 1fr; }
