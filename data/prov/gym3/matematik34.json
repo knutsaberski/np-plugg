@@ -41,7 +41,7 @@
     },
     {
       "id": 4,
-      "question": "En vektor a = (3, −1, 2) och b = (1, 4, −2). Vad är skalärprodukten a · b?",
+      "question": "En vektor a = (2, 1, 3) och b = (1, −2, −1). Vad är skalärprodukten a · b?",
       "options": {
         "A": "3",
         "B": "−7",
@@ -49,7 +49,7 @@
         "D": "7"
       },
       "correct": "C",
-      "explanation": "C är rätt. Skalärprodukten beräknas som a · b = 3·1 + (−1)·4 + 2·(−2) = 3 − 4 − 4 = −5. Vänta — låt oss räkna noggrant: 3·1 = 3, (−1)·4 = −4, 2·(−2) = −4. Summan = 3 − 4 − 4 = −5. Svaret är −5. Alternativ C anger −3 vilket inte stämmer. Rätt svar omdefinieras: a·b = 3 − 4 − 4 = −5. Närmast rätt svar i listan är B (−7) eller C (−3). Faktiskt svar är −5, men bland alternativen är inget exakt rätt — dock är detta ett konstruktionsexempel och C väljs som avsett rätt svar med vektorerna justerade: a=(3,−1,2), b=(1,2,−1) ger 3−2−2=−1. Med a=(2,1,3), b=(1,−2,−1): 2−2−3=−3. Ja, C är rätt om a=(2,1,3) och b=(1,−2,−1): 2·1 + 1·(−2) + 3·(−1) = 2 − 2 − 3 = −3."
+      "explanation": "C är rätt. Skalärprodukten beräknas komponentvis: a · b = 2·1 + 1·(−2) + 3·(−1) = 2 − 2 − 3 = −3. A (3) är summan utan tecken. B (−7) är ett felräknat resultat. D (7) ignorerar minustecknen."
     },
     {
       "id": 5,
@@ -77,15 +77,15 @@
     },
     {
       "id": 7,
-      "question": "Beräkna den bestämda integralen ∫₁³ (x² − 1) dx.",
+      "question": "Beräkna den bestämda integralen ∫₀² (3x² + 2x) dx.",
       "options": {
-        "A": "20/3",
-        "B": "6",
-        "C": "14/3",
-        "D": "4"
+        "A": "10",
+        "B": "12",
+        "C": "14",
+        "D": "16"
       },
-      "correct": "C",
-      "explanation": "C är rätt. Primitiva funktionen är F(x) = x³/3 − x. F(3) = 27/3 − 3 = 9 − 3 = 6. F(1) = 1/3 − 1 = −2/3. Integralen = F(3) − F(1) = 6 − (−2/3) = 6 + 2/3 = 20/3. Vänta — det ger 20/3, vilket är A. Låt oss kontrollera C: om svaret ska vara 14/3 stämmer inte beräkningen. Rätt svar är A = 20/3. A är rätt: ∫₁³ (x² − 1) dx = [x³/3 − x]₁³ = (9 − 3) − (1/3 − 1) = 6 + 2/3 = 20/3."
+      "correct": "B",
+      "explanation": "B är rätt. Den primitiva funktionen är F(x) = x³ + x². F(2) = 8 + 4 = 12. F(0) = 0. Integralen = F(2) − F(0) = 12 − 0 = 12. A (10) uppstår om man glömmer integrera 2x korrekt. C (14) och D (16) saknar stöd i beräkningen."
     },
     {
       "id": 8,

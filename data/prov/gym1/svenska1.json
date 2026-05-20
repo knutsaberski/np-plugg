@@ -201,11 +201,11 @@
       "options": {
         "A": "Röda rummet",
         "B": "Gösta Berlings saga",
-        "C": "Hemsöborna och Gubben i hörnhuset",
+        "C": "Gubben i hörnhuset",
         "D": "Doktor Glas"
       },
       "correct": "A",
-      "explanation": "A är rätt eftersom Röda rummet (1879) är ett av August Strindbergs mest kända verk och anses vara den moderna svenska romanens genombrott. Gösta Berlings saga skrevs av Selma Lagerlöf, Hemsöborna skrevs av Strindberg men alternativet är delvis felaktigt, och Doktor Glas skrevs av Hjalmar Söderberg."
+      "explanation": "A är rätt. Röda rummet (1879) är ett av August Strindbergs mest kända verk och anses vara den moderna svenska romanens genombrott. Gösta Berlings saga (B) skrevs av Selma Lagerlöf. Gubben i hörnhuset (C) skrevs av Hjalmar Bergman. Doktor Glas (D) skrevs av Hjalmar Söderberg."
     },
     {
       "id": 18,

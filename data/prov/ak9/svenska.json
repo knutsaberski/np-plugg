@@ -41,7 +41,7 @@
     },
     {
       "id": 4,
-      "question": "Vilket ord är ett adverb i meningen 'Han sprang snabbt hem'?",
+      "question": "Vilket ord är ett sättsadverb i meningen 'Han sprang snabbt hem'?",
       "options": {
         "A": "Han",
         "B": "sprang",
@@ -49,7 +49,7 @@
         "D": "hem"
       },
       "correct": "C",
-      "explanation": "C är rätt. 'Snabbt' är ett adverb som bestämmer verbet 'sprang' och beskriver hur han sprang. 'Han' är ett personligt pronomen (subjekt). 'Sprang' är ett verb. 'Hem' är ett adverb av riktning, men frågan handlar om vilket som är adverb av sätt – och svaret 'snabbt' är det mest tydliga adverbet i sammanhanget. Observera att 'hem' också är ett adverb men 'snabbt' är det svar som bäst illustrerar adverbkategorin i ett NP-sammanhang."
+      "explanation": "C är rätt. 'Snabbt' är ett sättsadverb – det bestämmer verbet 'sprang' och beskriver på vilket sätt han sprang. 'Han' är ett personligt pronomen (subjekt). 'Sprang' är ett verb. 'Hem' är ett riktningsadverb som anger vart han sprang, inte hur."
     },
     {
       "id": 5,
@@ -259,13 +259,13 @@
       "id": 22,
       "question": "Vilket av följande ord är korrekt stavat?",
       "options": {
-        "A": "sällan",
+        "A": "sellan",
         "B": "sällan",
-        "C": "sällan",
-        "D": "sälan"
+        "C": "sälan",
+        "D": "sälann"
       },
-      "correct": "A",
-      "explanation": "A är rätt. 'Sällan' stavas med dubbelt l och är det korrekta alternativet. Alternativ D 'sälan' är felstavat. (Observera: A, B och C är identiska i denna fråga – i ett verkligt prov skulle stavningsskillnaderna vara tydligare; det korrekta svaret är 'sällan'.)"
+      "correct": "B",
+      "explanation": "B är rätt. 'Sällan' stavas med ä och dubbelt l. A ('sellan') har fel vokal – e istället för ä. C ('sälan') saknar ett l. D ('sälann') har bokstäverna i fel ordning på slutet."
     },
     {
       "id": 23,

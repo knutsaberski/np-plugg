@@ -178,10 +178,10 @@
         "A": "Running through the park, she noticed the flowers were blooming.",
         "B": "Having submitted the report, the committee approved the budget.",
         "C": "The students, exhausted from the exam, went home immediately.",
-        "D": "After reading the novel, the themes became clear to her."
+        "D": "After finishing the experiment, she recorded the results carefully."
       },
       "correct": "B",
-      "explanation": "B är rätt eftersom participialkonstruktionen 'Having submitted the report' logiskt borde syfta på subjektet i huvudsatsen, men subjektet är 'the committee' – inte den som lämnade in rapporten. Det är en dangling modifier. I A syftar 'Running' korrekt på 'she'. I C syftar 'exhausted' korrekt på 'students'. I D är det lite tvetydigt men acceptabelt – 'After reading the novel' syftar på 'her'."
+      "explanation": "B är rätt eftersom participialkonstruktionen 'Having submitted the report' logiskt borde syfta på subjektet i huvudsatsen, men subjektet är 'the committee' – inte den som lämnade in rapporten. Det är en dangling modifier. I A syftar 'Running' korrekt på 'she'. I C syftar 'exhausted' korrekt på 'students'. I D syftar 'After finishing the experiment' korrekt på 'she' – ingen dangling modifier."
     },
     {
       "id": 16,
