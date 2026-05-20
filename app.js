@@ -360,6 +360,20 @@ const state = {
 // ── Hjälpfunktioner ─────────────────────────────────────────────
 function $(id) { return document.getElementById(id); }
 
+function showModal(msg) {
+  return new Promise(resolve => {
+    $('modal-msg').textContent = msg;
+    $('modal-overlay').classList.remove('hidden');
+    const cleanup = (result) => {
+      $('modal-overlay').classList.add('hidden');
+      resolve(result);
+    };
+    $('modal-confirm').onclick = () => cleanup(true);
+    $('modal-cancel').onclick  = () => cleanup(false);
+    $('modal-overlay').onclick = (e) => { if (e.target === $('modal-overlay')) cleanup(false); };
+  });
+}
+
 function showScreen(id) {
   document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
   $(id).classList.add('active');
@@ -802,8 +816,8 @@ document.addEventListener('DOMContentLoaded', () => {
     showScreen('screen-home');
   });
 
-  $('btn-quit').addEventListener('click', () => {
-    if (confirm('Avsluta quizet? Din progress försvinner.')) showScreen('screen-home');
+  $('btn-quit').addEventListener('click', async () => {
+    if (await showModal('Avsluta quizet? Din progress försvinner.')) showScreen('screen-home');
   });
   $('btn-next').addEventListener('click', handleNext);
   $('btn-submit-written').addEventListener('click', handleWrittenSubmit);
