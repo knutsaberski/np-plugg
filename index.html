@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
 </head>
 <body>
 
@@ -22,6 +23,7 @@
 
     <!-- ── Startskärm ── -->
     <div id="screen-home" class="screen active">
+      <div id="user-bar" class="user-bar"></div>
       <header class="hero">
         <div class="hero-badge">AI-genererade frågor</div>
         <h1><span class="logo-mark">Prov</span>klar</h1>
@@ -36,6 +38,10 @@
         </div>
         <span class="btn-history-card-arrow">→</span>
       </button>
+      <div class="social-nav">
+        <button class="social-nav-btn" id="btn-goto-leaderboard">Leaderboard</button>
+        <button class="social-nav-btn" id="btn-goto-friends">Vänner</button>
+      </div>
       <a href="/pitch.html" class="pitch-link">Om projektet →</a>
     </div>
 
@@ -186,6 +192,72 @@
       <div class="hist-list" id="hist-list"></div>
 
       <button class="btn-hist-clear" id="btn-clear-history">Rensa historik</button>
+    </div>
+
+    <!-- ── Auth ── -->
+    <div id="screen-auth" class="screen">
+      <div class="auth-wrap">
+        <header class="hero" style="margin-bottom:24px;">
+          <h1><span class="logo-mark">Prov</span>klar</h1>
+          <p class="tagline">Logga in för att tävla med andra</p>
+        </header>
+        <div class="auth-tabs" id="auth-tabs">
+          <button class="auth-tab active" data-mode="login">Logga in</button>
+          <button class="auth-tab" data-mode="register">Registrera</button>
+        </div>
+        <form id="auth-form" class="auth-form">
+          <input type="email" id="auth-email" class="auth-input" placeholder="E-post" autocomplete="email" />
+          <input type="password" id="auth-password" class="auth-input" placeholder="Lösenord (minst 6 tecken)" autocomplete="current-password" />
+          <button type="submit" class="btn-primary" id="auth-submit">Logga in</button>
+        </form>
+        <p class="auth-error hidden" id="auth-error"></p>
+        <button class="btn-hist-link" id="btn-skip-auth">Fortsätt utan konto →</button>
+      </div>
+    </div>
+
+    <!-- ── Välj användarnamn ── -->
+    <div id="screen-username" class="screen">
+      <div class="auth-wrap">
+        <header class="hero" style="margin-bottom:24px;">
+          <h1>Välj ett namn</h1>
+          <p class="tagline">Syns på leaderboarden</p>
+        </header>
+        <form id="username-form" class="auth-form">
+          <input type="text" id="username-input" class="auth-input" placeholder="Ditt användarnamn" autocomplete="username" maxlength="20" />
+          <button type="submit" class="btn-primary">Spara och fortsätt →</button>
+        </form>
+        <p class="auth-error hidden" id="username-error"></p>
+      </div>
+    </div>
+
+    <!-- ── Leaderboard ── -->
+    <div id="screen-leaderboard" class="screen">
+      <div class="back-bar">
+        <button class="btn-icon" id="btn-back-leaderboard" title="Tillbaka">←</button>
+        <h2>Leaderboard</h2>
+      </div>
+      <div class="lb-tabs" id="lb-tabs">
+        <button class="lb-tab active" data-type="global">Globalt</button>
+        <button class="lb-tab" data-type="friends">Vänner</button>
+      </div>
+      <div id="lb-list" class="lb-list"></div>
+    </div>
+
+    <!-- ── Vänner ── -->
+    <div id="screen-friends" class="screen">
+      <div class="back-bar">
+        <button class="btn-icon" id="btn-back-friends" title="Tillbaka">←</button>
+        <h2>Vänner</h2>
+      </div>
+      <div class="friends-search-row">
+        <input type="text" id="friends-search-input" class="auth-input" placeholder="Sök användarnamn..." />
+        <button class="btn-secondary" id="btn-friends-search">Sök</button>
+      </div>
+      <div id="friends-search-result"></div>
+      <p class="hist-section-label" style="margin-top:20px;">Förfrågningar</p>
+      <div id="friends-requests"></div>
+      <p class="hist-section-label" style="margin-top:20px;">Mina vänner</p>
+      <div id="friends-list"></div>
     </div>
 
   </div>

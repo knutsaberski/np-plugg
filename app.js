@@ -166,6 +166,20 @@ const SUBJECTS = {
 // ── Historik (localStorage) ─────────────────────────────────────
 const HISTORY_KEY = 'provklar_history';
 
+function updateHomeHistoryPreview() {
+  const el = $('home-hist-sub');
+  if (!el) return;
+  const history = loadHistory();
+  if (history.length === 0) {
+    el.textContent = 'Gör ditt första quiz för att se din statistik';
+    return;
+  }
+  const n = history.length;
+  const avg = Math.round(history.reduce((s, h) => s + h.pct, 0) / n);
+  const best = Math.max(...history.map(h => h.pct));
+  el.textContent = `${n} quiz · Snitt ${avg}% · Bäst ${best}%`;
+}
+
 function loadHistory() {
   try { return JSON.parse(localStorage.getItem(HISTORY_KEY) || '[]'); }
   catch { return []; }
@@ -294,10 +308,16 @@ function renderHistoryView(subjectFilter) {
   const listEl = $('hist-list');
   listEl.innerHTML = '';
   if (n === 0) {
-    listEl.innerHTML = '<p class="hist-empty">Inga resultat ännu – kör ett quiz!</p>';
+    listEl.innerHTML = `
+      <div class="hist-empty-state">
+        <p class="hist-empty-title">Inga quiz genomförda ännu</p>
+        <p class="hist-empty-desc">Gör ditt första quiz för att börja spåra din utveckling</p>
+        <button class="btn-secondary hist-cta-btn" id="hist-go-quiz">Välj ett ämne och börja →</button>
+      </div>`;
+    document.getElementById('hist-go-quiz')?.addEventListener('click', () => showScreen('screen-home'));
     return;
   }
-  sessions.slice(0, 30).forEach(s => {
+  sessions.slice(0, 5).forEach(s => {
     const item = document.createElement('div');
     item.className = 'hist-item';
     const d = new Date(s.date);
@@ -502,9 +522,10 @@ const state = {
 // ── Hjälpfunktioner ─────────────────────────────────────────────
 function $(id) { return document.getElementById(id); }
 
-function showModal(msg) {
+function showModal(msg, confirmText = 'Avsluta') {
   return new Promise(resolve => {
     $('modal-msg').textContent = msg;
+    $('modal-confirm').textContent = confirmText;
     $('modal-overlay').classList.remove('hidden');
     const cleanup = (result) => {
       $('modal-overlay').classList.add('hidden');
@@ -519,7 +540,10 @@ function showModal(msg) {
 function showScreen(id) {
   document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
   $(id).classList.add('active');
-  if (id === 'screen-home') setTheme(null);
+  if (id === 'screen-home') {
+    setTheme(null);
+    updateHomeHistoryPreview();
+  }
 }
 
 let toastTimer;
@@ -900,6 +924,9 @@ function handleNext() {
 // ── Resultatskärm ─────────────────────────────────────────────────
 function showResult() {
   saveQuizResult();
+  const _total = state.questions.length;
+  const _score = state.answers.filter(a => a.isCorrect).length;
+  saveQuizResultRemote(_score, _total, state.subject);
   $('progress-fill').style.width = '100%';
   const total = state.questions.length;
   const correctCount = state.answers.filter(a => a.isCorrect).length;
@@ -956,6 +983,7 @@ function showResult() {
 // ── Event listeners ───────────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', () => {
   renderCategoryGrid();
+  updateHomeHistoryPreview();
 
   $('btn-back-categories').addEventListener('click', () => {
     setTheme(null);
@@ -974,11 +1002,351 @@ document.addEventListener('DOMContentLoaded', () => {
 
   $('btn-history').addEventListener('click', showHistory);
   $('btn-back-history').addEventListener('click', () => showScreen('screen-home'));
-  $('btn-clear-history').addEventListener('click', () => {
-    if (confirm('Vill du rensa all historik?')) {
+  $('btn-clear-history').addEventListener('click', async () => {
+    if (await showModal('Vill du rensa all historik? Det går inte att ångra.', 'Rensa')) {
       localStorage.removeItem(HISTORY_KEY);
-      renderHistoryView('');
+      showHistory();
       showToast('Historiken har rensats');
     }
   });
+
+  // ── Supabase event listeners ───────────────────────────────────
+  // Auth tabs
+  $('auth-tabs').addEventListener('click', e => {
+    const tab = e.target.closest('.auth-tab');
+    if (!tab) return;
+    authMode = tab.dataset.mode;
+    $('auth-tabs').querySelectorAll('.auth-tab').forEach(t => t.classList.remove('active'));
+    tab.classList.add('active');
+    $('auth-submit').textContent = authMode === 'login' ? 'Logga in' : 'Registrera';
+    $('auth-error').classList.add('hidden');
+  });
+
+  $('auth-form').addEventListener('submit', handleAuthSubmit);
+  $('btn-skip-auth').addEventListener('click', () => showScreen('screen-home'));
+  $('username-form').addEventListener('submit', handleUsernameSubmit);
+
+  // Leaderboard
+  $('btn-goto-leaderboard').addEventListener('click', () => {
+    if (!authUser) { showScreen('screen-auth'); return; }
+    showLeaderboard();
+  });
+  $('btn-back-leaderboard').addEventListener('click', () => showScreen('screen-home'));
+  $('lb-tabs').addEventListener('click', e => {
+    const tab = e.target.closest('.lb-tab');
+    if (!tab) return;
+    $('lb-tabs').querySelectorAll('.lb-tab').forEach(t => t.classList.remove('active'));
+    tab.classList.add('active');
+    renderLeaderboard(tab.dataset.type);
+  });
+
+  // Friends
+  $('btn-goto-friends').addEventListener('click', () => {
+    if (!authUser) { showScreen('screen-auth'); return; }
+    showFriends();
+  });
+  $('btn-back-friends').addEventListener('click', () => showScreen('screen-home'));
+  $('btn-friends-search').addEventListener('click', searchUsers);
+  $('friends-search-input').addEventListener('keydown', e => { if (e.key === 'Enter') searchUsers(); });
+
+  // Init Supabase (must run last)
+  initSupabase();
 });
+
+// ── Supabase ─────────────────────────────────────────────────────
+const SUPABASE_URL     = 'https://ldnbgnyoquzbwlhaciiy.supabase.co';
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxkbmJnbnlvcXV6YndsaGFjaWl5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzk0NDAyMjYsImV4cCI6MjA5NTAxNjIyNn0.kYPAwIqmkmDTZm6nOdBakog-L3Ayt5b0vB2At5YynyY';
+const sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+
+let authUser = null;
+let authProfile = null;
+let authMode = 'login';
+
+async function initSupabase() {
+  const { data: { session } } = await sb.auth.getSession();
+  if (session) {
+    authUser = session.user;
+    authProfile = await fetchProfile(authUser.id);
+    if (!authProfile) { showScreen('screen-username'); return; }
+    updateUserBar();
+  } else {
+    showScreen('screen-auth');
+  }
+  sb.auth.onAuthStateChange(async (_event, session) => {
+    authUser = session?.user || null;
+    authProfile = authUser ? await fetchProfile(authUser.id) : null;
+    updateUserBar();
+  });
+}
+
+async function fetchProfile(userId) {
+  const { data } = await sb.from('profiles').select('*').eq('id', userId).single();
+  return data || null;
+}
+
+function updateUserBar() {
+  const bar = $('user-bar');
+  if (!bar) return;
+  if (authProfile) {
+    bar.innerHTML = `
+      <span class="user-bar-name">${authProfile.username}</span>
+      <button class="btn-icon user-bar-logout" id="btn-logout" title="Logga ut">↩</button>
+    `;
+    $('btn-logout').addEventListener('click', async () => {
+      await sb.auth.signOut();
+      authUser = null; authProfile = null;
+      updateUserBar();
+      showScreen('screen-auth');
+    });
+  } else {
+    bar.innerHTML = `<button class="btn-ghost-sm" id="btn-goto-auth">Logga in</button>`;
+    $('btn-goto-auth').addEventListener('click', () => showScreen('screen-auth'));
+  }
+}
+
+async function handleAuthSubmit(e) {
+  e.preventDefault();
+  const email = $('auth-email').value.trim();
+  const password = $('auth-password').value;
+  const errEl = $('auth-error');
+  errEl.classList.add('hidden');
+  $('auth-submit').disabled = true;
+
+  try {
+    if (authMode === 'login') {
+      const { data, error } = await sb.auth.signInWithPassword({ email, password });
+      if (error) throw error;
+      authUser = data.user;
+      authProfile = await fetchProfile(authUser.id);
+      if (!authProfile) { showScreen('screen-username'); }
+      else { updateUserBar(); showScreen('screen-home'); }
+    } else {
+      const { data, error } = await sb.auth.signUp({ email, password });
+      if (error) throw error;
+      authUser = data.user;
+      showScreen('screen-username');
+    }
+  } catch (err) {
+    errEl.textContent = translateAuthError(err.message);
+    errEl.classList.remove('hidden');
+  } finally {
+    $('auth-submit').disabled = false;
+  }
+}
+
+function translateAuthError(msg) {
+  if (msg.includes('Invalid login')) return 'Fel e-post eller lösenord';
+  if (msg.includes('already registered')) return 'Den e-postadressen är redan registrerad';
+  if (msg.includes('at least 6')) return 'Lösenordet måste vara minst 6 tecken';
+  return msg;
+}
+
+async function handleUsernameSubmit(e) {
+  e.preventDefault();
+  const username = $('username-input').value.trim();
+  const errEl = $('username-error');
+  errEl.classList.add('hidden');
+
+  if (username.length < 3) {
+    errEl.textContent = 'Minst 3 tecken';
+    errEl.classList.remove('hidden');
+    return;
+  }
+
+  const { error } = await sb.from('profiles').insert({ id: authUser.id, username });
+  if (error) {
+    errEl.textContent = error.code === '23505' ? 'Det användarnamnet är taget' : error.message;
+    errEl.classList.remove('hidden');
+    return;
+  }
+  authProfile = await fetchProfile(authUser.id);
+  updateUserBar();
+  showScreen('screen-home');
+}
+
+// Called from showResult() — fire-and-forget
+async function saveQuizResultRemote(score, total, subject) {
+  if (!authUser) return;
+  await sb.from('quiz_results').insert({ user_id: authUser.id, subject, score, total });
+}
+
+// ── Leaderboard ──────────────────────────────────────────────────
+async function showLeaderboard() {
+  showScreen('screen-leaderboard');
+  $('lb-tabs').querySelectorAll('.lb-tab').forEach((t, i) => t.classList.toggle('active', i === 0));
+  await renderLeaderboard('global');
+}
+
+async function renderLeaderboard(type) {
+  const listEl = $('lb-list');
+  listEl.innerHTML = '<p class="lb-loading">Laddar...</p>';
+
+  try {
+    let rows = [];
+
+    if (type === 'global') {
+      const { data, error } = await sb.from('leaderboard').select('*');
+      if (error) throw error;
+      rows = data || [];
+    } else {
+      // Friends leaderboard
+      const { data: fs } = await sb.from('friendships')
+        .select('user_id, friend_id')
+        .eq('status', 'accepted')
+        .or(`user_id.eq.${authUser.id},friend_id.eq.${authUser.id}`);
+
+      const ids = new Set([authUser.id]);
+      (fs || []).forEach(f => ids.add(f.user_id === authUser.id ? f.friend_id : f.user_id));
+
+      const { data: results } = await sb.from('quiz_results')
+        .select('user_id, score, total')
+        .in('user_id', [...ids]);
+
+      const { data: profiles } = await sb.from('profiles')
+        .select('id, username')
+        .in('id', [...ids]);
+
+      const profileMap = Object.fromEntries((profiles || []).map(p => [p.id, p.username]));
+      const agg = {};
+      (results || []).forEach(r => {
+        if (!agg[r.user_id]) agg[r.user_id] = { count: 0, sum: 0 };
+        agg[r.user_id].count++;
+        agg[r.user_id].sum += (r.score / r.total) * 100;
+      });
+      rows = Object.entries(agg).map(([id, u]) => ({
+        id, username: profileMap[id] || 'Okänd',
+        quiz_count: u.count,
+        avg_pct: Math.round(u.sum / u.count),
+      })).sort((a, b) => b.avg_pct - a.avg_pct).slice(0, 10);
+    }
+
+    listEl.innerHTML = '';
+
+    if (rows.length === 0) {
+      listEl.innerHTML = `<p class="lb-loading">${type === 'friends' ? 'Inga vänner har gjort quiz ännu' : 'Inga resultat ännu – gör ett quiz!'}</p>`;
+      return;
+    }
+
+    rows.forEach((row, i) => {
+      const isMe = authProfile && row.username === authProfile.username;
+      const item = document.createElement('div');
+      item.className = 'lb-item' + (isMe ? ' lb-item-me' : '');
+      item.innerHTML = `
+        <span class="lb-rank">${i === 0 ? '1' : i === 1 ? '2' : i === 2 ? '3' : i + 1}</span>
+        <span class="lb-name">${row.username}${isMe ? ' (du)' : ''}</span>
+        <span class="lb-stats">${row.quiz_count} quiz · ${row.avg_pct}%</span>
+      `;
+      listEl.appendChild(item);
+    });
+  } catch {
+    listEl.innerHTML = '<p class="lb-loading">Kunde inte ladda leaderboard</p>';
+  }
+}
+
+// ── Vänner ───────────────────────────────────────────────────────
+async function showFriends() {
+  showScreen('screen-friends');
+  $('friends-search-result').innerHTML = '';
+  $('friends-search-input').value = '';
+  await loadFriendRequests();
+  await loadFriends();
+}
+
+async function searchUsers() {
+  const query = $('friends-search-input').value.trim();
+  const resultEl = $('friends-search-result');
+  if (!query) { resultEl.innerHTML = ''; return; }
+
+  const { data } = await sb.from('profiles').select('id, username').ilike('username', `%${query}%`).limit(5);
+  resultEl.innerHTML = '';
+
+  if (!data || data.length === 0) {
+    resultEl.innerHTML = '<p class="friends-empty">Ingen användare hittades</p>';
+    return;
+  }
+
+  data.forEach(user => {
+    if (user.id === authUser?.id) return;
+    const item = document.createElement('div');
+    item.className = 'friends-user-item';
+    item.innerHTML = `
+      <span class="friends-username">${user.username}</span>
+      <button class="btn-secondary friends-add-btn" data-id="${user.id}">Lägg till</button>
+    `;
+    item.querySelector('.friends-add-btn').addEventListener('click', async e => {
+      const btn = e.currentTarget;
+      btn.disabled = true;
+      btn.textContent = '...';
+      const { error } = await sb.from('friendships').insert({ user_id: authUser.id, friend_id: user.id });
+      btn.textContent = error ? 'Redan tillagd' : 'Skickad';
+    });
+    resultEl.appendChild(item);
+  });
+}
+
+async function loadFriendRequests() {
+  if (!authUser) return;
+  const el = $('friends-requests');
+
+  const { data: requests } = await sb.from('friendships')
+    .select('id, user_id')
+    .eq('friend_id', authUser.id)
+    .eq('status', 'pending');
+
+  el.innerHTML = '';
+  if (!requests || requests.length === 0) {
+    el.innerHTML = '<p class="friends-empty">Inga väntande förfrågningar</p>';
+    return;
+  }
+
+  const { data: senders } = await sb.from('profiles').select('id, username').in('id', requests.map(r => r.user_id));
+  const nameMap = Object.fromEntries((senders || []).map(p => [p.id, p.username]));
+
+  requests.forEach(req => {
+    const item = document.createElement('div');
+    item.className = 'friends-user-item';
+    item.innerHTML = `
+      <span class="friends-username">${nameMap[req.user_id] || 'Okänd'}</span>
+      <div class="friends-actions">
+        <button class="btn-primary friends-accept" data-id="${req.id}">Acceptera</button>
+        <button class="btn-secondary friends-reject" data-id="${req.id}">Neka</button>
+      </div>
+    `;
+    item.querySelector('.friends-accept').addEventListener('click', async () => {
+      await sb.from('friendships').update({ status: 'accepted' }).eq('id', req.id);
+      await loadFriendRequests();
+      await loadFriends();
+    });
+    item.querySelector('.friends-reject').addEventListener('click', async () => {
+      await sb.from('friendships').delete().eq('id', req.id);
+      await loadFriendRequests();
+    });
+    el.appendChild(item);
+  });
+}
+
+async function loadFriends() {
+  if (!authUser) return;
+  const el = $('friends-list');
+
+  const { data: fs } = await sb.from('friendships')
+    .select('user_id, friend_id')
+    .eq('status', 'accepted')
+    .or(`user_id.eq.${authUser.id},friend_id.eq.${authUser.id}`);
+
+  const friendIds = (fs || []).map(f => f.user_id === authUser.id ? f.friend_id : f.user_id);
+
+  el.innerHTML = '';
+  if (friendIds.length === 0) {
+    el.innerHTML = '<p class="friends-empty">Du har inga vänner ännu – sök och lägg till!</p>';
+    return;
+  }
+
+  const { data: profiles } = await sb.from('profiles').select('id, username').in('id', friendIds);
+  (profiles || []).forEach(p => {
+    const item = document.createElement('div');
+    item.className = 'friends-user-item';
+    item.innerHTML = `<span class="friends-username">${p.username}</span>`;
+    el.appendChild(item);
+  });
+}
