@@ -741,7 +741,7 @@ body.theme-red .glow { background: #b03a2e; opacity: 0.45; }
 }
 #toast.show { transform: translateX(-50%) translateY(0); }
 
-/* ── History link button ── */
+/* ── History link button (result screen) ── */
 .btn-hist-link {
   background: none;
   border: none;
@@ -757,6 +757,79 @@ body.theme-red .glow { background: #b03a2e; opacity: 0.45; }
   letter-spacing: 0.02em;
 }
 .btn-hist-link:hover { color: var(--gold-light); }
+
+/* ── History card (home screen) ── */
+.btn-history-card {
+  width: 100%;
+  background: var(--surface);
+  border: 1px solid var(--border-mid);
+  border-radius: var(--radius);
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: border-color var(--t), background var(--t);
+  font-family: 'Space Grotesk', sans-serif;
+  color: var(--text);
+  text-align: left;
+  margin-bottom: 8px;
+}
+.btn-history-card:hover {
+  border-color: var(--gold);
+  background: var(--surface-2);
+}
+.btn-history-card-left {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.btn-history-card-title {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--text);
+}
+.btn-history-card-sub {
+  font-size: 0.75rem;
+  color: var(--muted);
+  letter-spacing: 0.01em;
+}
+.btn-history-card-arrow {
+  font-size: 1.1rem;
+  color: var(--muted);
+  flex-shrink: 0;
+  transition: color var(--t), transform var(--t);
+}
+.btn-history-card:hover .btn-history-card-arrow {
+  color: var(--gold);
+  transform: translateX(3px);
+}
+
+/* ── History empty state ── */
+.hist-empty-state {
+  padding: 36px 16px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.hist-empty-title {
+  font-size: 0.97rem;
+  font-weight: 700;
+  color: var(--text);
+}
+.hist-empty-desc {
+  font-size: 0.85rem;
+  color: var(--muted);
+  line-height: 1.65;
+  max-width: 280px;
+}
+.hist-cta-btn {
+  margin-top: 10px;
+  padding: 10px 22px;
+  font-size: 0.88rem;
+}
 
 /* ── History screen ── */
 .hist-filter-wrap {
@@ -953,6 +1026,17 @@ body.theme-red .glow { background: #b03a2e; opacity: 0.45; }
   border-color: rgba(239,68,68,0.5);
   color: #ef4444;
 }
+
+/* ── Pitch link ── */
+.pitch-link {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 13px;
+  color: rgba(255,255,255,0.35);
+  text-decoration: none;
+}
+.pitch-link:hover { color: rgba(255,255,255,0.6); }
 
 /* ── Responsive ── */
 @media (max-width: 420px) {
